@@ -13,7 +13,7 @@ h1 {
     font-size: 13pt;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    margin-left: 10px;
 }
 
 .island {
@@ -24,6 +24,15 @@ h1 {
     margin: 10px;
     width: 250px;
     background-color: #fcfcfc;
+}
+
+.category {
+    color: #222;
+    border-bottom: 2px solid #222;
+    padding: 2px 5px 5px 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .name {

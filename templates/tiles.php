@@ -1,5 +1,3 @@
-<div class="islands">
-
 <?php foreach ($items as $item): ?>
     <div class="island">
         <div class="name">
@@ -9,5 +7,3 @@
         <div class="descr"><?php echo $item->descr; ?></div>
     </div>
 <?php endforeach; ?>
-
-</div>

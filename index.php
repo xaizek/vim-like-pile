@@ -43,6 +43,14 @@ class Data
     public function getAll() {
         return $this->items;
     }
+
+    public function getByCategories() {
+        $byCategories = array();
+        foreach ($this->items as $item) {
+            $byCategories[$item->category][] = $item;
+        }
+        return $byCategories;
+    }
 }
 
 $main = new Template('main');
@@ -57,10 +65,10 @@ try {
     exit;
 }
 
-$tiles = new Template('tiles');
-$tiles->items = $data->getAll();
+$byCategories = new Template('by-categories');
+$byCategories->categories = $data->getByCategories();
 
-$main->content = $tiles->format();
+$main->content = $byCategories->format();
 
 print $main->format();
 
