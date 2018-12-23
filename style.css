@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.islands {
+    text-align: left;
+    font-size: 13pt;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.island {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #999;
+    font-size: 13pt;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    background-color: #fcfcfc;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.name a:hover {
+    color: #666;
+}
+
+.descr {
+    font-size: 0.8em;
+}
