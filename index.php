@@ -44,18 +44,24 @@ class Data
         return $this->items;
     }
 
-    public function getByCategories() {
+    public function getByCategories($type) {
         $byCategories = array();
         foreach ($this->items as $item) {
-            $byCategories[$item->category][] = $item;
+            if ($item->type == $type) {
+                $byCategories[$item->category][] = $item;
+            }
         }
         return $byCategories;
     }
 }
 
+$params = explode('/', $_GET['url']);
+$type = (sizeof($params) > 1 && !empty($params[1]) ? $params[1] : "apps");
+
 $main = new Template('main');
 $main->title = "Big List of Vim-like";
 $main->webRoot = "/vim";
+$main->type = $type;
 
 try {
     $data = new Data('data.json');
@@ -66,7 +72,7 @@ try {
 }
 
 $byCategories = new Template('by-categories');
-$byCategories->categories = $data->getByCategories();
+$byCategories->categories = $data->getByCategories($type);
 
 $main->content = $byCategories->format();
 

@@ -8,9 +8,33 @@ h1 {
     margin-bottom: 10px;
 }
 
+.types {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.type {
+    margin: 0px 20px;
+    display: inline-block;
+    width: 140px;
+    font-size: 1.1em;
+}
+
+.type a {
+    color: #222;
+    padding: 0px 5px 3px 5px;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+.currentType a {
+    font-weight: bold;
+    border-bottom: 2px solid #222;
+}
+
 .islands {
     text-align: left;
-    font-size: 13pt;
+    font-size: 1.1em;
     display: flex;
     flex-flow: row wrap;
     margin-left: 10px;
@@ -19,7 +43,6 @@ h1 {
 .island {
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #999;
-    font-size: 13pt;
     padding: 15px;
     margin: 10px;
     width: 250px;
