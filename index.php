@@ -27,6 +27,7 @@ class Template
 
 class Data
 {
+    private $types = array();
     private $items = array();
 
     public function __construct($path) {
@@ -34,10 +35,12 @@ class Data
         $json = fread($fp, filesize($path));
         fclose($fp);
 
-        $this->items = json_decode($json);
-        if ($this->items === NULL) {
+        $data = json_decode($json);
+        if ($data === null) {
             throw new Exception();
         }
+        $this->types = $data->types;
+        $this->items = $data->items;
     }
 
     public function getAll() {
@@ -52,6 +55,10 @@ class Data
             }
         }
         return $byCategories;
+    }
+
+    public function getTypeDescription($type) {
+        return $this->types->$type;
     }
 }
 
@@ -70,6 +77,9 @@ try {
     print $main->format();
     exit;
 }
+
+$descr = $data->getTypeDescription($type);
+$main->descr = $descr;
 
 $byCategories = new Template('by-categories');
 $byCategories->categories = $data->getByCategories($type);

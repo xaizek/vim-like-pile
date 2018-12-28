@@ -15,6 +15,9 @@
         <span class="type <?php if ($type == 'confs') echo 'currentType'; ?>">
             <a href="<?php echo $webRoot; ?>/confs">Configurations</a></span>
     </div>
+    <div class="typeDescr">
+        <?php echo $descr; ?>
+    </div>
     <div>
         <?php echo $content; ?>
     </div>

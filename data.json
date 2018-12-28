@@ -1,4 +1,14 @@
-[
+{
+
+"types": {
+
+"apps": "These are the applications that are intentionally created with to be Vim-alike in some respect.",
+"plugs": "The following items represent plugins for applications that make it behave Vim-like to various extent.",
+"confs": "Items of this type have bindings that are either already similar or configurable to resemble Vim-like behaviour to a degree."
+
+},
+
+"items": [
 
 {
     "name": "Cream-Browser",
@@ -1659,3 +1669,5 @@
 }
 
 ]
+
+}
