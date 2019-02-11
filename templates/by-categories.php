@@ -4,7 +4,7 @@
 </div>
 <div class="islands">
     <?php
-    $tiles = new Template('tiles');
+    $tiles = new Template('tiles', $parent);
     $tiles->items = $items;
     echo $tiles->format();
     ?>

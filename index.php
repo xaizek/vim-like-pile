@@ -5,8 +5,9 @@ class Template
     private $vars = array();
     private $templatesPath = __DIR__ . '/templates';
 
-    public function __construct($template) {
+    public function __construct($template, $parent = null) {
         $this->template = $template;
+        $this->parent = $parent;
     }
 
     public function __get($name) {
@@ -18,10 +19,15 @@ class Template
     }
 
     public function format() {
-        extract($this->vars);
+        extract($this->getVars());
         ob_start();
         include("$this->templatesPath/$this->template.php");
         return ob_get_clean();
+    }
+
+    private function getVars() {
+        $vars = (is_null($this->parent) ? array() : $this->parent->getVars());
+        return array_merge($vars, $this->vars);
     }
 }
 
@@ -96,7 +102,7 @@ try {
 $descr = $data->getTypeDescription($type);
 $main->descr = $descr;
 
-$byCategories = new Template('by-categories');
+$byCategories = new Template('by-categories', $main);
 $byCategories->categories = $data->getByCategories($type);
 
 $main->content = $byCategories->format();
