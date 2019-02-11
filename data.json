@@ -29,7 +29,7 @@
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "author claimed to abandon it, but there is some activity" ],
+    "comments": [ "abandoned by its author" ],
     "ui": "WebKit and GTK+"
 },
 {
