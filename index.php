@@ -29,6 +29,7 @@ class Data
 {
     private $types = array();
     private $items = array();
+    private $byId = array();
 
     public function __construct($path) {
         $fp = fopen($path, 'r');
@@ -37,14 +38,28 @@ class Data
 
         $data = json_decode($json);
         if ($data === null) {
-            throw new Exception();
+            throw new Exception('Decoding has failed');
         }
         $this->types = $data->types;
         $this->items = $data->items;
+
+        foreach ($this->items as $item) {
+            if (strpos($item->id, ' ') !== FALSE) {
+                throw new Exception("Bad id: $item->id");
+            }
+            if (array_key_exists($item->id, $this->byId)) {
+                throw new Exception("Duplicated id: $item->id");
+            }
+            $this->byId[$item->id] = $item;
+        }
     }
 
     public function getAll() {
         return $this->items;
+    }
+
+    public function getItem($id) {
+        return $this->byId[$id];
     }
 
     public function getByCategories($type) {

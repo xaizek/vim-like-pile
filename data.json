@@ -12,6 +12,7 @@
 
 {
     "name": "Cream-Browser",
+    "id": "cream-browser",
     "descr": "A Vim-like lightweight Web browser with Vimperator interface.",
     "url": "https://sourceforge.net/projects/cream-browser/",
     "license": "GPL",
@@ -23,6 +24,7 @@
 },
 {
     "name": "dwb",
+    "id": "dwb",
     "descr": "Quite nicely done Vim-like browser, modulo some issues with memory.",
     "url": "https://bitbucket.org/portix/dwb/",
     "license": "GPL",
@@ -34,6 +36,7 @@
 },
 {
     "name": "jumanji",
+    "id": "jumanji",
     "descr": "The idea behind jumanji is a Web browser that provides a minimalistic and space saving interface as well as an easy usage that mainly focuses on keyboard interaction like Vimperator does.",
     "url": "http://pwmt.org/projects/jumanji",
     "license": "MIT",
@@ -45,6 +48,7 @@
 },
 {
     "name": "luakit",
+    "id": "luakit",
     "descr": "Fast, small, WebKit based browser framework extensible by Lua.",
     "url": "https://luakit.github.io/luakit/",
     "license": "GPL",
@@ -56,6 +60,7 @@
 },
 {
     "name": "qutebrowser",
+    "id": "qutebrowser",
     "descr": "Qutebrowser is a keyboard-focused browser with a minimal GUI.",
     "url": "https://www.qutebrowser.org/",
     "license": "GPL",
@@ -67,6 +72,7 @@
 },
 {
     "name": "surf",
+    "id": "surf",
     "descr": "Ultra-minimalistic Web browser.",
     "url": "http://surf.suckless.org",
     "license": "MIT",
@@ -78,6 +84,7 @@
 },
 {
     "name": "Uzbl",
+    "id": "uzbl",
     "descr": "Web interface tools which adhere to the unix philosophy.",
     "url": "http://uzbl.org",
     "license": "GPL",
@@ -89,6 +96,7 @@
 },
 {
     "name": "Vimprobable",
+    "id": "vimprobable",
     "descr": "A lean stand-alone web browser optimised for full keyboard control (inspired by Vimperator).",
     "url": "https://sourceforge.net/projects/vimprobable/",
     "license": "MIT",
@@ -100,6 +108,7 @@
 },
 {
     "name": "vimb",
+    "id": "vimb",
     "descr": "Vim-like browser based on the WebKit engine and the GTK toolkit.",
     "url": "http://fanglingsu.github.io/vimb/",
     "license": "GPL",
@@ -111,6 +120,7 @@
 },
 {
     "name": "xombrero",
+    "id": "xombrero",
     "descr": "A minimalist's Web browser, which strives to be Vi-like for heavy keyboard users while maintaining traditional Web browser behavior.",
     "url": "https://github.com/conformal/xombrero",
     "license": "ISC",
@@ -123,6 +133,7 @@
 
 {
     "name": "lynx",
+    "id": "lynx",
     "descr": "Text Web browser.",
     "url": "http://lynx.invisible-island.net/",
     "license": "GPL",
@@ -134,6 +145,7 @@
 },
 {
     "name": "Netrik",
+    "id": "netrik",
     "descr": "A simplistic text mode (character cell display) Web browser, similar to w3m or Lynx.",
     "url": "http://netrik.sourceforge.net/",
     "license": "GPL",
@@ -145,6 +157,7 @@
 },
 {
     "name": "w3m",
+    "id": "w3m",
     "descr": "w3m is a text-based Web browser as well as a pager like `more' or `less'.",
     "url": "http://w3m.sourceforge.net/",
     "license": "MIT",
@@ -157,6 +170,7 @@
 
 {
     "name": "mutt",
+    "id": "mutt",
     "descr": "Mutt is a small but very powerful text-based mail client for Unix operating systems.",
     "url": "http://www.mutt.org/",
     "license": "GPL",
@@ -168,6 +182,7 @@
 },
 {
     "name": "notmuch",
+    "id": "notmuch",
     "descr": "E-mail indexer/framework, which provides plugin for Vim.",
     "url": "https://notmuchmail.org/",
     "license": "GPL",
@@ -179,6 +194,7 @@
 },
 {
     "name": "sup",
+    "id": "sup",
     "descr": "A console-based e-mail client for people with a lot of e-mail.",
     "url": "http://sup-heliotrope.github.io/",
     "license": "GPL",
@@ -190,6 +206,7 @@
 },
 {
     "name": "wyrd",
+    "id": "wyrd",
     "descr": "A text-based front-end to remind, a sophisticated calendar and alarm program.",
     "url": "https://launchpad.net/wyrd",
     "license": "GPL",
@@ -202,6 +219,7 @@
 
 {
     "name": "bvi",
+    "id": "bvi",
     "descr": "A display-oriented editor for binary files (hex editor).",
     "url": "http://bvi.sourceforge.net/",
     "license": "GPL",
@@ -213,6 +231,7 @@
 },
 {
     "name": "bvi plus",
+    "id": "bvi-plus",
     "descr": "Fork of bvi with more features.",
     "url": "http://bviplus.sourceforge.net/",
     "license": "GPL",
@@ -224,6 +243,7 @@
 },
 {
     "name": "elvis",
+    "id": "elvis",
     "descr": "A free Vi clone for Unix and other operating systems.",
     "url": "http://elvis.the-little-red-haired-girl.org/",
     "license": "Clarified Artistic License",
@@ -235,6 +255,7 @@
 },
 {
     "name": "ex-vi",
+    "id": "ex-vi",
     "descr": "The traditional vi editor, ported to modern Unix systems.",
     "url": "http://ex-vi.sourceforge.net/",
     "license": "MIT",
@@ -246,6 +267,7 @@
 },
 {
     "name": "Kakoune",
+    "id": "kakoune",
     "descr": "Interactive only editor inspired by Vim.",
     "url": "https://github.com/mawww/kakoune",
     "license": "public domain",
@@ -257,6 +279,7 @@
 },
 {
     "name": "neovim",
+    "id": "neovim",
     "descr": "Fork of Vim.",
     "url": "https://neovim.io/",
     "license": "Vim's + Apache",
@@ -268,6 +291,7 @@
 },
 {
     "name": "nvi",
+    "id": "nvi",
     "descr": "Vi reimplementation.",
     "url": "https://en.wikipedia.org/wiki/Nvi",
     "license": "MIT",
@@ -279,6 +303,7 @@
 },
 {
     "name": "nvi",
+    "id": "nvi-js",
     "descr": "Very opinionated Node.JS VI clone.",
     "url": "https://github.com/mikesmullin/nvi",
     "license": "",
@@ -290,6 +315,7 @@
 },
 {
     "name": "pyvim",
+    "id": "pyvim",
     "descr": "Pure Python Vim clone.",
     "url": "https://github.com/jonathanslenders/pyvim",
     "license": "MIT",
@@ -301,6 +327,7 @@
 },
 {
     "name": "spacemacs",
+    "id": "spacemacs",
     "descr": "An Emacs-based editor that draws heavily from Vim keybindings.",
     "url": "http://spacemacs.org/",
     "license": "GPL",
@@ -312,6 +339,7 @@
 },
 {
     "name": "vile",
+    "id": "vile",
     "descr": "Vi clone with multiple buffers and similar features from Emacs added.",
     "url": "http://invisible-island.net/vile/vile.html",
     "license": "GPL",
@@ -323,6 +351,7 @@
 },
 {
     "name": "Vim",
+    "id": "vim",
     "descr": "The ubiquitous text editor.",
     "url": "http://www.vim.org/",
     "license": "Vim's",
@@ -334,6 +363,7 @@
 },
 {
     "name": "vis",
+    "id": "vis",
     "descr": "A Vim-like text editor.",
     "url": "https://github.com/martanne/vis",
     "license": "ISC",
@@ -345,6 +375,7 @@
 },
 {
     "name": "WinVi",
+    "id": "winvi",
     "descr": "Vi-like text and hex editor, which also tries to be Notepad compatible.",
     "url": "http://winvi.de",
     "license": "GPL",
@@ -356,6 +387,7 @@
 },
 {
     "name": "xvi",
+    "id": "xvi",
     "descr": "The smallest full-function Vi text editor clone.",
     "url": "http://martinwguy.github.io/xvi/",
     "license": "Emacs license",
@@ -367,6 +399,7 @@
 },
 {
     "name": "Yzis",
+    "id": "yzis",
     "descr": "A Vi/Vim engine that can be integrated in graphical applications.",
     "url": "https://github.com/chrizel/Yzis",
     "license": "GPL and LGPL library",
@@ -379,6 +412,7 @@
 
 {
     "name": "jvifm",
+    "id": "jvifm",
     "descr": "A try of implementing graphical Vi-like file manager in Java.",
     "url": "https://sourceforge.net/projects/jvifm/",
     "license": "GPL",
@@ -390,6 +424,7 @@
 },
 {
     "name": "lf",
+    "id": "lf",
     "descr": "Terminal file manager, which is a clone of ranger.",
     "url": "https://github.com/gokcehan/lf",
     "license": "MIT",
@@ -401,6 +436,7 @@
 },
 {
     "name": "noice",
+    "id": "noice",
     "descr": "Small file browser.",
     "url": "http://git.2f30.org/noice/",
     "license": "MIT",
@@ -412,6 +448,7 @@
 },
 {
     "name": "ranger",
+    "id": "ranger",
     "descr": "A console file manager with Vi key bindings, includes application association guessing tool.",
     "url": "http://nongnu.org/ranger/",
     "license": "GPL",
@@ -423,6 +460,7 @@
 },
 {
     "name": "rover",
+    "id": "rover",
     "descr": "A small file browser that aims to be simple, fast and portable.",
     "url": "http://lecram.github.io/p/rover/",
     "license": "public domain",
@@ -434,6 +472,7 @@
 },
 {
     "name": "Vide",
+    "id": "vide",
     "descr": "A graphical predecessor of vifm.",
     "url": "https://github.com/xaizek/vide",
     "license": "GPL",
@@ -445,6 +484,7 @@
 },
 {
     "name": "vifm",
+    "id": "vifm",
     "descr": "File manager with Vi like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt.",
     "url": "https://vifm.info",
     "license": "GPL",
@@ -457,6 +497,7 @@
 
 {
     "name": "cmus",
+    "id": "cmus",
     "descr": "Not so minimalistic terminal player.",
     "url": "https://cmus.github.io/",
     "license": "GPL",
@@ -468,6 +509,7 @@
 },
 {
     "name": "herrie",
+    "id": "herrie",
     "descr": "Minimalistic player with curses interface.",
     "url": "http://herrie.info",
     "license": "MIT or GPL (it depends)",
@@ -479,6 +521,7 @@
 },
 {
     "name": "pms",
+    "id": "pms",
     "descr": "Probably the most Vi-like music player (MPD client).",
     "url": "https://ambientsound.github.io/pms/",
     "license": "GPL",
@@ -490,6 +533,7 @@
 },
 {
     "name": "Siren",
+    "id": "siren",
     "descr": "A text-based audio player for Unix-like operating systems, inspired by cmus.",
     "url": "https://www.kariliq.nl/siren/",
     "license": "ISC mostly",
@@ -501,6 +545,7 @@
 },
 {
     "name": "vimpc",
+    "id": "vimpc",
     "descr": "Client for mpd with Vi-like key bindings.",
     "url": "https://github.com/boysetsfrog/vimpc",
     "license": "GPL",
@@ -512,6 +557,7 @@
 },
 {
     "name": "vimus",
+    "id": "vimus",
     "descr": "Terminal MPD client with Vim-like key bindings.",
     "url": "https://github.com/vimus/vimus",
     "license": "MIT",
@@ -523,6 +569,7 @@
 },
 {
     "name": "vitunes",
+    "id": "vitunes",
     "descr": "Console playlist/music database manager with Vi-like bindings.",
     "url": "http://vitunes.org",
     "license": "MIT",
@@ -535,6 +582,7 @@
 
 {
     "name": "apvlv",
+    "id": "apvlv",
     "descr": "A PDF/DJVU/UMD/TXT viewer under Linux/WIN32, which tries to behave like Vim.",
     "url": "http://naihe2010.github.io/apvlv/",
     "license": "GPL",
@@ -546,6 +594,7 @@
 },
 {
     "name": "zathura",
+    "id": "zathura",
     "descr": "A document viewer with plugin system.",
     "url": "https://pwmt.org/projects/zathura/",
     "license": "Zlib license",
@@ -558,6 +607,7 @@
 
 {
     "name": "jV",
+    "id": "jv",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/jv/",
     "license": "GPL",
@@ -569,6 +619,7 @@
 },
 {
     "name": "Vimperator",
+    "id": "vimperator",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/vimperator/",
     "license": "MIT",
@@ -580,6 +631,7 @@
 },
 {
     "name": "Pentadactyl",
+    "id": "pentadactyl",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/pentadactyl/",
     "license": "MIT",
@@ -591,6 +643,7 @@
 },
 {
     "name": "Vimium",
+    "id": "vimium",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/vimium/",
     "license": "MIT",
@@ -602,6 +655,7 @@
 },
 {
     "name": "VimFx",
+    "id": "vimfx",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/vimfx/",
     "license": "GPL",
@@ -613,6 +667,7 @@
 },
 {
     "name": "Vim Vixen",
+    "id": "vim-vixen",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://github.com/ueokande/vim-vixen",
     "license": "Vim Vixen are MIT",
@@ -624,6 +679,7 @@
 },
 {
     "name": "Tridactyl",
+    "id": "tridactyl",
     "descr": "Plugin for Firefox.",
     "url": "https://github.com/cmcaine/tridactyl",
     "license": "Apache 2.0",
@@ -636,6 +692,7 @@
 
 {
     "name": "Surfingkeys",
+    "id": "surfingkeys",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://github.com/brookhong/Surfingkeys",
     "license": "MIT",
@@ -647,6 +704,7 @@
 },
 {
     "name": "cVim",
+    "id": "cvim",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://github.com/1995eaton/chromium-vim/",
     "license": "MIT",
@@ -658,6 +716,7 @@
 },
 {
     "name": "ViChrome",
+    "id": "vichrome",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://github.com/k2nr/ViChrome",
     "license": "MIT",
@@ -669,6 +728,7 @@
 },
 {
     "name": "Vrome",
+    "id": "vrome",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://github.com/jinzhu/vrome",
     "license": "GPL",
@@ -680,6 +740,7 @@
 },
 {
     "name": "vimlike-smooziee",
+    "id": "vimlike-smooziee",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://code.google.com/archive/p/vimlike-smooziee/",
     "license": "MIT",
@@ -691,6 +752,7 @@
 },
 {
     "name": "Vimium",
+    "id": "vimium-chrome",
     "descr": "Plugin for Chrome and Chromium.",
     "url": "https://github.com/philc/vimium",
     "license": "MIT",
@@ -703,6 +765,7 @@
 
 {
     "name": "VimOperate",
+    "id": "vimoperate",
     "descr": "Plugin for Opera.",
     "url": "https://addons.opera.com/en/extensions/details/vimoperate/?display=en",
     "license": "",
@@ -715,6 +778,7 @@
 
 {
     "name": "Eclim",
+    "id": "eclim",
     "descr": "Two-way integration between Eclipse IDE and Vim.",
     "url": "http://eclim.org/",
     "license": "GPL",
@@ -726,6 +790,7 @@
 },
 {
     "name": "ExEdit",
+    "id": "exedit",
     "descr": "Pluging for running Ex command in Eclipse IDE.",
     "url": "http://marketplace.eclipse.org/content/exedit",
     "license": "GPL",
@@ -737,6 +802,7 @@
 },
 {
     "name": "Viable",
+    "id": "viable",
     "descr": "Plugin for Eclipse IDE.",
     "url": "http://marketplace.eclipse.org/content/viable-vim-eclipse",
     "license": "Proprietary",
@@ -748,6 +814,7 @@
 },
 {
     "name": "viPlugin",
+    "id": "viplugin",
     "descr": "Plugin for Eclipse IDE.",
     "url": "http://marketplace.eclipse.org/content/viplugin",
     "license": "Proprietary",
@@ -759,6 +826,7 @@
 },
 {
     "name": "vimplugin",
+    "id": "vimplugin",
     "descr": "An attempt to use the Vim editor inside the Eclipse IDE.",
     "url": "http://sourceforge.net/projects/vimplugin/",
     "license": "GPL",
@@ -770,6 +838,7 @@
 },
 {
     "name": "vrapper",
+    "id": "vrapper",
     "descr": "Plugin for Eclipse IDE that supposedly preserves original keybindings.",
     "url": "http://marketplace.eclipse.org/content/vrapper-vim",
     "license": "GPL",
@@ -781,6 +850,7 @@
 },
 {
     "name": "Vimpulse",
+    "id": "vimpulse",
     "descr": "Emulates Vim's most useful features.",
     "url": "https://www.emacswiki.org/emacs/Vimpulse",
     "license": "GPL",
@@ -792,6 +862,7 @@
 },
 {
     "name": "eVil",
+    "id": "evil",
     "descr": "The extensible vi layer for Emacs.",
     "url": "https://www.emacswiki.org/emacs/Evil",
     "license": "GPL",
@@ -803,6 +874,7 @@
 },
 {
     "name": "Viper",
+    "id": "viper",
     "descr": "Emacs mode that emulates vi key bindings.",
     "url": "https://www.emacswiki.org/emacs/ViperMode",
     "license": "GPL",
@@ -814,6 +886,7 @@
 },
 {
     "name": "Vim Mode",
+    "id": "vim-mode",
     "descr": "An implementation of Vi and Vim-like key bindings for Emacs.",
     "url": "https://www.emacswiki.org/emacs/VimMode",
     "license": "GPL",
@@ -826,6 +899,7 @@
 
 {
     "name": "CubicleVim",
+    "id": "cubiclevim",
     "descr": "A COM Add-In to allow editing Microsoft Outlook messages.",
     "url": "https://sourceforge.net/projects/cubiclevim/",
     "license": "MIT",
@@ -837,6 +911,7 @@
 },
 {
     "name": "FakeVim",
+    "id": "fakevim",
     "descr": "Standard QtCreator plugin (the link is to the widget).",
     "url": "https://github.com/hluk/FakeVim",
     "license": "GPL",
@@ -848,6 +923,7 @@
 },
 {
     "name": "IDEAVim",
+    "id": "ideavim",
     "descr": "IntelliJ IDEA Vim-like plugin.",
     "url": "https://plugins.jetbrains.com/plugin/?id=164",
     "license": "GPL",
@@ -859,6 +935,7 @@
 },
 {
     "name": "jVi",
+    "id": "jvi",
     "descr": "NetBeans IDE Vim-like plugin.",
     "url": "http://plugins.netbeans.org/plugin/38914",
     "license": "MPL",
@@ -870,6 +947,7 @@
 },
 {
     "name": "Melodactyl",
+    "id": "melodactyl",
     "descr": "Vim-like plugin for Sunbird.",
     "url": "https://github.com/5digits/dactyl/tree/master/melodactyl",
     "license": "MIT",
@@ -881,6 +959,7 @@
 },
 {
     "name": "Muttator",
+    "id": "muttator",
     "descr": "Vim-like plugin for Thunderbird.",
     "url": "https://addons.mozilla.org/en-US/thunderbird/addon/muttator/",
     "license": "MIT",
@@ -892,6 +971,7 @@
 },
 {
     "name": "Teledactyl",
+    "id": "teledactyl",
     "descr": "Vim-like plugin for Thunderbird.",
     "url": "https://github.com/5digits/dactyl/tree/master/teledactyl",
     "license": "MIT",
@@ -903,6 +983,7 @@
 },
 {
     "name": "Sublime Six",
+    "id": "sublime-six",
     "descr": "Successor of Vintageous plugin for Sublime Text.",
     "url": "http://www.sublimesix.com/",
     "license": "Proprietary",
@@ -914,6 +995,7 @@
 },
 {
     "name": "vibreoffice",
+    "id": "vibreoffice",
     "descr": "LibreOffice plugin that adds Vim-like shortcuts and modality.",
     "url": "https://github.com/seanyeh/vibreoffice",
     "license": " MIT",
@@ -925,6 +1007,7 @@
 },
 {
     "name": "viemu",
+    "id": "viemu",
     "descr": "Plugins for Visual Studio, Xcode, Outlook, Word, SQL Server.",
     "url": "http://www.viemu.com/",
     "license": "Proprietary",
@@ -936,6 +1019,7 @@
 },
 {
     "name": "viex",
+    "id": "viex",
     "descr": "NetBeans IDE Vim-like plugin.",
     "url": "http://plugins.netbeans.org/plugin/601/",
     "license": "GPL",
@@ -947,6 +1031,7 @@
 },
 {
     "name": "Vintage",
+    "id": "vintage",
     "descr": "Vim-like plugin for Sublime Text.",
     "url": "http://www.sublimetext.com/docs/3/vintage.html",
     "license": "MIT",
@@ -958,6 +1043,7 @@
 },
 {
     "name": "VintageEx",
+    "id": "vintageex",
     "descr": "A rendition of Vim's command-line mode for Sublime Text 2.",
     "url": "https://github.com/SublimeText/VintageEx",
     "license": "MIT",
@@ -969,6 +1055,7 @@
 },
 {
     "name": "Vintageous",
+    "id": "vintageous",
     "descr": "Vintageous is a comprehensive vi/Vim emulation layer for Sublime Text 3.",
     "url": "https://github.com/guillermooo/Vintageous",
     "license": "MIT",
@@ -980,6 +1067,7 @@
 },
 {
     "name": "Vim Mode",
+    "id": "vim-mode-atom",
     "descr": "Plugin for Atom.",
     "url": "https://atom.io/packages/vim-mode",
     "license": "MIT",
@@ -991,6 +1079,7 @@
 },
 {
     "name": "ViTunes",
+    "id": "vitunes-itunes",
     "descr": "A Vim plugin that allows you to control iTunes.",
     "url": "http://danielchoi.com/software/vitunes.html",
     "license": "MIT",
@@ -1002,6 +1091,7 @@
 },
 {
     "name": "VsVim",
+    "id": "vsvim",
     "descr": "Vim emulation layer for Visual Studio.",
     "url": "https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329",
     "license": "Apache",
@@ -1013,6 +1103,7 @@
 },
 {
     "name": "XVim",
+    "id": "xvim",
     "descr": "Xcode plugin for Vim keybindings.",
     "url": "https://github.com/XVimProject/XVim",
     "license": "MIT",
@@ -1025,6 +1116,7 @@
 
 {
     "name": "athame",
+    "id": "athame",
     "descr": "Full vim for your shell (bash, zsh, gdb, python, etc).",
     "url": "https://github.com/ardagnir/athame",
     "license": "GPL",
@@ -1036,6 +1128,7 @@
 },
 {
     "name": "Blender",
+    "id": "blender",
     "descr": "Blender is the free and open source 3D creation suite.",
     "url": "https://www.blender.org/",
     "license": "GPL",
@@ -1047,6 +1140,7 @@
 },
 {
     "name": "cgdb",
+    "id": "cgdb",
     "descr": "Console front-end to the GNU debugger.",
     "url": "https://cgdb.github.io/",
     "license": "GPL",
@@ -1058,6 +1152,7 @@
 },
 {
     "name": "less",
+    "id": "less",
     "descr": "Its controls are Vi-like.",
     "url": "https://en.wikipedia.org/wiki/Less_(Unix)",
     "license": "GPL",
@@ -1069,6 +1164,7 @@
 },
 {
     "name": "Kommand",
+    "id": "kommand",
     "descr": "AutoHotKey script, which provides cross-application Vim-like hot key solution.",
     "url": "https://autohotkey.com/board/topic/42706-kommand-a-cross-application-vim-like-hot-key-solution/",
     "license": "",
@@ -1080,6 +1176,7 @@
 },
 {
     "name": "ncdu",
+    "id": "ncdu",
     "descr": "Disk usage browser.",
     "url": "https://dev.yorhel.nl/ncdu",
     "license": "MIT",
@@ -1091,6 +1188,7 @@
 },
 {
     "name": "newsbeuter",
+    "id": "newsbeuter",
     "descr": "The Mutt of RSS feed readers.",
     "url": "https://newsbeuter.org/",
     "license": "MIT",
@@ -1102,6 +1200,7 @@
 },
 {
     "name": "PIDA",
+    "id": "pida",
     "descr": "An IDE that allows integration of Vim/Emacs as editor.",
     "url": "https://launchpad.net/pida",
     "license": "MIT",
@@ -1113,6 +1212,7 @@
 },
 {
     "name": "pipedial",
+    "id": "pipedial",
     "descr": "One more tool for selecting something in console.",
     "url": "https://code.reversed.top/user/xaizek/pipedial",
     "license": "GPL",
@@ -1124,6 +1224,7 @@
 },
 {
     "name": "sc",
+    "id": "sc",
     "descr": "Terminal spreadsheet editor.",
     "url": "http://www.linuxjournal.com/article/10699",
     "license": "MIT",
@@ -1135,6 +1236,7 @@
 },
 {
     "name": "sc-im",
+    "id": "sc-im",
     "descr": "Improved version of sc.",
     "url": "https://github.com/andmarti1424/sc-im",
     "license": "MIT",
@@ -1146,6 +1248,7 @@
 },
 {
     "name": "sentaku",
+    "id": "sentaku",
     "descr": "Utility to make selection window with shell command.",
     "url": "https://github.com/rcmdnk/sentaku",
     "license": "MIT",
@@ -1157,6 +1260,7 @@
 },
 {
     "name": "Termite",
+    "id": "termite",
     "descr": "A keyboard-centric terminal.",
     "url": "https://github.com/thestinger/termite",
     "license": "GPL",
@@ -1168,6 +1272,7 @@
 },
 {
     "name": "tig",
+    "id": "tig",
     "descr": "Text-mode interface for git.",
     "url": "http://jonas.nitro.dk/tig/",
     "license": "GPL",
@@ -1179,6 +1284,7 @@
 },
 {
     "name": "TuDu",
+    "id": "tudu",
     "descr": "Vi-like TODO manager.",
     "url": "http://code.meskio.net/tudu/",
     "license": "GPL",
@@ -1190,6 +1296,7 @@
 },
 {
     "name": "vchatter",
+    "id": "vchatter",
     "descr": "Vi-like jabber client.",
     "url": "http://vchatter.sourceforge.net/",
     "license": "",
@@ -1201,6 +1308,7 @@
 },
 {
     "name": "ViPaint",
+    "id": "vipaint",
     "descr": "A modal, Vi like painting program.",
     "url": "https://gitlab.com/jgkamat/ViPaint",
     "license": "GPL",
@@ -1212,6 +1320,7 @@
 },
 {
     "name": "vlrtt",
+    "id": "vlrtt",
     "descr": "Vim-like real-time tactics game.",
     "url": "https://github.com/crabmusket/vlrtt",
     "license": "MIT",
@@ -1223,6 +1332,7 @@
 },
 {
     "name": "VNote",
+    "id": "vnote",
     "descr": "A Vim-inspired note-taking application, which can also be used as Markdown editor.",
     "url": "https://github.com/tamlok/vnote",
     "license": "MIT",
@@ -1234,6 +1344,7 @@
 },
 {
     "name": "GNU Screen",
+    "id": "gnu-screen",
     "descr": "This terminal multiplexer can be configured to use some Vi-like keys, it also has command-line mode.",
     "url": "https://www.gnu.org/software/screen/",
     "license": "GPL",
@@ -1245,6 +1356,7 @@
 },
 {
     "name": "tmux",
+    "id": "tmux",
     "descr": "This terminal multiplexer can be configured to use some Vi-like keys, it also has command-line mode.",
     "url": "https://tmux.github.io/",
     "license": "MIT",
@@ -1256,6 +1368,7 @@
 },
 {
     "name": "Editra",
+    "id": "editra",
     "descr": "Editra is a multi-platform text editor with an implementation that focuses on creating an easy to use interface and features that aid in code development.",
     "url": "http://editra.org/",
     "license": "wxWindows license",
@@ -1267,6 +1380,7 @@
 },
 {
     "name": "SlickEdit",
+    "id": "slickedit",
     "descr": "A true cross-platform, multi-language code editor, with support for over 60 languages on 9 platforms. ",
     "url": "https://www.slickedit.com/",
     "license": "Proprietary",
@@ -1278,6 +1392,7 @@
 },
 {
     "name": "Kate",
+    "id": "kate",
     "descr": "The KDE Advanced Text Editor (Kate).",
     "url": "https://kate-editor.org/",
     "license": "LGPL, GPL",
@@ -1289,6 +1404,7 @@
 },
 {
     "name": "AbiWord",
+    "id": "abiword",
     "descr": "AbiWord is a free word processing program similar to Microsoft® Word. It is suitable for a wide variety of word processing tasks.",
     "url": "https://www.abisource.com/",
     "license": "GPL",
@@ -1300,6 +1416,7 @@
 },
 {
     "name": "bash",
+    "id": "bash",
     "descr": "An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh).",
     "url": "https://www.gnu.org/software/bash/",
     "license": "GPL",
@@ -1311,6 +1428,7 @@
 },
 {
     "name": "zsh",
+    "id": "zsh",
     "descr": "An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh).",
     "url": "https://www.zsh.org/",
     "license": "MIT-like",
@@ -1322,6 +1440,7 @@
 },
 {
     "name": "GNU ReadLine",
+    "id": "gnu-readline",
     "descr": "The library provides a set of functions for use by applications that allow users to edit command lines as they are typed in.",
     "url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
     "license": "GPL",
@@ -1333,6 +1452,7 @@
 },
 {
     "name": "MonoDevelop",
+    "id": "monodevelop",
     "descr": "Cross platform IDE for C#, F# and more.",
     "url": "https://www.monodevelop.com/",
     "license": "LGPL + MIT",
@@ -1344,6 +1464,7 @@
 },
 {
     "name": "GNOME Builder",
+    "id": "gnome-builder",
     "descr": "A toolsmith for GNOME-based applications.",
     "url": "https://wiki.gnome.org/Apps/Builder",
     "license": "GPL",
@@ -1355,6 +1476,7 @@
 },
 {
     "name": "Komodo Edit",
+    "id": "komodo-edit",
     "descr": "Komodo Edit is a free text editor for dynamic programming languages.",
     "url": "https://www.activestate.com/products/komodo-edit/",
     "license": "MPL",
@@ -1367,6 +1489,7 @@
 
 {
     "name": "feh",
+    "id": "feh",
     "descr": "An X11 image viewer aimed mostly at console users.",
     "url": "http://feh.finalrewind.org/",
     "license": "MIT",
@@ -1378,6 +1501,7 @@
 },
 {
     "name": "pim",
+    "id": "pim",
     "descr": "Python image viewer with Vim-like keybindings.",
     "url": "https://github.com/Narrat/Pim",
     "license": "MIT",
@@ -1389,6 +1513,7 @@
 },
 {
     "name": "sxiv",
+    "id": "sxiv",
     "descr": "Simple X Image Viewer.",
     "url": "https://github.com/muennich/sxiv",
     "license": "GPL",
@@ -1400,6 +1525,7 @@
 },
 {
     "name": "vimiv",
+    "id": "vimiv",
     "descr": "An image viewer with Vim-like keybindings.",
     "url": "https://github.com/karlch/vimiv",
     "license": "MIT",
@@ -1411,6 +1537,7 @@
 },
 {
     "name": "xzgv",
+    "id": "xzgv",
     "descr": "Image viewer with at least j/k mapped.",
     "url": "https://sourceforge.net/projects/xzgv/",
     "license": "GPL",
@@ -1423,6 +1550,7 @@
 
 {
     "name": "Evince",
+    "id": "evince",
     "descr": "A document viewer for multiple document formats.",
     "url": "https://wiki.gnome.org/Apps/Evince",
     "license": "GPL",
@@ -1434,6 +1562,7 @@
 },
 {
     "name": "MuPDF",
+    "id": "mupdf",
     "descr": "A lightweight PDF and XPS viewer.",
     "url": "http://www.mupdf.com/",
     "license": "AGPL",
@@ -1445,6 +1574,7 @@
 },
 {
     "name": "Okular",
+    "id": "okular",
     "descr": "A universal document viewer developed by KDE.",
     "url": "https://okular.kde.org/",
     "license": "GPL",
@@ -1457,6 +1587,7 @@
 
 {
     "name": "euclid",
+    "id": "euclid",
     "descr": "Window manager with kind of Vim-like default mappings.",
     "url": "https://github.com/wmdiem/euclid-wm",
     "license": "MIT",
@@ -1468,6 +1599,7 @@
 },
 {
     "name": "howm",
+    "id": "howm",
     "descr": "A lightweight, X11 tiling window manager that is promises to behave like Vim (objects/motions/count).",
     "url": "https://github.com/HarveyHunt/howm",
     "license": "GPL",
@@ -1479,6 +1611,7 @@
 },
 {
     "name": "i3",
+    "id": "i3",
     "descr": "Tiling WM.",
     "url": "http://i3wm.org/",
     "license": "MIT",
@@ -1490,6 +1623,7 @@
 },
 {
     "name": "wmii",
+    "id": "wmii",
     "descr": "A small, scriptable window manager, with a 9P filesystem interface and an acme-like layout.",
     "url": "https://code.google.com/archive/p/wmii/",
     "license": "MIT",
@@ -1502,6 +1636,7 @@
 
 {
     "name": "calcurse",
+    "id": "calcurse",
     "descr": "Terminal calendar and scheduling application with some Vim-like keys by default.",
     "url": "http://calcurse.org/",
     "license": "MIT",
@@ -1513,6 +1648,7 @@
 },
 {
     "name": "CopyQ",
+    "id": "copyq",
     "descr": "Clipboard manager with advanced features, which claims \"support for simple Vim-like editor and shortcuts\".",
     "url": "https://github.com/hluk/CopyQ",
     "license": "GPL",
@@ -1524,6 +1660,7 @@
 },
 {
     "name": "ncmpc",
+    "id": "ncmpc",
     "descr": "MPD client, which is somewhat Vim-like.",
     "url": "https://musicpd.org/clients/ncmpc/",
     "license": "GPL",
@@ -1535,6 +1672,7 @@
 },
 {
     "name": "ncmpcpp",
+    "id": "ncmpcpp",
     "descr": "MPD client, which is somewhat Vim-like.",
     "url": "http://rybczak.net/ncmpcpp/",
     "license": "GPL",
@@ -1546,6 +1684,7 @@
 },
 {
     "name": "NetHack",
+    "id": "nethack",
     "descr": "Rougue-like game with h/j/k/l.",
     "url": "http://www.nethack.org/",
     "license": "NetHack General Public License",
@@ -1557,6 +1696,7 @@
 },
 {
     "name": "rekonq",
+    "id": "rekonq",
     "descr": "A Web browser for KDE based on WebKit.  Has basic Vi-like keys.",
     "url": "https://rekonq.kde.org/",
     "license": "GPL",
@@ -1568,6 +1708,7 @@
 },
 {
     "name": "rexima",
+    "id": "rexima",
     "descr": "Vi-like audio-mixer alternative to alsamixer.",
     "url": "http://www.svgalib.org/rus/rexima.html",
     "license": "GPL",
@@ -1579,6 +1720,7 @@
 },
 {
     "name": "rtv",
+    "id": "rtv",
     "descr": "Reddit terminal viewer provides a text-based interface to view and interact with reddit.",
     "url": "https://github.com/michael-lazar/rtv",
     "license": "MIT",
@@ -1590,6 +1732,7 @@
 },
 {
     "name": "urxvt",
+    "id": "urxvt",
     "descr": "Fork of rxvt terminal emulator that adds Unicode support.",
     "url": "http://software.schmorp.de/pkg/rxvt-unicode.html",
     "license": "GPL",
@@ -1601,6 +1744,7 @@
 },
 {
     "name": "WeeChat",
+    "id": "weechat",
     "descr": "The extensible IRC client.",
     "url": "https://weechat.org/",
     "license": "GPL",
@@ -1612,6 +1756,7 @@
 },
 {
     "name": "xpdf",
+    "id": "xpdf",
     "descr": "Xpdf is a free PDF viewer and toolkit, including a text extractor, image converter, HTML converter, and more. Most of the tools are available as open source.",
     "url": "http://www.xpdfreader.com/",
     "license": "GPL",
@@ -1624,6 +1769,7 @@
 
 {
     "name": "rtorrent",
+    "id": "rtorrent",
     "descr": "A text-based ncurses BitTorrent client.",
     "url": "https://rakshasa.github.io/rtorrent/",
     "license": "GPL",
@@ -1635,6 +1781,7 @@
 },
 {
     "name": "htop",
+    "id": "htop",
     "descr": "An interactive system-monitor process-viewer and process-manager.",
     "url": "https://hisham.hm/htop/",
     "license": "GPL",
@@ -1647,6 +1794,7 @@
 
 {
     "name": "DuckDuckGo",
+    "id": "duckduckgo",
     "descr": "An Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results.",
     "url": "https://duckduckgo.com/",
     "license": "Apache + Proprietary",
@@ -1658,6 +1806,7 @@
 },
 {
     "name": "GitHub",
+    "id": "github",
     "descr": "An interactive system-monitor process-viewer and process-manager.",
     "url": "https://github.com/",
     "license": "Proprietary",
@@ -1669,6 +1818,7 @@
 },
 {
     "name": "GMail",
+    "id": "gmail",
     "descr": "Google mail.",
     "url": "https://mail.google.com/",
     "license": "Proprietary",
@@ -1680,6 +1830,7 @@
 },
 {
     "name": "Habr",
+    "id": "habr",
     "descr": "Russian collaborative blog with elements of social network.",
     "url": "https://habr.com/",
     "license": "Proprietary",
