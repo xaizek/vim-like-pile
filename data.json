@@ -2,7 +2,7 @@
 
 "types": {
 
-"apps": "Items of this type are applications that are intentionally created to be Vim-alike in some respect.",
+"apps": "Items of this type are applications that are intentionally created to be Vim-alike in some respect (possibly disabled by default).",
 "plugs": "Items of this type are plugins for applications that make them behave Vim-like to various extent.",
 "confs": "Items of this type have bindings that are either already similar or configurable to resemble Vim-like behaviour to a degree."
 
