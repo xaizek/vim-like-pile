@@ -15,21 +15,20 @@ h1 {
 
 .type {
     margin: 0px 20px;
+    padding: 5px 10px;
     display: inline-block;
-    width: 140px;
+    background-color: #eee;
     font-size: 1.1em;
+    border: 1px solid transparent;
 }
 
 .type a {
     color: #222;
-    padding: 0px 5px 3px 5px;
     text-decoration: none;
-    border-bottom: 1px solid #222;
 }
 
-.currentType a {
-    font-weight: bold;
-    border-bottom: 2px solid #222;
+.currentType {
+    border: 1px solid #222;
 }
 
 .islands {
