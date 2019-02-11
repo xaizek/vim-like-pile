@@ -58,6 +58,14 @@ class Data
             }
             $this->byId[$item->id] = $item;
         }
+
+        usort($this->items, function ($a, $b) {
+            $result = strcasecmp($a->name, $b->name);
+            if ($result == 0) {
+                $result = strcasecmp($a->id, $b->id);
+            }
+            return $result;
+        });
     }
 
     public function getAll() {
