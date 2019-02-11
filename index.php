@@ -83,6 +83,16 @@ class Data
                 $byCategories[$item->category][] = $item;
             }
         }
+
+        uksort($byCategories, function ($a, $b) {
+            if (strcasecmp($a, "other") == 0) {
+                return 1;
+            }
+            if (strcasecmp($b, "other") == 0) {
+                return -1;
+            }
+            return strcasecmp($a, $b);
+        });
         return $byCategories;
     }
 
