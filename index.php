@@ -85,11 +85,13 @@ class Data
 
 $params = explode('/', $_GET['url']);
 $type = (sizeof($params) > 1 && !empty($params[1]) ? $params[1] : 'apps');
+$id = (sizeof($params) > 2 && !empty($params[2]) ? $params[2] : '');
 
 $main = new Template('main');
 $main->title = 'Big List of Vim-like';
 $main->webRoot = '/vim';
 $main->type = $type;
+$main->id = $id;
 
 try {
     $data = new Data('data.json');
@@ -99,13 +101,25 @@ try {
     exit;
 }
 
+if (!empty($id)) {
+    $item = $data->getItem($id);
+    $type = $item->type;
+    $main->type = $type;
+}
+
 $descr = $data->getTypeDescription($type);
 $main->descr = $descr;
 
-$byCategories = new Template('by-categories', $main);
-$byCategories->categories = $data->getByCategories($type);
-
-$main->content = $byCategories->format();
+if (empty($id)) {
+    $byCategories = new Template('by-categories', $main);
+    $byCategories->categories = $data->getByCategories($type);
+    $main->content = $byCategories->format();
+} else {
+    $itemInfo = new Template('item', $main);
+    $itemInfo->item = $item;
+    $itemInfo->category = $data->getByCategories($type)[$item->category];
+    $main->content = $itemInfo->format();
+}
 
 print $main->format();
 
