@@ -1112,6 +1112,17 @@
     "ui": "GTK+"
 },
 {
+    "name": "pipedial",
+    "descr": "One more tool for selecting something in console.",
+    "url": "https://code.reversed.top/user/xaizek/pipedial",
+    "license": "GPL",
+    "languages": [ "C++" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ "inspired by sentaku" ],
+    "ui": "curses"
+},
+{
     "name": "sc",
     "descr": "Terminal spreadsheet editor.",
     "url": "http://www.linuxjournal.com/article/10699",
@@ -1132,6 +1143,17 @@
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
+},
+{
+    "name": "sentaku",
+    "descr": "Utility to make selection window with shell command.",
+    "url": "https://github.com/rcmdnk/sentaku",
+    "license": "MIT",
+    "languages": [ "bash" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal"
 },
 {
     "name": "Termite",
