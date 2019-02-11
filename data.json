@@ -964,7 +964,7 @@
     "url": "https://addons.mozilla.org/en-US/thunderbird/addon/muttator/",
     "license": "MIT",
     "languages": [ "JavaScript" ],
-    "category": "Various Plugins",
+    "category": "Thunderbird Plugins",
     "type": "plugs",
     "comments": [ ],
     "ui": ""
@@ -976,7 +976,7 @@
     "url": "https://github.com/5digits/dactyl/tree/master/teledactyl",
     "license": "MIT",
     "languages": [ "JavaScript" ],
-    "category": "Various Plugins",
+    "category": "Thunderbird Plugins",
     "type": "plugs",
     "comments": [ ],
     "ui": ""
@@ -988,7 +988,7 @@
     "url": "http://www.sublimesix.com/",
     "license": "Proprietary",
     "languages": [ "Python" ],
-    "category": "Various Plugins",
+    "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ ],
     "ui": ""
@@ -1036,7 +1036,7 @@
     "url": "http://www.sublimetext.com/docs/3/vintage.html",
     "license": "MIT",
     "languages": [ "Python" ],
-    "category": "Various Plugins",
+    "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ ],
     "ui": ""
@@ -1048,7 +1048,7 @@
     "url": "https://github.com/SublimeText/VintageEx",
     "license": "MIT",
     "languages": [ "Python" ],
-    "category": "Various Plugins",
+    "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ "previous incarnation of Vingageous" ],
     "ui": ""
@@ -1060,7 +1060,7 @@
     "url": "https://github.com/guillermooo/Vintageous",
     "license": "MIT",
     "languages": [ "Python" ],
-    "category": "Various Plugins",
+    "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ "README says that Vintageous has been discontinued and its successor is Sublime Six (not open source)" ],
     "ui": ""
@@ -1205,7 +1205,7 @@
     "url": "https://launchpad.net/pida",
     "license": "MIT",
     "languages": [ "Python" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "looks abandoned" ],
     "ui": "GTK+"
@@ -1217,7 +1217,7 @@
     "url": "https://code.reversed.top/user/xaizek/pipedial",
     "license": "GPL",
     "languages": [ "C++" ],
-    "category": "Other",
+    "category": "Terminal Selectors",
     "type": "apps",
     "comments": [ "inspired by sentaku" ],
     "ui": "curses"
@@ -1253,7 +1253,7 @@
     "url": "https://github.com/rcmdnk/sentaku",
     "license": "MIT",
     "languages": [ "bash" ],
-    "category": "Other",
+    "category": "Terminal Selectors",
     "type": "apps",
     "comments": [ ],
     "ui": "terminal"
@@ -1289,7 +1289,7 @@
     "url": "http://code.meskio.net/tudu/",
     "license": "GPL",
     "languages": [ "C++" ],
-    "category": "Other",
+    "category": "TODO and Notes",
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
@@ -1337,7 +1337,7 @@
     "url": "https://github.com/tamlok/vnote",
     "license": "MIT",
     "languages": [ "C++ + WebStuff" ],
-    "category": "Other",
+    "category": "TODO and Notes",
     "type": "apps",
     "comments": [ ],
     "ui": "Qt"
@@ -1349,7 +1349,7 @@
     "url": "https://www.gnu.org/software/screen/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Terminal Multiplexers",
     "type": "apps",
     "comments": [ "Screen has command classes, which allows implementing modes: https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192" ],
     "ui": "terminal"
@@ -1361,7 +1361,7 @@
     "url": "https://tmux.github.io/",
     "license": "MIT",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Terminal Multiplexers",
     "type": "apps",
     "comments": [ "Screen has command classes, which allows implementing modes: https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192" ],
     "ui": "terminal"
@@ -1373,7 +1373,7 @@
     "url": "http://editra.org/",
     "license": "wxWindows license",
     "languages": [ "Python" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi-like editing mode: http://editra.org/vi_emulation" ],
     "ui": "wxWidgets"
@@ -1385,7 +1385,7 @@
     "url": "https://www.slickedit.com/",
     "license": "Proprietary",
     "languages": [ ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi-like editing mode", "previously known as Visual SlickEdit" ],
     "ui": ""
@@ -1397,7 +1397,7 @@
     "url": "https://kate-editor.org/",
     "license": "LGPL, GPL",
     "languages": [ "C++" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi-like editing mode" ],
     "ui": "KDE"
@@ -1409,7 +1409,7 @@
     "url": "https://www.abisource.com/",
     "license": "GPL",
     "languages": [ "C++" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi-like bindings: http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html" ],
     "ui": "GTK+3"
@@ -1421,7 +1421,7 @@
     "url": "https://www.gnu.org/software/bash/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Shells",
     "type": "apps",
     "comments": [ "has Vi-like bindings: set -o vi", "you can see current mode by adding `set show-mode-in-prompt On` to `~/.inputrc`" ],
     "ui": "terminal"
@@ -1433,7 +1433,7 @@
     "url": "https://www.zsh.org/",
     "license": "MIT-like",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Shells",
     "type": "apps",
     "comments": [ "has Vi-like bindings: bindkey -v" ],
     "ui": "terminal"
@@ -1457,7 +1457,7 @@
     "url": "https://www.monodevelop.com/",
     "license": "LGPL + MIT",
     "languages": [ "C#" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi mode" ],
     "ui": "GTK+"
@@ -1469,7 +1469,7 @@
     "url": "https://wiki.gnome.org/Apps/Builder",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi mode: https://wiki.gnome.org/Apps/Builder/Planning/VIM" ],
     "ui": "GTK+"
@@ -1481,7 +1481,7 @@
     "url": "https://www.activestate.com/products/komodo-edit/",
     "license": "MPL",
     "languages": [ "C++", "C", "XUL", "Perl", "Python", "JavaScript", "Tcl" ],
-    "category": "Other",
+    "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi mode: https://www.activestate.com/blog/komodos-vi-emulation/" ],
     "ui": "GTK+"
@@ -1665,7 +1665,7 @@
     "url": "https://musicpd.org/clients/ncmpc/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Miscellaneous",
+    "category": "MPD Clients",
     "type": "confs",
     "comments": [ ],
     "ui": "curses"
@@ -1677,7 +1677,7 @@
     "url": "http://rybczak.net/ncmpcpp/",
     "license": "GPL",
     "languages": [ "C++" ],
-    "category": "Miscellaneous",
+    "category": "MPD Clients",
     "type": "confs",
     "comments": [ ],
     "ui": "curses"
