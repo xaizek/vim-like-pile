@@ -94,7 +94,7 @@ $main->type = $type;
 try {
     $data = new Data('data.json');
 } catch (Exception $e) {
-    $main->content = 'FAILED TO LOAD DATA';
+    $main->content = 'FAILED TO LOAD DATA: ' . $e->getMessage();
     print $main->format();
     exit;
 }
