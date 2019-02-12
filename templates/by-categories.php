@@ -1,5 +1,16 @@
+<div class="categoryLinks">
+    <?php foreach ($categories as $category => $items): ?>
+    <div class="categoryLink">
+        <a href="#<?php echo call_user_func($makeHeaderId, $category) ?>">
+            <?php echo $category; ?>
+        </a>
+    </div>
+    <?php endforeach; ?>
+</div>
+
 <?php foreach ($categories as $category => $items): ?>
-<div class="category">
+<div class="category"
+     id="<?php echo call_user_func($makeHeaderId, $category) ?>">
     <?php echo $category; ?> (<?php echo sizeof($items); ?>)
 </div>
 <div class="islands">

@@ -131,6 +131,11 @@ $main->descr = $descr;
 if (empty($id)) {
     $byCategories = new Template('by-categories', $main);
     $byCategories->categories = $data->getByCategories($type);
+    $byCategories->makeHeaderId = function ($header) {
+        $id = strtolower($header);
+        return preg_replace('/\W+/', '-', $id);
+    };
+
     $main->content = $byCategories->format();
 } else {
     $itemInfo = new Template('item', $main);
