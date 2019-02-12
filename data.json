@@ -587,7 +587,7 @@
     "url": "http://naihe2010.github.io/apvlv/",
     "license": "GPL",
     "languages": [ "C++" ],
-    "category": "PDF viewers",
+    "category": "PDF Viewers",
     "type": "apps",
     "comments": [ "remember it being kinda raw, but usable" ],
     "ui": "GTK+"
@@ -599,7 +599,7 @@
     "url": "https://pwmt.org/projects/zathura/",
     "license": "Zlib license",
     "languages": [ "C" ],
-    "category": "PDF viewers",
+    "category": "PDF Viewers",
     "type": "apps",
     "comments": [ "had troubles installing newer version, so using the old one", "search used to be one match at a time, later was changed to whole-document search, which is very slow on huge documents" ],
     "ui": "GTK+"
