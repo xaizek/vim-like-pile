@@ -11,7 +11,7 @@
 <?php foreach ($categories as $category => $items): ?>
 <div class="category"
      id="<?php echo call_user_func($makeHeaderId, $category) ?>">
-    <?php echo $category; ?> (<?php echo sizeof($items); ?>)
+    <?php echo $category; ?>
 </div>
 <div class="islands">
     <?php

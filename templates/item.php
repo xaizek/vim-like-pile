@@ -56,7 +56,6 @@
 
 <div class="completeCategory">
     <?php echo "All items of $item->category category"; ?>
-    (<?php echo sizeof($category); ?>)
 </div>
 <div class="islands">
     <?php
