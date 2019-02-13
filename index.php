@@ -111,6 +111,13 @@ $main->webRoot = '/vim';
 $main->type = $type;
 $main->id = $id;
 
+if ($type == 'about') {
+    $about = new Template('about', $main);
+    $main->content = $about->format();
+    print $main->format();
+    exit;
+}
+
 try {
     $data = new Data('data.json');
 } catch (Exception $e) {

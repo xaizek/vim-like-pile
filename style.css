@@ -5,6 +5,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 15px;
+    padding-left: 110px;
     margin-bottom: 10px;
 }
 
@@ -27,6 +28,27 @@ h1 a {
 }
 
 h1 a:hover {
+    color: #666;
+}
+
+.buttons {
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.button {
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.button a {
+    color: #333;
+}
+
+.button a:hover {
     color: #666;
 }
 
@@ -85,7 +107,7 @@ h1 a:hover {
     margin-left: 10px;
 }
 
-.island, .info {
+.island, .info, .about {
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #999;
     padding: 15px;
@@ -94,7 +116,7 @@ h1 a:hover {
     background-color: #fcfcfc;
 }
 
-.info {
+.info, .about {
     font-size: 1em;
     border: 1px solid black;
     width: 600px;
@@ -102,9 +124,13 @@ h1 a:hover {
     margin: 25px auto;
 }
 
-.info .name {
+.info .name, .about .name {
     font-size: 1.5em;
     text-align: center;
+}
+
+.about .name {
+    margin-bottom: 15px;
 }
 
 .info .descr {

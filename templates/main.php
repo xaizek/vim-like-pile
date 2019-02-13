@@ -6,6 +6,11 @@
 </head>
 
 <body>
+    <div class="buttons">
+        <div class="button">
+            <a href="<?php echo $webRoot; ?>/about">about</a>
+        </div>
+    </div>
     <h1><a href="<?php echo $webRoot; ?>/"><?php echo $title; ?></a></h1>
     <div class="types">
         <span class="type <?php if ($type == 'apps') echo 'currentType'; ?>">
