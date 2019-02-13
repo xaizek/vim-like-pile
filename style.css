@@ -135,10 +135,20 @@ h1 a:hover {
 .category, .completeCategory {
     color: #222;
     border-bottom: 2px solid #222;
-    padding: 2px 5px 5px 8px;
-    margin-top: 8px;
+    padding: 5px 5px 5px 8px;
+    margin-top: 5px;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.category:target {
+    animation-name: highlight-category;
+    animation-duration: 2s;
+}
+
+@keyframes highlight-category {
+    from { background-color: #ff4; }
+    to { background-color: transparent; }
 }
 
 .completeCategory {
