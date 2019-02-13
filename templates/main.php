@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h1><?php echo $title; ?></h1>
+    <h1><a href="<?php echo $webRoot; ?>/"><?php echo $title; ?></a></h1>
     <div class="types">
         <span class="type <?php if ($type == 'apps') echo 'currentType'; ?>">
             <a href="<?php echo $webRoot; ?>/apps">Applications</a></span>
