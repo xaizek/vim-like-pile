@@ -1,5 +1,11 @@
 <?php
 
+$webRoot = '/vim';
+
+if (file_exists(__DIR__ . '/config.php')) {
+    include(__DIR__ . '/config.php');
+}
+
 class Template
 {
     private $vars = array();
@@ -107,7 +113,7 @@ $id = (sizeof($params) > 2 && !empty($params[2]) ? $params[2] : '');
 
 $main = new Template('main');
 $main->title = 'Big List of Vim-like';
-$main->webRoot = '/vim';
+$main->webRoot = $webRoot;
 $main->type = $type;
 $main->id = $id;
 
