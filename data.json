@@ -1363,7 +1363,7 @@
     "languages": [ "C" ],
     "category": "Terminal Multiplexers",
     "type": "apps",
-    "comments": [ "Screen has command classes, which allows implementing modes: https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192" ],
+    "comments": [],
     "ui": "terminal"
 },
 {
