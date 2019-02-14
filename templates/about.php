@@ -26,4 +26,16 @@ E-mail for suggestions/corrections is
 <br/>
 <a href="https://reversed.top/xaizek.asc">public key</a>.
 
+<br/><br/>
+
+<b>Notes on data:</b>
+<ul>
+<li>The descriptions are often taken from corresponding websites and thus might
+    be biased.</li>
+<li>When licenses are listed "GPL" means GPL of any version and "MIT" also
+    means any kind of BSD/X Consortium license. (This might be worth fixing in
+    the future.)</li>
+<li>Some comments might not be extremely accurate or neutral.</li>
+</ul>
+
 </div>
