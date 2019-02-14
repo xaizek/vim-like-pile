@@ -14,6 +14,10 @@ ul {
     padding-left: 25px;
 }
 
+li p {
+    margin: 0px;
+}
+
 a {
     color: #a02020;
     text-decoration: none;

@@ -41,12 +41,16 @@
     </div>
 
     <?php if (!empty($item->comments)): ?>
+    <?php
+    $markdown = new MarkdownExtra();
+    $markdown->no_markup = true;
+    ?>
     <div class="infoItem">
         <span class="infoKey">Notes</span>
         <ul>
         <?php foreach ($item->comments as $comment): ?>
         <li class="comment">
-            <?php echo $comment; ?>
+            <?php echo $markdown->transform($comment); ?>
         </li>
         <?php endforeach ?>
         </ul>

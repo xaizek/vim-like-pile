@@ -67,7 +67,7 @@
     "languages": [ "Python" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "see bizarre claims about software development in FAQ there: https://www.qutebrowser.org/FAQ.html" ],
+    "comments": [ "see bizarre claims about software development in FAQ there: <https://www.qutebrowser.org/FAQ.html>" ],
     "ui": "QtWebEngine and Qt5"
 },
 {
@@ -286,7 +286,7 @@
     "languages": [ "C" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "has several incompatibilities with Vim (like dropped command-line options, no interactivity on `:!`, see https://neovim.io/doc/user/vim_diff.html)", "GUI is implemented in separate projects: https://github.com/neovim/neovim/wiki/Related-projects#gui" ],
+    "comments": [ "has several incompatibilities with Vim (like dropped command-line options, no interactivity on `:!`, see <https://neovim.io/doc/user/vim_diff.html>)", "GUI is implemented in separate projects: <https://github.com/neovim/neovim/wiki/Related-projects#gui>" ],
     "ui": "terminal"
 },
 {
@@ -1135,7 +1135,7 @@
     "languages": [ "C, C++ and Python" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "https://learntemail.sam.today/blog/blender-for-hackers-3d-modeling-is-just-like-using-vim/" ],
+    "comments": [ "<https://learntemail.sam.today/blog/blender-for-hackers-3d-modeling-is-just-like-using-vim/>" ],
     "ui": "OpenGL"
 },
 {
@@ -1351,7 +1351,7 @@
     "languages": [ "C" ],
     "category": "Terminal Multiplexers",
     "type": "apps",
-    "comments": [ "Screen has command classes, which allows implementing modes: https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192" ],
+    "comments": [ "Screen has command classes, which allows implementing modes: <https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192>" ],
     "ui": "terminal"
 },
 {
@@ -1375,7 +1375,7 @@
     "languages": [ "Python" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like editing mode: http://editra.org/vi_emulation" ],
+    "comments": [ "has Vi-like editing mode: <http://editra.org/vi_emulation>" ],
     "ui": "wxWidgets"
 },
 {
@@ -1411,7 +1411,7 @@
     "languages": [ "C++" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like bindings: http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html" ],
+    "comments": [ "has Vi-like bindings: <http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html>" ],
     "ui": "GTK+3"
 },
 {
@@ -1471,7 +1471,7 @@
     "languages": [ "C" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi mode: https://wiki.gnome.org/Apps/Builder/Planning/VIM" ],
+    "comments": [ "has Vi mode: <https://wiki.gnome.org/Apps/Builder/Planning/VIM>" ],
     "ui": "GTK+"
 },
 {
@@ -1483,7 +1483,7 @@
     "languages": [ "C++", "C", "XUL", "Perl", "Python", "JavaScript", "Tcl" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi mode: https://www.activestate.com/blog/komodos-vi-emulation/" ],
+    "comments": [ "has Vi mode: <https://www.activestate.com/blog/komodos-vi-emulation/>" ],
     "ui": "GTK+"
 },
 
@@ -1739,7 +1739,7 @@
     "languages": [ "C++", "Perl" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "looks like it's possible to make it somewhat Vim-like: https://github.com/ervandew/urxvt-vim-scrollback" ],
+    "comments": [ "looks like it's possible to make it somewhat Vim-like: <https://github.com/ervandew/urxvt-vim-scrollback>" ],
     "ui": "X Window System"
 },
 {
@@ -1751,7 +1751,7 @@
     "languages": [ "C" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "bindings can be configured to be like in Vi", "see https://github.com/GermainZ/weechat-vimode" ],
+    "comments": [ "bindings can be configured to be like in Vi", "see <https://github.com/GermainZ/weechat-vimode>" ],
     "ui": "curses"
 },
 {
@@ -1763,7 +1763,7 @@
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "Can be configured to be somewhat Vi-like: http://stackoverflow.com/a/11241095" ],
+    "comments": [ "Can be configured to be somewhat Vi-like: <http://stackoverflow.com/a/11241095>" ],
     "ui": "X Window System and Motif"
 },
 
@@ -1776,7 +1776,7 @@
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "There is a patch for Vi-like keys: https://github.com/spcmd/rtorrent-ps/blob/master/vi_keybindings-spcmd.patch" ],
+    "comments": [ "There is a patch for Vi-like keys: <https://github.com/spcmd/rtorrent-ps/blob/master/vi_keybindings-spcmd.patch>" ],
     "ui": "curses"
 },
 {
@@ -1788,7 +1788,7 @@
     "languages": [ "C" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "There is a patch for Vi-like keys: https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353" ],
+    "comments": [ "There is a patch for Vi-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>" ],
     "ui": "curses"
 },
 

@@ -155,6 +155,8 @@ if ($type == 'search') {
 }
 
 if (!empty($id)) {
+    include(__DIR__ . '/markdown.php');
+
     $item = $data->getItem($id);
     $type = $item->type;
     $main->type = $type;
