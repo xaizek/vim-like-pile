@@ -10,6 +10,9 @@
         <div class="button">
             <a href="<?php echo $webRoot; ?>/about">about</a>
         </div>
+        <div class="button">
+            <a href="<?php echo $webRoot; ?>/search">search</a>
+        </div>
     </div>
     <h1><a href="<?php echo $webRoot; ?>/"><?php echo $title; ?></a></h1>
     <div class="types">

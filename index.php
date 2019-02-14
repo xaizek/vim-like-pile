@@ -132,6 +132,28 @@ try {
     exit;
 }
 
+if ($type == 'search') {
+    $query = (isset($_GET['q']) ? $_GET['q'] : '');
+
+    $search = new Template('search', $main);
+    $search->query = $query;
+
+    $matches = array();
+    if (!empty($query)) {
+        foreach ($data->getAll() as $item) {
+            if (stripos($item->name, $query) !== FALSE ||
+                stripos($item->descr, $query) !== FALSE) {
+                $matches[] = $item;
+            }
+        }
+    }
+    $search->matches = $matches;
+
+    $main->content = $search->format();
+    print $main->format();
+    exit;
+}
+
 if (!empty($id)) {
     $item = $data->getItem($id);
     $type = $item->type;

@@ -5,7 +5,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 15px;
-    padding-left: 110px;
+    padding-left: 210px;
     margin-bottom: 10px;
 }
 
@@ -31,15 +31,39 @@ h1 a:hover {
     color: #666;
 }
 
+form {
+    margin: 0px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #777;
+    padding: 2px;
+}
+
+input[type="submit"] {
+    border: 2px solid #000;
+    background-color: #eee;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 15px;
+}
+
 .buttons {
     float: right;
     margin-right: 10px;
-    width: 100px;
+    width: 200px;
 }
 
 .button {
+    display: inline-block;
     float: right;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -107,7 +131,7 @@ h1 a:hover {
     margin-left: 10px;
 }
 
-.island, .info, .about {
+.island, .info, .about, .search {
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #999;
     padding: 15px;
@@ -116,7 +140,7 @@ h1 a:hover {
     background-color: #fcfcfc;
 }
 
-.info, .about {
+.info, .about, .search {
     font-size: 1em;
     border: 1px solid black;
     width: 600px;
@@ -124,12 +148,18 @@ h1 a:hover {
     margin: 25px auto;
 }
 
-.info .name, .about .name {
+.info .name, .about .name, .search .name {
     font-size: 1.5em;
     text-align: center;
 }
 
-.about .name {
+.about .name, .search .name {
+    margin-bottom: 15px;
+}
+
+.search-info {
+    font-size: 0.9em;
+    text-align: center;
     margin-bottom: 15px;
 }
 
