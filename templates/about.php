@@ -20,7 +20,7 @@ additions/corrections during transformation and then some.
 <br/><br/>
 
 E-mail for suggestions/corrections is
-<a href="mailto:xaizek@posteo.net">xaizek@posteo.net</a>,
+<a href="mailto:xaizek@posteo.net?subject=[vim-like-pile]">xaizek@posteo.net</a>,
 <br/>
 <code>PGP: 2234 9CDB E522 7D21 08A5&nbsp;&nbsp;6677 99DC 5E4D B05F 6BE2</code>,
 <br/>
