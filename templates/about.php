@@ -14,6 +14,11 @@ way.
 
 <br/><br/>
 
+The two versions aren't in perfect sync, this version received some minor
+additions/corrections during transformation and then some.
+
+<br/><br/>
+
 E-mail for suggestions/corrections is
 <a href="mailto:xaizek@posteo.net">xaizek@posteo.net</a>,
 <br/>

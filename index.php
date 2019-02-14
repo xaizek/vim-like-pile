@@ -112,7 +112,7 @@ $type = (sizeof($params) > 1 && !empty($params[1]) ? $params[1] : 'apps');
 $id = (sizeof($params) > 2 && !empty($params[2]) ? $params[2] : '');
 
 $main = new Template('main');
-$main->title = 'Big List of Vim-like';
+$main->title = 'Big Pile of Vim-like';
 $main->webRoot = $webRoot;
 $main->type = $type;
 $main->id = $id;
