@@ -1429,7 +1429,7 @@
 {
     "name": "zsh",
     "id": "zsh",
-    "descr": "An sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh).",
+    "descr": "An extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh.",
     "url": "https://www.zsh.org/",
     "license": "MIT-like",
     "languages": [ "C" ],
