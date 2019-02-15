@@ -232,7 +232,7 @@
 {
     "name": "bvi plus",
     "id": "bvi-plus",
-    "descr": "Fork of bvi with more features.",
+    "descr": "Fork of bvi hex editor with more features.",
     "url": "http://bviplus.sourceforge.net/",
     "license": "GPL",
     "languages": [ "C" ],
