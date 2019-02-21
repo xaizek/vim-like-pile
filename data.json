@@ -242,6 +242,18 @@
     "ui": "curses"
 },
 {
+    "name": "HEdit",
+    "id": "hedit",
+    "descr": "A Vim-like terminal-based hex editor scriptable with JS.",
+    "url": "https://github.com/95ulisse/hedit",
+    "license": "MIT",
+    "languages": [ "C" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ "it seems to be possible to build it without JS" ],
+    "ui": "libtickit"
+},
+{
     "name": "elvis",
     "id": "elvis",
     "descr": "A free Vi clone for Unix and other operating systems.",
@@ -326,6 +338,18 @@
     "ui": "terminal"
 },
 {
+    "name": "rim",
+    "id": "rim",
+    "descr": "Aspiring Vim-like text editor.",
+    "url": "https://github.com/mathall/rim",
+    "license": "MPL",
+    "languages": [ "Rust" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ "looks abandoned" ],
+    "ui": "terminal"
+},
+{
     "name": "spacemacs",
     "id": "spacemacs",
     "descr": "An Emacs-based editor that draws heavily from Vim keybindings.",
@@ -374,6 +398,18 @@
     "ui": "terminal"
 },
 {
+    "name": "vy",
+    "id": "vy",
+    "descr": "A Vim-like modal editor in python made from scratch.",
+    "url": "https://github.com/vyapp/vy",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "Tk"
+},
+{
     "name": "WinVi",
     "id": "winvi",
     "descr": "Vi-like text and hex editor, which also tries to be Notepad compatible.",
@@ -410,6 +446,18 @@
     "ui": "Qt (for editor)"
 },
 
+{
+    "name": "cfiles",
+    "id": "cfiles",
+    "descr": "An ncurses file manager written in C with vim like keybindings.  It aims to provide an interface like ranger while being lightweight, fast and minimal.",
+    "url": "https://github.com/mananapr/cfiles",
+    "license": "MIT",
+    "languages": [ "Go" ],
+    "category": "File Managers",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses"
+},
 {
     "name": "jvifm",
     "id": "jvifm",
@@ -908,6 +956,18 @@
     "type": "plugs",
     "comments": [ ],
     "ui": "Win32"
+},
+{
+    "name": "DrRacket Vim Tool",
+    "id": "drracket-vim-tool",
+    "descr": "Adds vim-like editing to DrRacket.",
+    "url": "https://github.com/takikawa/drracket-vim-tool",
+    "license": "GPL",
+    "languages": [ "Racket" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": ""
 },
 {
     "name": "FakeVim",
@@ -1435,7 +1495,7 @@
     "languages": [ "C" ],
     "category": "Shells",
     "type": "apps",
-    "comments": [ "has Vi-like bindings: bindkey -v" ],
+    "comments": [ "has Vi-like bindings: bindkey -v", "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>", "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>" ],
     "ui": "terminal"
 },
 {
@@ -1585,6 +1645,18 @@
     "ui": "KDE"
 },
 
+{
+    "name": "AppGrid",
+    "id": "appgrid",
+    "descr": "macOS window manager with Vim–like hotkeys.",
+    "url": "https://github.com/sdegutis/AppGrid",
+    "license": "MIT",
+    "languages": [ "Objective-C" ],
+    "category": "Window Managers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "Cocoa"
+},
 {
     "name": "euclid",
     "id": "euclid",
