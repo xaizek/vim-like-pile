@@ -15,7 +15,7 @@
             <form id="search" action="<?php echo $webRoot; ?>/search"
                   method="get">
                 <a href="#">search</a>
-                <input type="search" name="q" placeholder="..." autofocus/>
+                <input type="search" name="q" placeholder="..."/>
             </form>
         </div>
     </div>
