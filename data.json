@@ -224,7 +224,7 @@
     "url": "http://bvi.sourceforge.net/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Editors",
+    "category": "Hex Editors",
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
@@ -236,7 +236,7 @@
     "url": "http://bviplus.sourceforge.net/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Editors",
+    "category": "Hex Editors",
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
@@ -248,7 +248,7 @@
     "url": "https://github.com/95ulisse/hedit",
     "license": "MIT",
     "languages": [ "C" ],
-    "category": "Editors",
+    "category": "Hex Editors",
     "type": "apps",
     "comments": [ "it seems to be possible to build it without JS" ],
     "ui": "libtickit"
