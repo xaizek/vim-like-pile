@@ -121,7 +121,7 @@
 {
     "name": "xombrero",
     "id": "xombrero",
-    "descr": "A minimalist's Web browser, which strives to be Vi-like for heavy keyboard users while maintaining traditional Web browser behavior.",
+    "descr": "A minimalist's Web browser, which strives to be Vim-like for heavy keyboard users while maintaining traditional Web browser behavior.",
     "url": "https://github.com/conformal/xombrero",
     "license": "ISC",
     "languages": [ "C" ],
@@ -140,7 +140,7 @@
     "languages": [ "C" ],
     "category": "Text Browsers",
     "type": "apps",
-    "comments": [ "has Vi-like mode (`-vikeys` command-line option)" ],
+    "comments": [ "has Vim-like mode (`-vikeys` command-line option)" ],
     "ui": ""
 },
 {
@@ -412,7 +412,7 @@
 {
     "name": "WinVi",
     "id": "winvi",
-    "descr": "Vi-like text and hex editor, which also tries to be Notepad compatible.",
+    "descr": "Vim-like text and hex editor, which also tries to be Notepad compatible.",
     "url": "http://winvi.de",
     "license": "GPL",
     "languages": [ "C" ],
@@ -461,7 +461,7 @@
 {
     "name": "jvifm",
     "id": "jvifm",
-    "descr": "A try of implementing graphical Vi-like file manager in Java.",
+    "descr": "A try of implementing graphical Vim-like file manager in Java.",
     "url": "https://sourceforge.net/projects/jvifm/",
     "license": "GPL",
     "languages": [ "Java" ],
@@ -564,13 +564,13 @@
     "languages": [ "C" ],
     "category": "Music Players",
     "type": "apps",
-    "comments": [ "uses mplayer to play the music", "main controls aren't very Vi-like" ],
+    "comments": [ "uses mplayer to play the music", "main controls aren't very Vim-like" ],
     "ui": "curses"
 },
 {
     "name": "pms",
     "id": "pms",
-    "descr": "Probably the most Vi-like music player (MPD client).",
+    "descr": "Probably the most Vim-like music player (MPD client).",
     "url": "https://ambientsound.github.io/pms/",
     "license": "GPL",
     "languages": [ "C++" ],
@@ -594,7 +594,7 @@
 {
     "name": "vimpc",
     "id": "vimpc",
-    "descr": "Client for mpd with Vi-like key bindings.",
+    "descr": "Client for mpd with Vim-like key bindings.",
     "url": "https://github.com/boysetsfrog/vimpc",
     "license": "GPL",
     "languages": [ "C++" ],
@@ -618,7 +618,7 @@
 {
     "name": "vitunes",
     "id": "vitunes",
-    "descr": "Console playlist/music database manager with Vi-like bindings.",
+    "descr": "Console playlist/music database manager with Vim-like bindings.",
     "url": "http://vitunes.org",
     "license": "MIT",
     "languages": [ "C" ],
@@ -1213,7 +1213,7 @@
 {
     "name": "less",
     "id": "less",
-    "descr": "Its controls are Vi-like.",
+    "descr": "Its controls are Vim-like.",
     "url": "https://en.wikipedia.org/wiki/Less_(Unix)",
     "license": "GPL",
     "languages": [ "C" ],
@@ -1345,7 +1345,7 @@
 {
     "name": "TuDu",
     "id": "tudu",
-    "descr": "Vi-like TODO manager.",
+    "descr": "Vim-like TODO manager.",
     "url": "http://code.meskio.net/tudu/",
     "license": "GPL",
     "languages": [ "C++" ],
@@ -1357,7 +1357,7 @@
 {
     "name": "vchatter",
     "id": "vchatter",
-    "descr": "Vi-like jabber client.",
+    "descr": "Vim-like jabber client.",
     "url": "http://vchatter.sourceforge.net/",
     "license": "",
     "languages": [ "C++" ],
@@ -1405,7 +1405,7 @@
 {
     "name": "GNU Screen",
     "id": "gnu-screen",
-    "descr": "This terminal multiplexer can be configured to use some Vi-like keys, it also has command-line mode.",
+    "descr": "This terminal multiplexer can be configured to use some Vim-like keys, it also has command-line mode.",
     "url": "https://www.gnu.org/software/screen/",
     "license": "GPL",
     "languages": [ "C" ],
@@ -1417,7 +1417,7 @@
 {
     "name": "tmux",
     "id": "tmux",
-    "descr": "This terminal multiplexer can be configured to use some Vi-like keys, it also has command-line mode.",
+    "descr": "This terminal multiplexer can be configured to use some Vim-like keys, it also has command-line mode.",
     "url": "https://tmux.github.io/",
     "license": "MIT",
     "languages": [ "C" ],
@@ -1435,7 +1435,7 @@
     "languages": [ "Python" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like editing mode: <http://editra.org/vi_emulation>" ],
+    "comments": [ "has Vim-like editing mode: <http://editra.org/vi_emulation>" ],
     "ui": "wxWidgets"
 },
 {
@@ -1447,7 +1447,7 @@
     "languages": [ ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like editing mode", "previously known as Visual SlickEdit" ],
+    "comments": [ "has Vim-like editing mode", "previously known as Visual SlickEdit" ],
     "ui": ""
 },
 {
@@ -1459,7 +1459,7 @@
     "languages": [ "C++" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like editing mode" ],
+    "comments": [ "has Vim-like editing mode" ],
     "ui": "KDE"
 },
 {
@@ -1471,7 +1471,7 @@
     "languages": [ "C++" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "has Vi-like bindings: <http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html>" ],
+    "comments": [ "has Vim-like bindings: <http://recycledelectron.blogspot.com/2009/01/vi-and-emacs-key-bindings-in-abiword.html>" ],
     "ui": "GTK+3"
 },
 {
@@ -1483,7 +1483,7 @@
     "languages": [ "C" ],
     "category": "Shells",
     "type": "apps",
-    "comments": [ "has Vi-like bindings: set -o vi", "you can see current mode by adding `set show-mode-in-prompt On` to `~/.inputrc`" ],
+    "comments": [ "has Vim-like bindings: set -o vi", "you can see current mode by adding `set show-mode-in-prompt On` to `~/.inputrc`" ],
     "ui": "terminal"
 },
 {
@@ -1495,7 +1495,7 @@
     "languages": [ "C" ],
     "category": "Shells",
     "type": "apps",
-    "comments": [ "has Vi-like bindings: bindkey -v", "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>", "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>" ],
+    "comments": [ "has Vim-like bindings: bindkey -v", "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>", "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>" ],
     "ui": "terminal"
 },
 {
@@ -1507,7 +1507,7 @@
     "languages": [ "C" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "add `set editing-mode vi` to `~/.inputrc` to enables Vi-like mode in all applications that use readline" ],
+    "comments": [ "add `set editing-mode vi` to `~/.inputrc` to enables Vim-like mode in all applications that use readline" ],
     "ui": "terminal"
 },
 {
@@ -1629,7 +1629,7 @@
     "languages": [ "C" ],
     "category": "Document Viewers",
     "type": "confs",
-    "comments": [ "bindings are relatively Vi-like" ],
+    "comments": [ "bindings are relatively Vim-like" ],
     "ui": "Various"
 },
 {
@@ -1769,7 +1769,7 @@
 {
     "name": "rekonq",
     "id": "rekonq",
-    "descr": "A Web browser for KDE based on WebKit.  Has basic Vi-like keys.",
+    "descr": "A Web browser for KDE based on WebKit.  Has basic Vim-like keys.",
     "url": "https://rekonq.kde.org/",
     "license": "GPL",
     "languages": [ "C++" ],
@@ -1781,7 +1781,7 @@
 {
     "name": "rexima",
     "id": "rexima",
-    "descr": "Vi-like audio-mixer alternative to alsamixer.",
+    "descr": "Vim-like audio-mixer alternative to alsamixer.",
     "url": "http://www.svgalib.org/rus/rexima.html",
     "license": "GPL",
     "languages": [ "C" ],
@@ -1835,7 +1835,7 @@
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "Can be configured to be somewhat Vi-like: <http://stackoverflow.com/a/11241095>" ],
+    "comments": [ "Can be configured to be somewhat Vim-like: <http://stackoverflow.com/a/11241095>" ],
     "ui": "X Window System and Motif"
 },
 
@@ -1848,7 +1848,7 @@
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "There is a patch for Vi-like keys: <https://github.com/spcmd/rtorrent-ps/blob/master/vi_keybindings-spcmd.patch>" ],
+    "comments": [ "There is a patch for Vim-like keys: <https://github.com/spcmd/rtorrent-ps/blob/master/vi_keybindings-spcmd.patch>" ],
     "ui": "curses"
 },
 {
@@ -1860,7 +1860,7 @@
     "languages": [ "C" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "There is a patch for Vi-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>" ],
+    "comments": [ "There is a patch for Vim-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>" ],
     "ui": "curses"
 },
 
@@ -1873,7 +1873,7 @@
     "languages": [ "Perl", "JavaScript", "Python" ],
     "category": "Sites",
     "type": "confs",
-    "comments": [ "Somewhat Vi-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
+    "comments": [ "Somewhat Vim-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
     "ui": "web"
 },
 {
@@ -1885,7 +1885,7 @@
     "languages": [ "Ruby", "C" ],
     "category": "Sites",
     "type": "confs",
-    "comments": [ "Somewhat Vi-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
+    "comments": [ "Somewhat Vim-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
     "ui": "web"
 },
 {
@@ -1897,7 +1897,7 @@
     "languages": [ "Java" ],
     "category": "Sites",
     "type": "confs",
-    "comments": [ "Somewhat Vi-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
+    "comments": [ "Somewhat Vim-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
     "ui": "web"
 },
 {
@@ -1909,7 +1909,7 @@
     "languages": [ ],
     "category": "Sites",
     "type": "confs",
-    "comments": [ "Somewhat Vi-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
+    "comments": [ "Somewhat Vim-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
     "ui": "web"
 }
 
