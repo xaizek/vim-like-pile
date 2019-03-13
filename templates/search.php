@@ -7,7 +7,7 @@ The search is over names and descriptions of all items.
 </div>
 
 <form action="<?php echo $webRoot; ?>/search" method="get">
-<input type="text" name="q" value="<?php echo $query ?>" autofocus/>
+<input type="search" name="q" value="<?php echo $query ?>" autofocus required/>
 <div class="submit"><input type="submit" value="Find"/></div>
 </form>
 

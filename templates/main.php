@@ -11,7 +11,12 @@
             <a href="<?php echo $webRoot; ?>/about">about</a>
         </div>
         <div class="button">
-            <a href="<?php echo $webRoot; ?>/search">search</a>
+            <a href="#search">search</a>
+            <form id="search" action="<?php echo $webRoot; ?>/search"
+                  method="get">
+                <a href="#">search</a>
+                <input type="search" name="q" placeholder="..." autofocus/>
+            </form>
         </div>
     </div>
     <h1><a href="<?php echo $webRoot; ?>/"><?php echo $title; ?></a></h1>

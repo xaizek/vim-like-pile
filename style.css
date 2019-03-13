@@ -5,7 +5,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 15px;
-    padding-left: 210px;
+    padding-left: 260px;
     margin-bottom: 10px;
 }
 
@@ -39,7 +39,7 @@ form {
     margin: 0px;
 }
 
-input[type="text"] {
+input[type="search"] {
     width: 100%;
     border: 2px solid #777;
     padding: 2px;
@@ -60,7 +60,7 @@ input[type="submit"] {
 .buttons {
     float: right;
     margin-right: 10px;
-    width: 200px;
+    width: 250px;
 }
 
 .button {
@@ -204,6 +204,22 @@ input[type="submit"] {
 .category:target {
     animation-name: highlight-category;
     animation-duration: 2s;
+}
+
+#search {
+    display: none;
+}
+
+#search:target {
+    display: inline-block;
+    padding-top: 15px;
+    margin-top: -20px;
+    margin-left: -150px;
+}
+
+#search input[type="search"] {
+    display: inline-block;
+    width: 100px;
 }
 
 @keyframes highlight-category {
