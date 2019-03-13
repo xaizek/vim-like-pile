@@ -71,6 +71,8 @@ class Data
     }
 
     private function getData($path) {
+        global $webRoot;
+
         $fp = fopen("$path.cached", 'r');
         if ($fp !== FALSE) {
             $json = fread($fp, filesize("$path.cached"));
@@ -90,9 +92,15 @@ class Data
             throw new Exception('Decoding has failed');
         }
 
+        $predef_urls = array();
+        foreach ($data->items as $item) {
+            $predef_urls[$item->id] = "$webRoot/item/$item->id";
+        }
+
         include(__DIR__ . '/markdown.php');
         $markdown = new MarkdownExtra();
         $markdown->no_markup = true;
+        $markdown->predef_urls = $predef_urls;
 
         foreach ($data->items as $item) {
             $item->descr = $markdown->transform($item->descr);

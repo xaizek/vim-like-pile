@@ -13,7 +13,7 @@
 {
     "name": "Cream-Browser",
     "id": "cream-browser",
-    "descr": "A Vim-like lightweight Web browser with Vimperator interface.",
+    "descr": "A Vim-like lightweight Web browser with [Vimperator] interface.",
     "url": "https://sourceforge.net/projects/cream-browser/",
     "license": "GPL",
     "languages": [ "C" ],
@@ -37,7 +37,7 @@
 {
     "name": "jumanji",
     "id": "jumanji",
-    "descr": "The idea behind jumanji is a Web browser that provides a minimalistic and space saving interface as well as an easy usage that mainly focuses on keyboard interaction like Vimperator does.",
+    "descr": "The idea behind jumanji is a Web browser that provides a minimalistic and space saving interface as well as an easy usage that mainly focuses on keyboard interaction like [Vimperator] does.",
     "url": "http://pwmt.org/projects/jumanji",
     "license": "MIT",
     "languages": [ "C" ],
@@ -97,7 +97,7 @@
 {
     "name": "Vimprobable",
     "id": "vimprobable",
-    "descr": "A lean stand-alone web browser optimised for full keyboard control (inspired by Vimperator).",
+    "descr": "A lean stand-alone web browser optimised for full keyboard control (inspired by [Vimperator]).",
     "url": "https://sourceforge.net/projects/vimprobable/",
     "license": "MIT",
     "languages": [ "C" ],
@@ -158,7 +158,7 @@
 {
     "name": "w3m",
     "id": "w3m",
-    "descr": "w3m is a text-based Web browser as well as a pager like `more' or `less'.",
+    "descr": "w3m is a text-based Web browser as well as a pager like more or [less].",
     "url": "http://w3m.sourceforge.net/",
     "license": "MIT",
     "languages": [ "C" ],
@@ -207,7 +207,7 @@
 {
     "name": "wyrd",
     "id": "wyrd",
-    "descr": "A text-based front-end to remind, a sophisticated calendar and alarm program.",
+    "descr": "A text-based front-end to [remind](https://dianne.skoll.ca/projects/remind/), a sophisticated calendar and alarm program.",
     "url": "https://launchpad.net/wyrd",
     "license": "GPL",
     "languages": [ "OCaml" ],
@@ -232,7 +232,7 @@
 {
     "name": "bvi plus",
     "id": "bvi-plus",
-    "descr": "Fork of bvi hex editor with more features.",
+    "descr": "Fork of [bvi] hex editor with more features.",
     "url": "http://bviplus.sourceforge.net/",
     "license": "GPL",
     "languages": [ "C" ],
@@ -449,7 +449,7 @@
 {
     "name": "cfiles",
     "id": "cfiles",
-    "descr": "An ncurses file manager written in C with vim like keybindings.  It aims to provide an interface like ranger while being lightweight, fast and minimal.",
+    "descr": "An ncurses file manager written in C with vim like keybindings.  It aims to provide an interface like [ranger] while being lightweight, fast and minimal.",
     "url": "https://github.com/mananapr/cfiles",
     "license": "MIT",
     "languages": [ "Go" ],
@@ -473,7 +473,7 @@
 {
     "name": "lf",
     "id": "lf",
-    "descr": "Terminal file manager, which is a clone of ranger.",
+    "descr": "Terminal file manager, which is a clone of [ranger].",
     "url": "https://github.com/gokcehan/lf",
     "license": "MIT",
     "languages": [ "C" ],
@@ -521,7 +521,7 @@
 {
     "name": "Vide",
     "id": "vide",
-    "descr": "A graphical predecessor of vifm.",
+    "descr": "A graphical predecessor of [vifm].",
     "url": "https://github.com/xaizek/vide",
     "license": "GPL",
     "languages": [ "C" ],
@@ -533,7 +533,7 @@
 {
     "name": "vifm",
     "id": "vifm",
-    "descr": "File manager with Vi like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt.",
+    "descr": "File manager with Vim-like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt.",
     "url": "https://vifm.info",
     "license": "GPL",
     "languages": [ "C" ],
@@ -747,7 +747,7 @@
     "languages": [ "JavaScript/CoffeeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 {
@@ -771,7 +771,7 @@
     "languages": [ "JavaScript/CoffeeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 {
@@ -783,7 +783,7 @@
     "languages": [ "JavaScript/CoffeeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 {
@@ -795,7 +795,7 @@
     "languages": [ "JavaScript/CoffeeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 {
@@ -807,7 +807,7 @@
     "languages": [ "JavaScript/CoffeeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 
@@ -820,7 +820,7 @@
     "languages": [ "js probably" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "if I get it right, it's nowhere near Vimperator/Pentodactyl" ],
+    "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
 
@@ -1044,7 +1044,7 @@
 {
     "name": "Sublime Six",
     "id": "sublime-six",
-    "descr": "Successor of Vintageous plugin for Sublime Text.",
+    "descr": "Successor of [Vintageous] plugin for Sublime Text.",
     "url": "http://www.sublimesix.com/",
     "license": "Proprietary",
     "languages": [ "Python" ],
@@ -1249,7 +1249,7 @@
 {
     "name": "newsbeuter",
     "id": "newsbeuter",
-    "descr": "The Mutt of RSS feed readers.",
+    "descr": "The [Mutt] of RSS feed readers.",
     "url": "https://newsbeuter.org/",
     "license": "MIT",
     "languages": [ "C++" ],
@@ -1297,7 +1297,7 @@
 {
     "name": "sc-im",
     "id": "sc-im",
-    "descr": "Improved version of sc.",
+    "descr": "Improved version of [sc].",
     "url": "https://github.com/andmarti1424/sc-im",
     "license": "MIT",
     "languages": [ "C" ],
@@ -1369,7 +1369,7 @@
 {
     "name": "ViPaint",
     "id": "vipaint",
-    "descr": "A modal, Vi like painting program.",
+    "descr": "A modal, Vim-like painting program.",
     "url": "https://gitlab.com/jgkamat/ViPaint",
     "license": "GPL",
     "languages": [ "Java" ],
@@ -1465,7 +1465,7 @@
 {
     "name": "AbiWord",
     "id": "abiword",
-    "descr": "AbiWord is a free word processing program similar to Microsoft® Word. It is suitable for a wide variety of word processing tasks.",
+    "descr": "AbiWord is a free word processing program similar to Microsoft Word. It is suitable for a wide variety of word processing tasks.",
     "url": "https://www.abisource.com/",
     "license": "GPL",
     "languages": [ "C++" ],
