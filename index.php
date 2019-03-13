@@ -44,11 +44,7 @@ class Data
     private $byId = array();
 
     public function __construct($path) {
-        $fp = fopen($path, 'r');
-        $json = fread($fp, filesize($path));
-        fclose($fp);
-
-        $data = json_decode($json);
+        $data = json_decode($this->getData($path));
         if ($data === null) {
             throw new Exception('Decoding has failed');
         }
@@ -72,6 +68,45 @@ class Data
             }
             return $result;
         });
+    }
+
+    private function getData($path) {
+        $fp = fopen("$path.cached", 'r');
+        if ($fp !== FALSE) {
+            $json = fread($fp, filesize("$path.cached"));
+            fclose($fp);
+            return $json;
+        }
+
+        $fp = fopen($path, 'r');
+        $json = fread($fp, filesize($path));
+        fclose($fp);
+        if ($json === FALSE) {
+            return $json;
+        }
+
+        $data = json_decode($json);
+        if ($data === null) {
+            throw new Exception('Decoding has failed');
+        }
+
+        include(__DIR__ . '/markdown.php');
+        $markdown = new MarkdownExtra();
+        $markdown->no_markup = true;
+
+        foreach ($data->items as $item) {
+            $item->descr = $markdown->transform($item->descr);
+            foreach ($item->comments as &$comment) {
+                $comment = $markdown->transform($comment);
+            }
+        }
+
+        $json = json_encode($data);
+        $fp = fopen("$path.cached", 'w');
+        fwrite($fp, $json);
+        fclose($fp);
+
+        return $json;
     }
 
     public function getAll() {
@@ -155,8 +190,6 @@ if ($type == 'search') {
 }
 
 if (!empty($id)) {
-    include(__DIR__ . '/markdown.php');
-
     $item = $data->getItem($id);
     $type = $item->type;
     $main->type = $type;
