@@ -59,6 +59,18 @@
     "ui": "WebKit and GTK+"
 },
 {
+    "name": "next",
+    "id": "next",
+    "descr": "A keyboard-oriented, extensible web-browser designed for power users.",
+    "url": "https://github.com/atlas-engineer/next",
+    "license": "MIT",
+    "languages": [ "Common Lisp" ],
+    "category": "Graphical Browsers",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "WebKit or WebEngine/Blink, Qt or GTK+"
+},
+{
     "name": "qutebrowser",
     "id": "qutebrowser",
     "descr": "Qutebrowser is a keyboard-focused browser with a minimal GUI.",
@@ -1560,6 +1572,18 @@
     "ui": "X Window System"
 },
 {
+    "name": "imv",
+    "id": "imv",
+    "descr": "A command line image viewer intended for use with tiling window managers.",
+    "url": "https://github.com/eXeC64/imv",
+    "license": "MIT",
+    "languages": [ "C" ],
+    "category": "Image Viewers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "X Window System or Wayland"
+},
+{
     "name": "pim",
     "id": "pim",
     "descr": "Python image viewer with Vim-like keybindings.",
@@ -1692,6 +1716,18 @@
     "type": "confs",
     "comments": [ "it seems to be possible to define Vim-like modes and there are some predefined ones" ],
     "ui": "X Window System"
+},
+{
+    "name": "sway",
+    "id": "sway",
+    "descr": "An i3-compatible Wayland compositor.",
+    "url": "https://swaywm.org/",
+    "license": "MIT",
+    "languages": [ "C" ],
+    "category": "Window Managers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "Wayland"
 },
 {
     "name": "wmii",
