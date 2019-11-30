@@ -837,6 +837,31 @@
 },
 
 {
+    "name": "Krabby",
+    "id": "krabby",
+    "descr": "A keyboard interface to the web, inspired by Kakoune.",
+    "url": "https://krabby.netlify.com/",
+    "license": "Unlicense",
+    "languages": [ "JavaScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "web"
+},
+{
+    "name": "Saka Key",
+    "id": "saka-key",
+    "descr": "A browser extension that lets you map keys on your keyboard to common browser tasks.",
+    "url": "https://key.saka.io/",
+    "license": "MIT",
+    "languages": [ "JavaScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ "Initial mappings aren't exactly as in Vim, but they seem to be configurable." ],
+    "ui": "web"
+},
+
+{
     "name": "Eclim",
     "id": "eclim",
     "descr": "Two-way integration between Eclipse IDE and Vim.",
