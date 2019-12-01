@@ -842,10 +842,10 @@
     "descr": "A keyboard interface to the web, inspired by Kakoune.",
     "url": "https://krabby.netlify.com/",
     "license": "Unlicense",
-    "languages": [ "JavaScript" ],
+    "languages": [ "JavaScript", "Crystal" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ ],
+    "comments": [ "Crystal there is for the native part." ],
     "ui": "web"
 },
 {
