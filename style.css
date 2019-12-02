@@ -144,6 +144,10 @@ input[type="submit"] {
     background-color: #fcfcfc;
 }
 
+.island {
+    overflow-wrap: break-word;
+}
+
 .info, .about, .search {
     font-size: 1em;
     border: 1px solid black;
