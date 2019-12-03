@@ -193,6 +193,18 @@
     "ui": "tcell"
 },
 {
+    "name": "meli",
+    "id": "meli",
+    "descr": "Experimental terminal mail client with features similar to GUI clients.",
+    "url": "https://meli.delivery/",
+    "license": "GPL",
+    "languages": [ "rust" ],
+    "category": "E-mail related",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "termion"
+},
+{
     "name": "mutt",
     "id": "mutt",
     "descr": "Mutt is a small but very powerful text-based mail client for Unix operating systems.",
