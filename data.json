@@ -181,6 +181,18 @@
 },
 
 {
+    "name": "aerc",
+    "id": "aerc",
+    "descr": "Highly efficient and extensible terminal email client.",
+    "url": "https://aerc-mail.org/",
+    "license": "MIT",
+    "languages": [ "Go" ],
+    "category": "E-mail related",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "tcell"
+},
+{
     "name": "mutt",
     "id": "mutt",
     "descr": "Mutt is a small but very powerful text-based mail client for Unix operating systems.",
