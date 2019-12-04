@@ -195,14 +195,14 @@
 {
     "name": "meli",
     "id": "meli",
-    "descr": "Experimental terminal mail client with features similar to GUI clients.",
+    "descr": "Experimental terminal mail client aiming for configurability and extensibility with sane defaults.",
     "url": "https://meli.delivery/",
     "license": "GPL",
     "languages": [ "rust" ],
     "category": "E-mail related",
     "type": "apps",
     "comments": [ ],
-    "ui": "termion"
+    "ui": "terminal"
 },
 {
     "name": "mutt",
