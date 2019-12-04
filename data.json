@@ -531,6 +531,18 @@
     "ui": "curses"
 },
 {
+    "name": "hunter",
+    "id": "hunter",
+    "descr": "ranger-like file browser, but a little more Emacs-flavoured.",
+    "url": "https://github.com/rabite0/hunter/",
+    "license": "WTFPL",
+    "languages": [ "Rust" ],
+    "category": "File Managers",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal"
+},
+{
     "name": "ranger",
     "id": "ranger",
     "descr": "A console file manager with Vi key bindings, includes application association guessing tool.",
@@ -1308,6 +1320,18 @@
     "ui": "ncurses"
 },
 {
+    "name": "stig",
+    "id": "stig",
+    "descr": "TUI and CLI for the BitTorrent client Transmission.",
+    "url": "https://github.com/rndusr/stig",
+    "license": "GPL",
+    "languages": [ "Python" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "Urwid"
+},
+{
     "name": "newsbeuter",
     "id": "newsbeuter",
     "descr": "The [Mutt] of RSS feed readers.",
@@ -1798,6 +1822,18 @@
     "url": "http://calcurse.org/",
     "license": "MIT",
     "languages": [ "C" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
+    "name": "nnn",
+    "id": "nnn",
+    "descr": "A tiny full-featured terminal file manager.",
+    "url": "https://github.com/jarun/nnn",
+    "license": "MIT",
+    "languages": [ "C", "Shell" ],
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ ],
