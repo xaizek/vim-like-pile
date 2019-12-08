@@ -1380,6 +1380,18 @@
     "ui": "curses"
 },
 {
+    "name": "PyRadio",
+    "id": "pyradio",
+    "descr": "A console based Internet radio player that uses players as back-end.",
+    "url": "http://www.coderholic.com/pyradio/",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ "supports both Python2 and Python3" ],
+    "ui": "curses"
+},
+{
     "name": "sc",
     "id": "sc",
     "descr": "Terminal spreadsheet editor.",
