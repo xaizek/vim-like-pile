@@ -290,6 +290,18 @@
     "ui": "libtickit"
 },
 {
+    "name": "hexer",
+    "id": "hexer",
+    "descr": "A multi-buffer editor for viewing and manipulating binary files.",
+    "url": "https://devel.ringlet.net/editors/hexer/",
+    "license": "MIT",
+    "languages": [ "C" ],
+    "category": "Hex Editors",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal"
+},
+{
     "name": "elvis",
     "id": "elvis",
     "descr": "A free Vi clone for Unix and other operating systems.",
