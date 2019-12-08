@@ -1296,6 +1296,18 @@
     "ui": "ncurses"
 },
 {
+    "name": "cointop",
+    "id": "cointop",
+    "descr": "A fast and lightweight interactive terminal based UI application for tracking and monitoring cryptocurrency coin stats in real-time.",
+    "url": "https://github.com/miguelmota/cointop",
+    "license": "Apache 2.0",
+    "languages": [ "Go" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "termui"
+},
+{
     "name": "less",
     "id": "less",
     "descr": "Its controls are Vim-like.",
