@@ -889,7 +889,7 @@
     "id": "wasavi",
     "descr": "An extension for Chrome, Opera and Firefox that transforms textarea element of any page into a VI editor.",
     "url": "http://appsweets.net/wasavi/",
-    "license": "",
+    "license": "Apache 2.0",
     "languages": [ "JavaScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
