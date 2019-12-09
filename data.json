@@ -1393,6 +1393,18 @@
     "ui": "GTK+"
 },
 {
+    "name": "pineapple-tracker",
+    "id": "pineapple-tracker",
+    "descr": "A console-based sequencer with a vi-style UI.",
+    "url": "https://github.com/pineapple-tracker/pineapple-tracker",
+    "license": "WTFPL",
+    "languages": [ "C" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
     "name": "pipedial",
     "id": "pipedial",
     "descr": "One more tool for selecting something in console.",
