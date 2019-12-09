@@ -1297,6 +1297,18 @@
     "ui": "OpenGL"
 },
 {
+    "name": "Bombadillo",
+    "id": "bombadillo",
+    "descr": "A non-web browser, designed for a growing list of protocols operating outside of the web.",
+    "url": "http://bombadillo.colorfield.space/",
+    "license": "GPL",
+    "languages": [ "Go" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal"
+},
+{
     "name": "cgdb",
     "id": "cgdb",
     "descr": "Console front-end to the GNU debugger.",
