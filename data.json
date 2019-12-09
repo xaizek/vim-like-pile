@@ -885,6 +885,19 @@
 },
 
 {
+    "name": "wasavi",
+    "id": "wasavi",
+    "descr": "An extension for Chrome, Opera and Firefox that transforms textarea element of any page into a VI editor.",
+    "url": "http://appsweets.net/wasavi/",
+    "license": "",
+    "languages": [ "JavaScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "web"
+},
+
+{
     "name": "Krabby",
     "id": "krabby",
     "descr": "A keyboard interface to the web, inspired by Kakoune.",
