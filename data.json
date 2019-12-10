@@ -254,6 +254,18 @@
 },
 
 {
+    "name": "Amp",
+    "id": "amp",
+    "descr": "A complete text editor for your terminal.",
+    "url": "https://amp.rs/",
+    "license": "GPL",
+    "languages": [ "Rust" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ "Makes one think of things like Sublime and SpaceVim." ],
+    "ui": "terminal"
+},
+{
     "name": "bvi",
     "id": "bvi",
     "descr": "A display-oriented editor for binary files (hex editor).",
