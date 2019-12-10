@@ -1248,6 +1248,18 @@
     "ui": ""
 },
 {
+    "name": "VSCodeVim",
+    "id": "vscodevim",
+    "descr": "A Vim emulator for Visual Studio Code.",
+    "url": "https://github.com/VSCodeVim/Vim",
+    "license": "MIT",
+    "languages": [ "TypeScript" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": ""
+},
+{
     "name": "VsVim",
     "id": "vsvim",
     "descr": "Vim emulation layer for Visual Studio.",
