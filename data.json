@@ -1417,6 +1417,18 @@
     "ui": "curses"
 },
 {
+    "name": "Newsboat",
+    "id": "newsboat",
+    "descr": "An RSS/Atom feed reader for the text console (a fork of Newsbeuter).",
+    "url": "https://newsboat.org/",
+    "license": "MIT",
+    "languages": [ "C++", "Rust" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
     "name": "PIDA",
     "id": "pida",
     "descr": "An IDE that allows integration of Vim/Emacs as editor.",
