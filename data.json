@@ -1260,6 +1260,18 @@
     "ui": ""
 },
 {
+    "name": "VimNavigation",
+    "id": "vimnavigation",
+    "descr": "fman plugin for Vim key style navigation.",
+    "url": "https://github.com/raguay/VimNavigation",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ "fman is a proprietary application." ],
+    "ui": ""
+},
+{
     "name": "ViTunes",
     "id": "vitunes-itunes",
     "descr": "A Vim plugin that allows you to control iTunes.",
