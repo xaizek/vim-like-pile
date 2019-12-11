@@ -1537,6 +1537,18 @@
     "ui": "curses"
 },
 {
+    "name": "Taskell",
+    "id": "taskell",
+    "descr": "Command-line Kanban board/task manager with support for Trello boards and GitHub projects.",
+    "url": "https://taskell.app/",
+    "license": "MIT",
+    "languages": [ "Haskell" ],
+    "category": "TODO and Notes",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal"
+},
+{
     "name": "TuDu",
     "id": "tudu",
     "descr": "Vim-like TODO manager.",
