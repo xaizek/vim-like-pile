@@ -1104,6 +1104,18 @@
     "ui": "SWT"
 },
 {
+    "name": "inkdrop-vim",
+    "id": "inkdrop-vim",
+    "descr": "Provides Vim modal control for [Inkdrop](https://inkdrop.app/), blending the best of Vim and Inkdrop.",
+    "url": "https://github.com/inkdropapp/inkdrop-vim",
+    "license": "MIT",
+    "languages": [ "JavaScript" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "Web"
+},
+{
     "name": "jVi",
     "id": "jvi",
     "descr": "NetBeans IDE Vim-like plugin.",
