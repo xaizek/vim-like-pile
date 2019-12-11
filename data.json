@@ -1417,6 +1417,18 @@
     "ui": "ncurses"
 },
 {
+    "name": "Snipline",
+    "id": "snipline",
+    "descr": "A developer tool for organizing shell commands.",
+    "url": "https://snipline.io/",
+    "license": "Proprietary",
+    "languages": [ ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": ""
+},
+{
     "name": "stig",
     "id": "stig",
     "descr": "TUI and CLI for the BitTorrent client Transmission.",
