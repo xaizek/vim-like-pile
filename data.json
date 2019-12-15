@@ -1116,6 +1116,18 @@
     "ui": "Web"
 },
 {
+    "name": "irsii vim-mode",
+    "id": "irsii-vim-mode",
+    "descr": "An [Irssi](https://irssi.org/) script to emulate some of the vi(m) features for the Irssi inputline.",
+    "url": "https://github.com/shabble/irssi-scripts/tree/master/vim-mode",
+    "license": "MIT",
+    "languages": [ "Perl" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": ""
+},
+{
     "name": "jVi",
     "id": "jvi",
     "descr": "NetBeans IDE Vim-like plugin.",
