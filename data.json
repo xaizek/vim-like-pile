@@ -791,7 +791,7 @@
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
     "url": "https://github.com/ueokande/vim-vixen",
     "license": "MIT",
-    "languages": [ "js probably" ],
+    "languages": [ "TypeScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ ],
