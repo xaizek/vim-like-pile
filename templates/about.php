@@ -32,9 +32,9 @@ E-mail for suggestions/corrections is
 <ul>
 <li>The descriptions are often taken from corresponding websites and thus might
     be biased.</li>
-<li>When licenses are listed "GPL" means GPL of any version and "MIT" also
-    means any kind of BSD/X Consortium license. (This might be worth fixing in
-    the future.)</li>
+<li>When licenses are listed "GPL" means GPL of any version and "BSD-like"
+    means any kind of BSD/MIT/X Consortium license. (This might be worth fixing
+    in the future.)</li>
 <li>Some comments might not be extremely accurate or neutral.</li>
 </ul>
 
