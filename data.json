@@ -448,7 +448,7 @@
 {
     "name": "vis",
     "id": "vis",
-    "descr": "A Vim-like text editor.",
+    "descr": "A Vim-like editor based on Plan 9's structural regular expressions.",
     "url": "https://github.com/martanne/vis",
     "license": "ISC",
     "languages": [ "C + Lua" ],
