@@ -346,7 +346,7 @@
     "languages": [ "C++" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "not really Vim-like judging by examples in the Readme" ],
+    "comments": [ "not really Vim-like judging by examples in the Readme", "<https://github.com/noctuid/dotfiles/blob/master/emacs/editing.org#why-not-kakoune>" ],
     "ui": "ncurses"
 },
 {
