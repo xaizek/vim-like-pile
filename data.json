@@ -89,8 +89,8 @@
     "url": "https://surf.suckless.org",
     "license": "MIT",
     "languages": [ "C" ],
-    "category": "Graphical Browsers",
-    "type": "apps",
+    "category": "Miscellaneous",
+    "type": "confs",
     "comments": [ "supports XEmbed protocol (instead of tabs)", "process per tab" ],
     "ui": "WebKit and GTK+"
 },
