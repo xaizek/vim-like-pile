@@ -717,7 +717,7 @@
     "id": "zathura",
     "descr": "A document viewer with plugin system.",
     "url": "https://pwmt.org/projects/zathura/",
-    "license": "Zlib license",
+    "license": "Zlib",
     "languages": [ "C" ],
     "category": "PDF Viewers",
     "type": "apps",
