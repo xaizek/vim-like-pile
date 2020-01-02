@@ -1665,7 +1665,7 @@
     "languages": [ "C" ],
     "category": "Terminal Multiplexers",
     "type": "apps",
-    "comments": [ "Screen has command classes, which allows implementing modes: <https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192>" ],
+    "comments": [ "Screen has command classes, which allow implementing modes: <https://github.com/xaizek/dotfiles/blob/496c12983935288b4308fa1bb078db3c7a75c663/screenrc#L175-L192>" ],
     "ui": "terminal"
 },
 {
@@ -1677,7 +1677,7 @@
     "languages": [ "C" ],
     "category": "Terminal Multiplexers",
     "type": "apps",
-    "comments": [],
+    "comments": [ "There are [prefix keys](https://alexherbo2.github.io/config/tmux/add-prefix-mode/), which allow implementing [modes](https://alexherbo2.github.io/config/tmux/make-tmux-modal/)." ],
     "ui": "terminal"
 },
 {
