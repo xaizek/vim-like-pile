@@ -521,7 +521,7 @@
 {
     "name": "jvifm",
     "id": "jvifm",
-    "descr": "A try of implementing graphical Vim-like file manager in Java.",
+    "descr": "An attempt to implement graphical Vim-like file manager in Java.",
     "url": "https://sourceforge.net/projects/jvifm/",
     "license": "GPL",
     "languages": [ "Java" ],
