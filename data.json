@@ -1924,6 +1924,18 @@
     "ui": "Cocoa"
 },
 {
+    "name": "bspwm",
+    "id": "bspwm",
+    "descr": "A tiling window manager based on binary space partitioning.",
+    "url": "https://github.com/baskerville/bspwm",
+    "license": "BSD-like",
+    "languages": [ "C" ],
+    "category": "Window Managers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "X Window System"
+},
+{
     "name": "euclid",
     "id": "euclid",
     "descr": "Window manager with kind of Vim-like default mappings.",
