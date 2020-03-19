@@ -2177,6 +2177,18 @@
     "comments": [ "There is a patch for Vim-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>" ],
     "ui": "curses"
 },
+{
+    "name": "Cypht",
+    "id": "cypht",
+    "descr": "Web-based email client for multiple accounts.",
+    "url": "https://cypht.org/",
+    "license": "GPL",
+    "languages": [ "PHP", "JavaScript" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "web"
+},
 
 {
     "name": "DuckDuckGo",
