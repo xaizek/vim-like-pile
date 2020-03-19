@@ -131,6 +131,18 @@
     "ui": "WebKit and GTK+"
 },
 {
+    "name": "wyeb",
+    "id": "wyeb",
+    "descr": "A vim-like webkit2gtk web browser.",
+    "url": "https://github.com/jun7/wyeb",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "Graphical Browsers",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "WebKit and GTK+"
+},
+{
     "name": "xombrero",
     "id": "xombrero",
     "descr": "A minimalist's Web browser, which strives to be Vim-like for heavy keyboard users while maintaining traditional Web browser behavior.",
