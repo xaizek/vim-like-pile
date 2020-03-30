@@ -2189,6 +2189,18 @@
     "comments": [ ],
     "ui": "web"
 },
+{
+    "name": "Tiny Tiny RSS",
+    "id": "tt-rss",
+    "descr": "Web-based news feed (RSS/Atom) reader and aggregator.",
+    "url": "https://tt-rss.org/",
+    "license": "GPL",
+    "languages": [ "PHP", "JavaScript" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "web"
+},
 
 {
     "name": "DuckDuckGo",
