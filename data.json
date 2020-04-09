@@ -398,7 +398,7 @@
     "ui": "terminal"
 },
 {
-    "name": "onivim2",
+    "name": "Onivim 2",
     "id": "onivim2",
     "descr": "Sublime/VSCode-like editor internally backed by Vim's code.",
     "url": "https://www.onivim.io/",
