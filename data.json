@@ -1573,6 +1573,18 @@
     "ui": "curses"
 },
 {
+    "name": "scli",
+    "id": "sc-im",
+    "descr": "A simple terminal user interface for signal messenger (using signal-cli).",
+    "url": "https://github.com/isamert/scli",
+    "license": "GPL",
+    "languages": [ "Python" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "urwid"
+},
+{
     "name": "sentaku",
     "id": "sentaku",
     "descr": "Utility to make selection window with shell command.",
