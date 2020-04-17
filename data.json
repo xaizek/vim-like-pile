@@ -1574,7 +1574,7 @@
 },
 {
     "name": "scli",
-    "id": "sc-im",
+    "id": "scli",
     "descr": "A simple terminal user interface for signal messenger (using signal-cli).",
     "url": "https://github.com/isamert/scli",
     "license": "GPL",
