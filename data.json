@@ -2033,6 +2033,18 @@
 },
 
 {
+    "name": "Astroid",
+    "id": "astroid",
+    "descr": "A keyboard-driven GUI frontend for the notmuch email indexer.",
+    "url": "https://astroidmail.github.io/",
+    "license": "GPL",
+    "languages": [ "C++" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "GTK+"
+},
+{
     "name": "calcurse",
     "id": "calcurse",
     "descr": "Terminal calendar and scheduling application with some Vim-like keys by default.",
@@ -2151,6 +2163,18 @@
     "type": "confs",
     "comments": [ "looks like it's possible to make it somewhat Vim-like: <https://github.com/ervandew/urxvt-vim-scrollback>" ],
     "ui": "X Window System"
+},
+{
+    "name": "VisiData",
+    "id": "visidata",
+    "descr": "An interactive terminal multitool for tabular data.",
+    "url": "https://www.visidata.org/",
+    "license": "GPL",
+    "languages": [ "Python" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
 },
 {
     "name": "WeeChat",
