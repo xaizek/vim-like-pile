@@ -937,7 +937,7 @@
     "name": "Krabby",
     "id": "krabby",
     "descr": "A keyboard interface to the web, inspired by Kakoune.",
-    "url": "https://krabby.netlify.com/",
+    "url": "https://krabby.netlify.app/",
     "license": "Unlicense",
     "languages": [ "JavaScript", "Crystal" ],
     "category": "Browser Plugins",
