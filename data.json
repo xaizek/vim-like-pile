@@ -341,12 +341,12 @@
     "name": "ex-vi",
     "id": "ex-vi",
     "descr": "The traditional vi editor, ported to modern Unix systems.",
-    "url": "http://ex-vi.sourceforge.net/",
+    "url": "https://github.com/n-t-roff/heirloom-ex-vi",
     "license": "BSD-like",
     "languages": [ "C" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ ],
+    "comments": [ "url points to updated version of <http://ex-vi.sourceforge.net/>" ],
     "ui": "terminal"
 },
 {
