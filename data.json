@@ -50,7 +50,7 @@
     "name": "luakit",
     "id": "luakit",
     "descr": "Fast, small, WebKit based browser framework extensible by Lua.",
-    "url": "https://luakit.github.io/luakit/",
+    "url": "https://luakit.github.io/",
     "license": "GPL",
     "languages": [ "C + Lua" ],
     "category": "Graphical Browsers",
