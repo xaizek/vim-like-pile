@@ -1777,6 +1777,18 @@
     "ui": "terminal"
 },
 {
+    "name": "fish",
+    "id": "fish",
+    "descr": "Non-POSIX interactive shell mostly preconfigured for the user.",
+    "url": "https://fishshell.com/",
+    "license": "GPL",
+    "languages": [ "C++" ],
+    "category": "Shells",
+    "type": "apps",
+    "comments": [ "see <https://fishshell.com/docs/current/index.html#vi-mode-commands>" ],
+    "ui": "terminal"
+},
+{
     "name": "zsh",
     "id": "zsh",
     "descr": "An extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh.",
