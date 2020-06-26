@@ -1785,7 +1785,7 @@
     "languages": [ "C++" ],
     "category": "Shells",
     "type": "apps",
-    "comments": [ "see <https://fishshell.com/docs/current/index.html#vi-mode-commands>" ],
+    "comments": [ "see <https://fishshell.com/docs/current/index.html#command-line-editor> and <https://fishshell.com/docs/current/index.html#vi-mode-commands>" ],
     "ui": "terminal"
 },
 {
