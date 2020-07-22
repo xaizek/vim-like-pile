@@ -1645,6 +1645,18 @@
     "ui": "curses"
 },
 {
+    "name": "VIT",
+    "id": "vit",
+    "descr": "Visual Interactive Taskwarrior full-screen terminal interface.",
+    "url": "https://github.com/scottkosty/vit",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "TODO and Notes",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
     "name": "vchatter",
     "id": "vchatter",
     "descr": "Vim-like jabber client.",
