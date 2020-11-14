@@ -567,18 +567,6 @@
     "ui": "curses"
 },
 {
-    "name": "noice",
-    "id": "noice",
-    "descr": "Small file browser.",
-    "url": "http://git.2f30.org/noice/",
-    "license": "BSD-like",
-    "languages": [ "C" ],
-    "category": "File Managers",
-    "type": "apps",
-    "comments": [ "very minimalistic" ],
-    "ui": "curses"
-},
-{
     "name": "hunter",
     "id": "hunter",
     "descr": "ranger-like file browser, but a little more Emacs-flavoured.",
@@ -601,18 +589,6 @@
     "type": "apps",
     "comments": [ "miller columns kind of interface" ],
     "ui": "ncurses"
-},
-{
-    "name": "rover",
-    "id": "rover",
-    "descr": "A small file browser that aims to be simple, fast and portable.",
-    "url": "http://lecram.github.io/p/rover/",
-    "license": "public domain",
-    "languages": [ "C" ],
-    "category": "File Managers",
-    "type": "apps",
-    "comments": [ ],
-    "ui": "curses"
 },
 {
     "name": "Vide",
@@ -1950,7 +1926,7 @@
     "name": "MuPDF",
     "id": "mupdf",
     "descr": "A lightweight PDF and XPS viewer.",
-    "url": "http://www.mupdf.com/",
+    "url": "https://www.mupdf.com/",
     "license": "AGPL",
     "languages": [ "C" ],
     "category": "Document Viewers",
@@ -2087,6 +2063,30 @@
     "url": "https://github.com/jarun/nnn",
     "license": "BSD-like",
     "languages": [ "C", "Shell" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
+    "name": "noice",
+    "id": "noice",
+    "descr": "Small file browser.",
+    "url": "http://git.2f30.org/noice/",
+    "license": "BSD-like",
+    "languages": [ "C" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ "very minimalistic", "try this for code (original link doesn't work): <https://github.com/chrisw310/noice>" ],
+    "ui": "curses"
+},
+{
+    "name": "rover",
+    "id": "rover",
+    "descr": "A small file browser that aims to be simple, fast and portable.",
+    "url": "http://lecram.github.io/p/rover/",
+    "license": "public domain",
+    "languages": [ "C" ],
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ ],
