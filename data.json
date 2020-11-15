@@ -2063,7 +2063,7 @@
     "url": "https://github.com/mananapr/cfiles",
     "license": "BSD-like",
     "languages": [ "Go" ],
-    "category": "Miscellaneous",
+    "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ ],
     "ui": "curses"
@@ -2075,7 +2075,7 @@
     "url": "https://github.com/jarun/nnn",
     "license": "BSD-like",
     "languages": [ "C", "Shell" ],
-    "category": "Miscellaneous",
+    "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ ],
     "ui": "curses"
@@ -2087,7 +2087,7 @@
     "url": "http://git.2f30.org/noice/",
     "license": "BSD-like",
     "languages": [ "C" ],
-    "category": "Miscellaneous",
+    "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ "very minimalistic", "try this for code (original link doesn't work): <https://github.com/chrisw310/noice>" ],
     "ui": "curses"
@@ -2099,7 +2099,7 @@
     "url": "http://lecram.github.io/p/rover/",
     "license": "public domain",
     "languages": [ "C" ],
-    "category": "Miscellaneous",
+    "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ ],
     "ui": "curses"
