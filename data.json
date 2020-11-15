@@ -531,18 +531,6 @@
 },
 
 {
-    "name": "cfiles",
-    "id": "cfiles",
-    "descr": "An ncurses file manager written in C with vim like keybindings.  It aims to provide an interface like [ranger] while being lightweight, fast and minimal.",
-    "url": "https://github.com/mananapr/cfiles",
-    "license": "BSD-like",
-    "languages": [ "Go" ],
-    "category": "File Managers",
-    "type": "apps",
-    "comments": [ ],
-    "ui": "curses"
-},
-{
     "name": "jvifm",
     "id": "jvifm",
     "descr": "An attempt to implement graphical Vim-like file manager in Java.",
@@ -2051,6 +2039,18 @@
     "url": "http://calcurse.org/",
     "license": "BSD-like",
     "languages": [ "C" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
+    "name": "cfiles",
+    "id": "cfiles",
+    "descr": "An ncurses file manager written in C with vim like keybindings.  It aims to provide an interface like [ranger] while being lightweight, fast and minimal.",
+    "url": "https://github.com/mananapr/cfiles",
+    "license": "BSD-like",
+    "languages": [ "Go" ],
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ ],
