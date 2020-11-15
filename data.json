@@ -2033,6 +2033,18 @@
     "ui": "GTK+"
 },
 {
+    "name": "lnav",
+    "id": "lnav",
+    "descr": "An advanced terminal log file viewer for the small-scale.",
+    "url": "http://lnav.org/",
+    "license": "BSD-like",
+    "languages": [ "C++" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
     "name": "calcurse",
     "id": "calcurse",
     "descr": "Terminal calendar and scheduling application with some Vim-like keys by default.",
