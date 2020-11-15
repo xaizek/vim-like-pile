@@ -26,7 +26,7 @@
         <span class="type <?php if ($type == 'plugs') echo 'currentType'; ?>">
             <a href="<?php echo $webRoot; ?>/plugs">Plugins</a></span>
         <span class="type <?php if ($type == 'confs') echo 'currentType'; ?>">
-            <a href="<?php echo $webRoot; ?>/confs">Configurations</a></span>
+            <a href="<?php echo $webRoot; ?>/confs">Configurable</a></span>
     </div>
     <div class="typeDescr">
         <?php echo $descr; ?>
