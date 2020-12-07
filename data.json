@@ -2009,6 +2009,31 @@
 },
 
 {
+    "name": "rexima",
+    "id": "rexima",
+    "descr": "Vim-like audio-mixer alternative to alsamixer.",
+    "url": "http://www.svgalib.org/rus/rexima.html",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "Audio Mixers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+{
+    "name": "PAmix",
+    "id": "pamix",
+    "descr": "ncurses/curses pulseaudio mixer in C++ similar to pavucontrol.",
+    "url": "http://www.svgalib.org/rus/rexima.html",
+    "license": "BSD-like",
+    "languages": [ "C++" ],
+    "category": "Audio Mixers",
+    "type": "confs",
+    "comments": [ ],
+    "ui": "curses"
+},
+
+{
     "name": "Astroid",
     "id": "astroid",
     "descr": "A keyboard-driven GUI frontend for the notmuch email indexer.",
@@ -2163,18 +2188,6 @@
     "type": "confs",
     "comments": [ "looks abandoned" ],
     "ui": "KDE + WebKit"
-},
-{
-    "name": "rexima",
-    "id": "rexima",
-    "descr": "Vim-like audio-mixer alternative to alsamixer.",
-    "url": "http://www.svgalib.org/rus/rexima.html",
-    "license": "GPL",
-    "languages": [ "C" ],
-    "category": "Miscellaneous",
-    "type": "confs",
-    "comments": [ ],
-    "ui": "curses"
 },
 {
     "name": "rtv",
