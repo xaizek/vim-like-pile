@@ -1645,6 +1645,20 @@
     "ui": "Some engine"
 },
 {
+    "name": "Termshark",
+    "id": "termshark",
+    "descr": "A terminal UI for tshark, inspired by Wireshark.",
+    "url": "https://termshark.io/",
+    "license": "MIT",
+    "languages": [ "Go" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ "Became Vim-like in v2.2.0" ],
+    "ui": "terminal",
+    "added": "1610284526"
+},
+
+{
     "name": "VNote",
     "id": "vnote",
     "descr": "A Vim-inspired note-taking application, which can also be used as Markdown editor.",
