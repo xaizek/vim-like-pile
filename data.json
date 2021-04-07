@@ -1311,7 +1311,7 @@
     "name": "zsh-vi-mode",
     "id": "zsh-vi-mode",
     "descr": "A better and friendlier vi(m) mode plugin for [zsh].",
-    "url": "https://sourceforge.net/projects/cubiclevim/",
+    "url": "https://github.com/jeffreytse/zsh-vi-mode",
     "license": "BSD-like",
     "languages": [ "zsh" ],
     "category": "Various Plugins",
