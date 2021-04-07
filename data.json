@@ -1310,7 +1310,7 @@
 {
     "name": "zsh-vi-mode",
     "id": "zsh-vi-mode",
-    "descr": "A better and friendlier vi(m) mode plugin for ZSH.",
+    "descr": "A better and friendlier vi(m) mode plugin for [zsh].",
     "url": "https://sourceforge.net/projects/cubiclevim/",
     "license": "BSD-like",
     "languages": [ "zsh" ],
@@ -1323,7 +1323,7 @@
 {
     "name": "athame",
     "id": "athame",
-    "descr": "Full vim for your shell (bash, zsh, gdb, python, etc).",
+    "descr": "Full vim for your shell ([bash], [zsh], gdb, python, etc).",
     "url": "https://github.com/ardagnir/athame",
     "license": "GPL",
     "languages": [ "C" ],
@@ -1781,7 +1781,7 @@
 {
     "name": "zsh",
     "id": "zsh",
-    "descr": "An extended Bourne shell with a large number of improvements, including some features of Bash, ksh, and tcsh.",
+    "descr": "An extended Bourne shell with a large number of improvements, including some features of [bash], ksh, and tcsh.",
     "url": "https://www.zsh.org/",
     "license": "MIT-like",
     "languages": [ "C" ],
