@@ -1307,6 +1307,18 @@
     "comments": [ ],
     "ui": "Cocoa"
 },
+{
+    "name": "zsh-vi-mode",
+    "id": "zsh-vi-mode",
+    "descr": "A better and friendlier vi(m) mode plugin for ZSH.",
+    "url": "https://sourceforge.net/projects/cubiclevim/",
+    "license": "BSD-like",
+    "languages": [ "zsh" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": ""
+},
 
 {
     "name": "athame",
@@ -1775,7 +1787,10 @@
     "languages": [ "C" ],
     "category": "Shells",
     "type": "apps",
-    "comments": [ "has Vim-like bindings: bindkey -v", "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>", "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>" ],
+    "comments": [ "has Vim-like bindings: bindkey -v",
+                  "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>",
+                  "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>",
+                  "see also [zsh-vi-mode] plugin"],
     "ui": "terminal"
 },
 {
