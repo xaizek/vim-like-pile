@@ -79,8 +79,9 @@
     "languages": [ "Python" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "see bizarre claims about software development in FAQ there: <https://www.qutebrowser.org/FAQ.html>" ],
-    "ui": "QtWebEngine and Qt5"
+    "comments": [ ],
+    "ui": "QtWebEngine and Qt5",
+    "updated": "1624104918"
 },
 {
     "name": "surf",
