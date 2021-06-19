@@ -154,6 +154,19 @@
     "comments": [ "formerly known as xxxterm", "stale development" ],
     "ui": "WebKit and GTK+"
 },
+{
+    "name": "Vieb",
+    "id": "vieb",
+    "descr": "Vim Inspired Electron Browser - Vim bindings for the web by design.",
+    "url": "https://vieb.dev/",
+    "license": "GPL",
+    "languages": [ "JavaScript" ],
+    "category": "Graphical Browsers",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "Electron",
+    "added": "1624104885"
+},
 
 {
     "name": "lynx",
