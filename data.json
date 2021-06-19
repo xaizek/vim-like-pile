@@ -1682,6 +1682,19 @@
     "ui": "terminal",
     "added": "1610284526"
 },
+{
+    "name": "rx",
+    "id": "rx",
+    "descr": "Modern and minimalist pixel editor.",
+    "url": "https://rx.cloudhead.io/",
+    "license": "GPL",
+    "languages": [ "Rust" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "OpenGL",
+    "added": "1624104901"
+},
 
 {
     "name": "VNote",
