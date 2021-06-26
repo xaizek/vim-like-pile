@@ -553,7 +553,7 @@
     "category": "Editors",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal",
+    "ui": "curses",
     "added": "1624710040"
 },
 
