@@ -543,6 +543,19 @@
     "comments": [ "stale development" ],
     "ui": "Qt (for editor)"
 },
+{
+    "name": "moe",
+    "id": "moe",
+    "descr": "A command line based editor inspired by vi/vim.  Written in Nim.",
+    "url": "https://editor.moe/",
+    "license": "GPL",
+    "languages": [ "Nim" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "terminal",
+    "added": "1624710040"
+},
 
 {
     "name": "jvifm",
