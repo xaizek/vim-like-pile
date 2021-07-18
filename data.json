@@ -1091,7 +1091,7 @@
     "languages": [ "C++" ],
     "category": "Various Plugins",
     "type": "plugs",
-    "comments": [ "was quite good implementation compared to many others" ],
+    "comments": [ "has quite good implementation compared to many others, although some things are missing" ],
     "ui": "Qt"
 },
 {
