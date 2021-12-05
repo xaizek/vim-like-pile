@@ -575,7 +575,7 @@
     "descr": "Terminal file manager, which is a clone of [ranger].",
     "url": "https://github.com/gokcehan/lf",
     "license": "BSD-like",
-    "languages": [ "C" ],
+    "languages": [ "Go" ],
     "category": "File Managers",
     "type": "apps",
     "comments": [ ],
