@@ -7,7 +7,9 @@ format behind the site.
 ### Contributing ###
 
 If you wish to add a new item, edit `data.json` file.  Prefer placing new items
-next to other items from the same category.
+next to other items from the same category.  Also please provide justification
+for something being Vim-like (e.g., with a link to documentation), so it's
+easier to check.
 
 #### Format ####
 
