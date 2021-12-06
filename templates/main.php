@@ -8,6 +8,9 @@
 <body>
     <div class="buttons">
         <div class="button">
+            <a href="https://github.com/xaizek/vim-like-pile">contribute</a>
+        </div>
+        <div class="button">
             <a href="<?php echo $webRoot; ?>/about">about</a>
         </div>
         <div class="button">
