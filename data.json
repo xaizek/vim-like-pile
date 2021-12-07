@@ -231,10 +231,22 @@
     "ui": "terminal"
 },
 {
-    "name": "mutt",
+    "name": "Mutt",
     "id": "mutt",
     "descr": "Mutt is a small but very powerful text-based mail client for Unix operating systems.",
     "url": "http://www.mutt.org/",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "E-mail related",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses or S-lang"
+},
+{
+    "name": "NeoMutt",
+    "id": "neomutt",
+    "descr": "A fork of mutt, intendted to reignite the development.",
+    "url": "https://neomutt.org/",
     "license": "GPL",
     "languages": [ "C" ],
     "category": "E-mail related",
@@ -765,12 +777,12 @@
     "ui": "web"
 },
 {
-    "name": "Vimium",
-    "id": "vimium",
-    "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/vimium/",
-    "license": "BSD-like",
-    "languages": [ "js probably" ],
+    "name": "Vimium-FF",
+    "id": "vimium-ff",
+    "descr": "Vim plugin for Firefox",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/",
+    "license": "MIT",
+    "languages": [ "JavaScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ ],
@@ -1103,7 +1115,7 @@
     "languages": [ "Java" ],
     "category": "Various Plugins",
     "type": "plugs",
-    "comments": [ ],
+    "comments": [ "This plugin exist for all Jetbrain's IDEs including IntelliJ, PyCharm, PHPStorm, WebStorm..." ],
     "ui": "SWT"
 },
 {
@@ -1163,7 +1175,7 @@
     "languages": [ "JavaScript" ],
     "category": "Thunderbird Plugins",
     "type": "plugs",
-    "comments": [ ],
+    "comments": ["It's the Vimperator of Thunderbird." ],
     "ui": ""
 },
 {
@@ -1390,7 +1402,7 @@
     "url": "https://cgdb.github.io/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Debugger",
     "type": "apps",
     "comments": [ ],
     "ui": "ncurses"
@@ -1405,7 +1417,7 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "termui"
+    "ui": "TUI"
 },
 {
     "name": "less",
@@ -1464,7 +1476,7 @@
     "languages": [ "Python" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ ],
+    "comments": [ "Works mostly like vim out of the box, but can be enhanced by putting in your `~/.config/tig/config`:\n```\nbind generic <Ctrl-f>   scroll-page-down\nbind generic <Ctrl-b>   scroll-page-up\nbind generic g move-first-line\t\t\t# Move cursor to top.\nbind generic G move-last-line\t\t\t# Move cursor to bottom.\n\nbind main B :toggle commit-title-graph\t\t# Rebind G to B.\nbind main G move-last-line\t\t\t# Move cursor to bottom.\n```"],
     "ui": "Urwid"
 },
 {
@@ -1606,7 +1618,7 @@
     "url": "http://jonas.nitro.dk/tig/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Other",
+    "category": "Source Code Management",
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
@@ -1743,7 +1755,7 @@
     "languages": [ "C" ],
     "category": "Terminal Multiplexers",
     "type": "apps",
-    "comments": [ "There are [prefix keys](https://alexherbo2.github.io/config/tmux/add-prefix-mode/), which allow implementing [modes](https://alexherbo2.github.io/config/tmux/make-tmux-modal/)." ],
+    "comments": [ "There are [prefix keys](https://alexherbo2.github.io/config/tmux/add-prefix-mode/), which allow implementing [modes](https://alexherbo2.github.io/config/tmux/make-tmux-modal/).", "Specifically, a good start is to set in your `tmux.conf`:\n```ini\nset-option -g status-keys vi\t# Use Vi bindings in tmux command prompt.\nset-window-option -g mode-keys vi\t# Use Vi bindings in copy and choice mode.\n```" ],
     "ui": "terminal"
 },
 {
@@ -1802,7 +1814,7 @@
     "license": "GPL",
     "languages": [ "C" ],
     "category": "Shells",
-    "type": "apps",
+    "type": "confs",
     "comments": [ "has Vim-like bindings: set -o vi", "you can see current mode by adding `set show-mode-in-prompt On` to `~/.inputrc`" ],
     "ui": "terminal"
 },
@@ -1814,7 +1826,7 @@
     "license": "GPL",
     "languages": [ "C++" ],
     "category": "Shells",
-    "type": "apps",
+    "type": "confs",
     "comments": [ "see <https://fishshell.com/docs/current/index.html#command-line-editor> and <https://fishshell.com/docs/current/index.html#vi-mode-commands>" ],
     "ui": "terminal"
 },
@@ -1826,11 +1838,35 @@
     "license": "MIT-like",
     "languages": [ "C" ],
     "category": "Shells",
-    "type": "apps",
+    "type": "confs",
     "comments": [ "has Vim-like bindings: bindkey -v",
                   "more Vim-like bindings: <https://github.com/sharat87/zsh-vim-mode>",
                   "visual mode: <https://github.com/b4b4r07/zsh-vimode-visual>",
                   "see also [zsh-vi-mode] plugin"],
+    "ui": "terminal"
+},
+{
+    "name": "tcsh",
+    "id": "tcsh",
+    "descr": "A modern version of the C shell",
+    "url": "https://www.tcsh.org/",
+    "license": "BSD-like",
+    "languages": [ "C" ],
+    "category": "Shells",
+    "type": "confs",
+    "comments": [ "has Vim-like bindings: bindkey -v" ],
+    "ui": "terminal"
+},
+{
+    "name": "KornSHell",
+    "id": "ksh",
+    "descr": "An early UNIX shell",
+    "url": "https://github.com/ksh2020/ksh",
+    "license": "EPL",
+    "languages": [ "C" ],
+    "category": "Shells",
+    "type": "confs",
+    "comments": [ "has Vim-like bindings: set -o vi" ],
     "ui": "terminal"
 },
 {
@@ -2231,8 +2267,8 @@
     "languages": [ "C++" ],
     "category": "MPD Clients",
     "type": "confs",
-    "comments": [ ],
-    "ui": "curses"
+    "comments": [ "The navigation can quite easily be made to behave like vim with some keyboard configurations in `~/.config/ncmpcpp/bindings`:\n```\ndef_key \"j\"\n  scroll_down\ndef_key \"k\"\n  scroll_up\ndef_key \"h\"\n  previous_column\ndef_key \"l\"\n  next_column\ndef_key \"ctrl-b\"\n  page_up\ndef_key \"ctrl-u\"\n  page_up\ndef_key \"ctrl-f\"\n  page_down\ndef_key \"ctrl-d\"\n  page_down\ndef_key \"g\"\n  move_home\ndef_key \"G\"\n  move_end\ndef_key \"n\"\n  next_found_item\ndef_key \"N\"\n  previous_found_item\n```\n" ],
+    "ui": "ncurses"
 },
 {
     "name": "NetHack",
@@ -2340,7 +2376,8 @@
     "languages": [ "C" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "There is a patch for Vim-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>" ],
+    "comments": [ "There is a patch for Vim-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>",
+                "There's also a maintained version of this patch at https://github.com/ksh2020/ksh" ],
     "ui": "curses"
 },
 {
@@ -2415,6 +2452,114 @@
     "type": "confs",
     "comments": [ "Somewhat Vim-like keys are available, but shortcuts do conflict with Vim-like browsers/plugins, which makes them significantly less useful." ],
     "ui": "web"
+},
+{
+    "name": "vim-anywhere",
+    "id": "vim-anywhere",
+    "descr": "Spawn a vim buffer from any text input in the operating system.",
+    "url": "https://github.com/cknadler/vim-anywhere",
+    "license": "MIT",
+    "languages": [ "Bash" ],
+    "category": "Other",
+    "type": "apps",
+    "comments": [ "" ],
+    "ui": "terminal"
+},
+{
+    "name": "ipython",
+    "id": "ipython",
+    "descr": "Interactive Python shell.",
+    "url": "https://ipython.org/",
+    "license": "BSD-like",
+    "languages": [ "python" ],
+    "category": "Shells",
+    "type": "confs",
+    "comments": [ "It no longer uses readline for input, so it must be configured in the ipython profile `~/.ipython/profile_default/ipython_config.py` itself ([reference](https://gist.github.com/sstirlin/c3c207b1052b613ab9554b4ebdfc3f35)):\n```ini\nc.TerminalInteractiveShell.editing_mode = \"vi\"\n```" ],
+    "ui": "CLI"
+},
+{
+    "name": "GHCi",
+    "id": "",
+    "descr": "Interactive Haskell environment.",
+    "url": "https://wiki.haskell.org/GHC/GHCi",
+    "license": "BSD-like",
+    "languages": [ "haskell" ],
+    "category": "shells",
+    "type": "confs",
+    "comments": [ "It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:\n```yaml\neditMode: Vi\n```" ],
+    "ui": "cli"
+},
+{
+    "name": "vimpdb",
+    "id": "",
+    "descr": "An integration of the python debugger `pdb` and vim",
+    "url": "https://github.com/gotcha/vimpdb",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "Debugger",
+    "type": "app",
+    "comments": [ "" ],
+    "ui": "CLI"
+},
+{
+    "name": "vimpdb",
+    "id": "",
+    "descr": "An integration of the python debugger `pdb` and vim",
+    "url": "https://github.com/gotcha/vimpdb",
+    "license": "MIT",
+    "languages": [ "Python" ],
+    "category": "Debugger",
+    "type": "app",
+    "comments": [ "" ],
+    "ui": "CLI"
+},
+{
+    "name": "git",
+    "id": "git",
+    "descr": "Distributed version control of source code.",
+    "url": "https://git-scm.com/",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "Source Code Management",
+    "type": "confs",
+    "comments": [ "Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:\n```ini\n[user]\n    editor = vim\n```\n" ],
+    "ui": "CLI"
+},
+{
+    "name": "mercurial (hg)",
+    "id": "mercurial",
+    "descr": "Distributed version control of source code.",
+    "url": "https://www.mercurial-scm.org/repo/hg-stable",
+    "license": "GPL",
+    "languages": [ "Python" ],
+    "category": "Source Code Management",
+    "type": "confs",
+    "comments": [ "Put in your `~/.config/hg/hgrc`:\n```ini\n[ui]\n    editor = vim\n```\n" ],
+    "ui": "CLI"
+},
+{
+    "name": "aptitude",
+    "id": "aptitude",
+    "descr": "ncurses interface for APT on Debian-derived Linux distros.",
+    "url": "https://wiki.debian.org/Aptitude",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "System Tools",
+    "type": "apps",
+    "comments": [ "The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like." ],
+    "ui": "ncurses"
+},
+{
+    "name": "oni2",
+    "id": "oni2",
+    "descr": "The new onivim project. A text editor drawing inspiration from Sublime, VSCode and Vim.",
+    "url": "https://github.com/onivim/oni2",
+    "license": "MIT",
+    "languages": [ "Reason" ],
+    "category": "Editors",
+    "type": "apps",
+    "comments": [ "" ],
+    "ui": ""
 }
 
 ]
