@@ -778,7 +778,7 @@
 },
 {
     "name": "Vimium-FF",
-    "id": "vimium-ff",
+    "id": "vimium",
     "descr": "Vim plugin for Firefox",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/",
     "license": "MIT",
