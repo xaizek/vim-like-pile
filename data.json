@@ -245,7 +245,7 @@
 {
     "name": "NeoMutt",
     "id": "neomutt",
-    "descr": "A fork of mutt, intendted to reignite the development.",
+    "descr": "A fork of [mutt], intendted to reignite the development.",
     "url": "https://neomutt.org/",
     "license": "GPL",
     "languages": [ "C" ],
@@ -1402,7 +1402,7 @@
     "url": "https://cgdb.github.io/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Debugger",
+    "category": "Debuggers",
     "type": "apps",
     "comments": [ ],
     "ui": "ncurses"
@@ -1614,11 +1614,11 @@
 {
     "name": "tig",
     "id": "tig",
-    "descr": "Text-mode interface for git.",
+    "descr": "Text-mode interface for [git].",
     "url": "http://jonas.nitro.dk/tig/",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "Source Code Management",
+    "category": "Other",
     "type": "apps",
     "comments": [ ],
     "ui": "curses"
@@ -1848,7 +1848,7 @@
 {
     "name": "tcsh",
     "id": "tcsh",
-    "descr": "A modern version of the C shell",
+    "descr": "A modern version of the C shell.",
     "url": "https://www.tcsh.org/",
     "license": "BSD-like",
     "languages": [ "C" ],
@@ -1860,7 +1860,7 @@
 {
     "name": "KornSHell",
     "id": "ksh",
-    "descr": "An early UNIX shell",
+    "descr": "An early UNIX shell.",
     "url": "https://github.com/ksh2020/ksh",
     "license": "EPL",
     "languages": [ "C" ],
@@ -2377,7 +2377,7 @@
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ "There is a patch for Vim-like keys: <https://bbs.archlinux.org/viewtopic.php?pid=726353#p726353>",
-                "There's also a maintained version of this patch at https://github.com/ksh2020/ksh" ],
+                "There's also a maintained version of this patch at <https://aur.archlinux.org/packages/htop-vim/>" ],
     "ui": "curses"
 },
 {
@@ -2484,7 +2484,7 @@
     "url": "https://wiki.haskell.org/GHC/GHCi",
     "license": "BSD-like",
     "languages": [ "haskell" ],
-    "category": "shells",
+    "category": "Shells",
     "type": "confs",
     "comments": [ "It uses [haskeline](https://hackage.haskell.org/package/haskeline) instead of readline. Put this in `~/haskeline`:\n```yaml\neditMode: Vi\n```" ],
     "ui": "cli"
@@ -2492,12 +2492,12 @@
 {
     "name": "vimpdb",
     "id": "vimpdb",
-    "descr": "An integration of the python debugger `pdb` and vim",
+    "descr": "An integration of the python debugger `pdb` and vim.",
     "url": "https://github.com/gotcha/vimpdb",
     "license": "MIT",
     "languages": [ "Python" ],
-    "category": "Debugger",
-    "type": "app",
+    "category": "Debuggers",
+    "type": "apps",
     "comments": [ ],
     "ui": "CLI"
 },
@@ -2507,7 +2507,7 @@
     "descr": "Distributed version control of source code.",
     "url": "https://git-scm.com/",
     "license": "GPL",
-    "languages": [ "C" ],
+    "languages": [ "C", "Perl" ],
     "category": "Source Code Management",
     "type": "confs",
     "comments": [ "Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:\n```ini\n[user]\n    editor = vim\n```\n" ],
@@ -2532,9 +2532,9 @@
     "url": "https://wiki.debian.org/Aptitude",
     "license": "GPL",
     "languages": [ "C" ],
-    "category": "System Tools",
+    "category": "Other",
     "type": "apps",
-    "comments": [ "The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already vim-like." ],
+    "comments": [ "The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already Vim-like." ],
     "ui": "ncurses"
 },
 {
