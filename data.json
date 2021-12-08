@@ -1417,7 +1417,7 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "TUI"
+    "ui": "termui"
 },
 {
     "name": "less",
@@ -2462,7 +2462,7 @@
     "languages": [ "Bash" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "" ],
+    "comments": [ ],
     "ui": "terminal"
 },
 {
@@ -2479,7 +2479,7 @@
 },
 {
     "name": "GHCi",
-    "id": "",
+    "id": "ghci",
     "descr": "Interactive Haskell environment.",
     "url": "https://wiki.haskell.org/GHC/GHCi",
     "license": "BSD-like",
@@ -2491,26 +2491,14 @@
 },
 {
     "name": "vimpdb",
-    "id": "",
+    "id": "vimpdb",
     "descr": "An integration of the python debugger `pdb` and vim",
     "url": "https://github.com/gotcha/vimpdb",
     "license": "MIT",
     "languages": [ "Python" ],
     "category": "Debugger",
     "type": "app",
-    "comments": [ "" ],
-    "ui": "CLI"
-},
-{
-    "name": "vimpdb",
-    "id": "",
-    "descr": "An integration of the python debugger `pdb` and vim",
-    "url": "https://github.com/gotcha/vimpdb",
-    "license": "MIT",
-    "languages": [ "Python" ],
-    "category": "Debugger",
-    "type": "app",
-    "comments": [ "" ],
+    "comments": [ ],
     "ui": "CLI"
 },
 {
@@ -2558,8 +2546,8 @@
     "languages": [ "Reason" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "" ],
-    "ui": ""
+    "comments": [ ],
+    "ui": "revery"
 }
 
 ]
