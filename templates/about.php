@@ -26,7 +26,7 @@ To contribute, either:
         <ul>
             <li><code>PGP: 2234 9CDB E522 7D21 08A5&nbsp;&nbsp;6677 99DC 5E4D B05F 6BE2</code></li>
             <li><a href="https://reversed.top/xaizek.asc">public key</a></li>
-        <ul>
+        </ul>
     </li>
 </ul>
 
