@@ -19,14 +19,18 @@ additions/corrections during transformation and then some.
 
 <br/><br/>
 
-E-mail for suggestions/corrections is
-<a href="mailto:xaizek@posteo.net?subject=[vim-like-pile]">xaizek@posteo.net</a>,
-<br/>
-<code>PGP: 2234 9CDB E522 7D21 08A5&nbsp;&nbsp;6677 99DC 5E4D B05F 6BE2</code>,
-<br/>
-<a href="https://reversed.top/xaizek.asc">public key</a>.
+To contribute, either:
+<ul>
+    <li>create PRs or issues at <a href="https://github.com/xaizek/vim-like-pile">github.com/xaizek/vim-like-pile</a></li>
+    <li>send an E-mail to <a href="mailto:xaizek@posteo.net?subject=[vim-like-pile]">xaizek@posteo.net</a>
+        <ul>
+            <li><code>PGP: 2234 9CDB E522 7D21 08A5&nbsp;&nbsp;6677 99DC 5E4D B05F 6BE2</code></li>
+            <li><a href="https://reversed.top/xaizek.asc">public key</a></li>
+        </ul>
+    </li>
+</ul>
 
-<br/><br/>
+<br/>
 
 <b>Notes on data:</b>
 <ul>
