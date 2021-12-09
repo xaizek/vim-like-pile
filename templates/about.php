@@ -30,7 +30,7 @@ To contribute, either:
     </li>
 </ul>
 
-<br/><br/>
+<br/>
 
 <b>Notes on data:</b>
 <ul>
