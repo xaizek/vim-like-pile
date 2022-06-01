@@ -643,6 +643,18 @@
     "ui": "curses"
 },
 {
+    "name": "herrie",
+    "id": "herrie",
+    "descr": "Minimalistic player with curses interface.",
+    "url": "https://github.com/EdSchouten/herrie",
+    "license": "MIT or GPL (it depends)",
+    "languages": [ "C" ],
+    "category": "Music Players",
+    "type": "apps",
+    "comments": [ "uses mplayer to play the music", "main controls aren't very Vim-like", "project has been abandoned by the original author" ],
+    "ui": "curses"
+},
+{
     "name": "pms",
     "id": "pms",
     "descr": "Probably the most Vim-like music player (MPD client).",
