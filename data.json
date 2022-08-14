@@ -2381,6 +2381,19 @@
     "ui": "curses"
 },
 {
+    "name": "btop++",
+    "id": "btop",
+    "descr": "A terminal monitor of resources",
+    "url": "https://github.com/aristocratos/btop",
+    "license": "Apache 2.0",
+    "languages": [ "C++" ],
+    "category": "Miscellaneous",
+    "type": "confs",
+    "comments": [ "Setting `vim_keys = True` in config enables minimal Vim controls" ],
+    "ui": "TUI",
+    "added": "1660469054"
+},
+{
     "name": "Cypht",
     "id": "cypht",
     "descr": "Web-based email client for multiple accounts.",
