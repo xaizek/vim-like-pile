@@ -328,6 +328,19 @@
     "ui": "curses"
 },
 {
+    "name": "hed",
+    "id": "hed",
+    "descr": "HED is a wannabe-powerful visual hexadecimal editor with focus on fast editing of very large files.",
+    "url": "https://repo.or.cz/w/hed.git",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "Hex Editors",
+    "type": "apps",
+    "comments": [ ],
+    "ui": "curses",
+    "added": 1670080229
+},
+{
     "name": "HEdit",
     "id": "hedit",
     "descr": "A Vim-like terminal-based hex editor scriptable with JS.",
