@@ -936,6 +936,19 @@
     "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
     "ui": "web"
 },
+{
+    "name": "vimary",
+    "id": "vimary",
+    "descr": "A Safari extension that provides vim style keyboard based navigation.",
+    "url": "https://televator.net/vimari/",
+    "license": "MIT",
+    "languages": [ "JavaScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ "Code: <https://github.com/televator-apps/vimari>" ],
+    "ui": "web",
+    "added": 1670090935
+},
 
 {
     "name": "VimOperate",
