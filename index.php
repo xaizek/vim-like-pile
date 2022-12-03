@@ -111,8 +111,10 @@ class Data
 
         $json = json_encode($data);
         $fp = fopen("$path.cached", 'w');
-        fwrite($fp, $json);
-        fclose($fp);
+        if ($fp !== FALSE) {
+            fwrite($fp, $json);
+            fclose($fp);
+        }
 
         return $json;
     }
