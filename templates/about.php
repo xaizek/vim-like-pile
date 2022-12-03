@@ -1,4 +1,4 @@
-<div class="about">
+<div class="centerBox">
 
 <div class="name">About</div>
 

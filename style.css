@@ -135,7 +135,7 @@ input[type="submit"] {
     margin-left: 10px;
 }
 
-.island, .info, .about, .search {
+.island, .info, .centerBox, .search {
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #999;
     padding: 15px;
@@ -148,7 +148,7 @@ input[type="submit"] {
     overflow-wrap: break-word;
 }
 
-.info, .about, .search {
+.info, .centerBox, .search {
     font-size: 1em;
     border: 1px solid black;
     width: 600px;
@@ -156,12 +156,12 @@ input[type="submit"] {
     margin: 25px auto;
 }
 
-.info .name, .about .name, .search .name {
+.info .name, .centerBox .name, .search .name {
     font-size: 1.5em;
     text-align: center;
 }
 
-.about .name, .search .name {
+.centerBox .name, .search .name {
     margin-bottom: 15px;
 }
 
