@@ -5,6 +5,9 @@
 <ul>
   <li>The ordering is from newest to oldest.</li>
   <li>Only last update is tracked.</li>
+  <li>Items with a corresponding entry in this log that's newer than 6 months
+      get <span class="label">new</span> and/or
+      <span class="label">updated</span> labels.</li>
 </ul>
 
 <ol>

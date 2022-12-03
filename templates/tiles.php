@@ -1,3 +1,10 @@
+<?php
+
+$six_months_secs = 60*60*24*30*6;
+$cutoff_date = time() - $six_months_secs;
+
+?>
+
 <?php foreach ($items as $item): ?>
     <div class="island">
         <div class="name">
@@ -5,5 +12,14 @@
         </div>
 
         <div class="descr"><?php echo $item->descr; ?></div>
+
+        <?php
+            if (isset($item->added) && $item->added > $cutoff_date) {
+                echo '<span class="label">new</span>';
+            }
+            if (isset($item->updated) && $item->updated > $cutoff_date) {
+                echo '<span class="label">changed</span>';
+            }
+        ?>
     </div>
 <?php endforeach; ?>

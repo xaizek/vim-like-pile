@@ -155,6 +155,16 @@ input[type="submit"] {
     background-color: #fcfcfc;
 }
 
+.label {
+    color: white;
+    background-color: #404040;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
 .island {
     overflow-wrap: break-word;
 }
