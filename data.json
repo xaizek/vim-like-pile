@@ -850,6 +850,19 @@
     "comments": [ ],
     "ui": "web"
 },
+{
+    "name": "Firenvim",
+    "id": "firenvim",
+    "descr": "Embed Neovim in Chrome, Firefox & others.",
+    "url": "Embed Neovim in Chrome, Firefox & others.",
+    "license": "GPL 3.0",
+    "languages": [ "TypeScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "web",
+    "added": 1670083199
+},
 
 {
     "name": "Surfingkeys",
