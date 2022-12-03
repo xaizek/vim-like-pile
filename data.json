@@ -365,6 +365,19 @@
     "ui": "terminal"
 },
 {
+    "name": "hx",
+    "id": "hx",
+    "descr": "Hex editor for the terminal using plain C99 + POSIX libs.",
+    "url": "https://github.com/krpors/hx",
+    "license": "MIT",
+    "languages": [ "C" ],
+    "category": "Hex Editors",
+    "type": "apps",
+    "comments": [ "Doesn't use curses." ],
+    "ui": "terminal",
+    "added": 1670082847
+},
+{
     "name": "elvis",
     "id": "elvis",
     "descr": "A free Vi clone for Unix and other operating systems.",
