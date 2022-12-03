@@ -1982,14 +1982,28 @@
 {
     "name": "vimiv",
     "id": "vimiv",
-    "descr": "An image viewer with Vim-like keybindings.",
+    "descr": "An image viewer with Vim-like keybindings (GTK version).",
     "url": "https://github.com/karlch/vimiv",
     "license": "BSD-like",
     "languages": [ "Python3" ],
     "category": "Image Viewers",
     "type": "confs",
-    "comments": [ ],
-    "ui": "GTK3"
+    "comments": [ "This version is deprecated in favour of [vimiv-qt]." ],
+    "ui": "GTK3",
+    "updated": 1670081865
+},
+{
+    "name": "vimiv-qt",
+    "id": "vimiv-qt",
+    "descr": "An image viewer with Vim-like keybindings (Qt version).",
+    "url": "https://github.com/karlch/vimiv-qt",
+    "license": "GPL v3",
+    "languages": [ "Python3" ],
+    "category": "Image Viewers",
+    "type": "confs",
+    "comments": [ "A continuation of [vimiv]." ],
+    "ui": "GTK3",
+    "added": 1670081864
 },
 {
     "name": "xzgv",
