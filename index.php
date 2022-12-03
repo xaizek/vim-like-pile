@@ -199,6 +199,33 @@ if ($type == 'search') {
     exit;
 }
 
+if ($type == 'changes') {
+    $changes = new Template('changes', $main);
+
+    $items = array();
+    foreach ($data->getAll() as $item) {
+        // Addition and last update are two separate events.
+        if (isset($item->added)) {
+            if (array_key_exists($item->added, $items)) {
+                throw new Exception("Duplicated change date: $item->added");
+            }
+            $items[$item->added] = $item;
+        }
+        if (isset($item->updated)) {
+            if (array_key_exists($item->updated, $items)) {
+                throw new Exception("Duplicated change date: $item->updated");
+            }
+            $items[$item->updated] = $item;
+        }
+    }
+    krsort($items, SORT_NUMERIC);
+    $changes->items = $items;
+
+    $main->content = $changes->format();
+    print $main->format();
+    exit;
+}
+
 if (!empty($id)) {
     $item = $data->getItem($id);
     $type = $item->type;

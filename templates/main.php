@@ -14,6 +14,9 @@
             <a href="https://github.com/xaizek/vim-like-pile">contribute</a>
         </div>
         <div class="button">
+            <a href="<?php echo $webRoot; ?>/changes">changes</a>
+        </div>
+        <div class="button">
             <a href="#search">search</a>
             <form id="search" action="<?php echo $webRoot; ?>/search"
                   method="get">

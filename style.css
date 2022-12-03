@@ -5,7 +5,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 15px;
-    padding-left: 260px;
+    padding-left: 310px;
     margin-bottom: 10px;
 }
 
@@ -16,6 +16,17 @@ ul {
 
 li p {
     margin: 0px;
+}
+
+li.change {
+    padding: 5px;
+}
+
+ol .changeDate {
+    font-weight: bold;
+    margin-right: 40px; /* to account for list parent */
+    padding-top: 10px;
+    text-align: center;
 }
 
 a {
@@ -60,7 +71,7 @@ input[type="submit"] {
 .buttons {
     float: right;
     margin-right: 10px;
-    width: 250px;
+    width: 300px;
 }
 
 .button {
