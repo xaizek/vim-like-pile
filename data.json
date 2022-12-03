@@ -1156,6 +1156,19 @@
     "ui": ""
 },
 {
+    "name": "reaper-keys",
+    "id": "reaper-keys",
+    "descr": "Vim-like shortcuts for [Reaper](https://www.reaper.fm/) DAW.",
+    "url": "https://github.com/gwatcha/reaper-keys",
+    "license": "MIT",
+    "languages": [ "Lua" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "",
+    "added": 1670082488
+},
+{
     "name": "jVi",
     "id": "jvi",
     "descr": "NetBeans IDE Vim-like plugin.",
