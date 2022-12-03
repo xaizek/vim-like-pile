@@ -31,9 +31,11 @@
         <span class="type <?php if ($type == 'confs') echo 'currentType'; ?>">
             <a href="<?php echo $webRoot; ?>/confs">Configurable</a></span>
     </div>
-    <div class="typeDescr">
-        <?php echo $descr; ?>
-    </div>
+    <?php if (isset($descr)): ?>
+        <div class="typeDescr">
+            <?php echo $descr; ?>
+        </div>
+    <?php endif ?>
     <div>
         <?php echo $content; ?>
     </div>
