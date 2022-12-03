@@ -52,7 +52,7 @@
     "descr": "Fast, small, WebKit based browser framework extensible by Lua.",
     "url": "https://luakit.github.io/",
     "license": "GPL",
-    "languages": [ "C + Lua" ],
+    "languages": [ "C", "Lua" ],
     "category": "Graphical Browsers",
     "type": "apps",
     "comments": [ ],
