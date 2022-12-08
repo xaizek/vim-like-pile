@@ -860,7 +860,7 @@
     "name": "Firenvim",
     "id": "firenvim",
     "descr": "Embed Neovim in Chrome, Firefox & others.",
-    "url": "Embed Neovim in Chrome, Firefox & others.",
+    "url": "https://github.com/glacambre/firenvim",
     "license": "GPL 3.0",
     "languages": [ "TypeScript" ],
     "category": "Browser Plugins",
