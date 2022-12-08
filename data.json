@@ -1455,8 +1455,9 @@
     "languages": [ "C" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "integrates into applications that provide command-line input and runs Vim in background to do the work." ],
-    "ui": "terminal"
+    "comments": [ "patches [libreadline][gnu-readline]/[zsh] to run Vim in background to handle input prompt" ],
+    "ui": "terminal",
+    "updated": 1670522584
 },
 {
     "name": "Blender",
