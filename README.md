@@ -37,6 +37,16 @@ another item in brackets to link to it.
 "GPL" license means GPL of any version and "BSD-like" means any kind of
 BSD/MIT/X Consortium license.  Might be worth fixing in the future.
 
+### Configuration ###
+
+Can create `config.php` in the root with something like:
+
+```php
+<?php
+$webRoot = '/vim';
+?>
+```
+
 ### License ###
 
 On code: [Apache 2.0][apache]

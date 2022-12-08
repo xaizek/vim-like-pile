@@ -1,6 +1,6 @@
 <?php
 
-$webRoot = '/vim';
+$webRoot = '';
 
 if (file_exists(__DIR__ . '/config.php')) {
     include(__DIR__ . '/config.php');
