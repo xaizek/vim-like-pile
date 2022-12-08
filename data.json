@@ -2221,13 +2221,14 @@
     "name": "PAmix",
     "id": "pamix",
     "descr": "ncurses/curses pulseaudio mixer in C++ similar to pavucontrol.",
-    "url": "http://www.svgalib.org/rus/rexima.html",
+    "url": "https://github.com/patroclos/PAmix/",
     "license": "BSD-like",
     "languages": [ "C++" ],
     "category": "Audio Mixers",
     "type": "confs",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "updated": 1670452965
 },
 
 {
