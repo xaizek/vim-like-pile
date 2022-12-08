@@ -811,7 +811,7 @@
 {
     "name": "Vimium-FF",
     "id": "vimium",
-    "descr": "Vim plugin for Firefox",
+    "descr": "Vim plugin for Firefox.",
     "url": "https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/",
     "license": "MIT",
     "languages": [ "JavaScript" ],
@@ -1265,7 +1265,7 @@
 {
     "name": "Sublime Six",
     "id": "sublime-six",
-    "descr": "Successor of [Vintageous] plugin for Sublime Text.",
+    "descr": "Successor of [vintageous] plugin for Sublime Text.",
     "url": "http://www.sublimesix.com/",
     "license": "Proprietary",
     "languages": [ "Python" ],
@@ -1332,7 +1332,7 @@
     "languages": [ "Python" ],
     "category": "Sublime Plugins",
     "type": "plugs",
-    "comments": [ "previous incarnation of Vingageous" ],
+    "comments": [ "previous incarnation of [vintageous]" ],
     "ui": ""
 },
 {
@@ -1569,7 +1569,7 @@
 {
     "name": "Newsboat",
     "id": "newsboat",
-    "descr": "An RSS/Atom feed reader for the text console (a fork of Newsbeuter).",
+    "descr": "An RSS/Atom feed reader for the text console (a fork of [newsbeuter]).",
     "url": "https://newsboat.org/",
     "license": "BSD-like",
     "languages": [ "C++", "Rust" ],
@@ -1611,7 +1611,7 @@
     "languages": [ "C++" ],
     "category": "Terminal Selectors",
     "type": "apps",
-    "comments": [ "inspired by sentaku" ],
+    "comments": [ "inspired by [sentaku]" ],
     "ui": "curses"
 },
 {
@@ -2633,7 +2633,7 @@
     "languages": [ "C", "Perl" ],
     "category": "Source Code Management",
     "type": "confs",
-    "comments": [ "Nothing's better than the real deal. Tell git to use vim/nvim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:\n```ini\n[user]\n    editor = vim\n```\n" ],
+    "comments": [ "Nothing's better than the real deal. Tell git to use vim when editing commit messages, interactive rebase etc. by putting in your `~/.config/git/config`:\n```ini\n[user]\n    editor = vim\n```\n" ],
     "ui": "CLI"
 },
 {
