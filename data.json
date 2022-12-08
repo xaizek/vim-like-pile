@@ -2045,6 +2045,19 @@
     "updated": 1670452078
 },
 {
+    "name": "nsxiv",
+    "id": "nsxiv",
+    "descr": "Neo Simple X Image Viewer (fork of [sxiv]).",
+    "url": "https://codeberg.org/nsxiv/nsxiv",
+    "license": "GPL",
+    "languages": [ "C" ],
+    "category": "Image Viewers",
+    "type": "confs",
+    "comments": [ "Spiritual successor of [sxiv]." ],
+    "ui": "X Window System",
+    "added": 1670452120
+},
+{
     "name": "vimiv",
     "id": "vimiv",
     "descr": "An image viewer with Vim-like keybindings (GTK version).",
