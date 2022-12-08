@@ -1687,13 +1687,14 @@
     "name": "tig",
     "id": "tig",
     "descr": "Text-mode interface for [git].",
-    "url": "http://jonas.nitro.dk/tig/",
+    "url": "https://jonas.github.io/tig/",
     "license": "GPL",
     "languages": [ "C" ],
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "updated": 1670435264
 },
 {
     "name": "Taskell",
