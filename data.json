@@ -2009,13 +2009,14 @@
     "name": "imv",
     "id": "imv",
     "descr": "A command line image viewer intended for use with tiling window managers.",
-    "url": "https://github.com/eXeC64/imv",
+    "url": "https://sr.ht/~exec64/imv/",
     "license": "BSD-like",
     "languages": [ "C" ],
     "category": "Image Viewers",
     "type": "confs",
     "comments": [ ],
-    "ui": "X Window System or Wayland"
+    "ui": "X Window System or Wayland",
+    "updated": 1670441351
 },
 {
     "name": "pim",
