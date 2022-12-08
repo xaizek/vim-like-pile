@@ -1299,13 +1299,14 @@
     "name": "viex",
     "id": "viex",
     "descr": "NetBeans IDE Vim-like plugin.",
-    "url": "http://plugins.netbeans.org/plugin/601/",
+    "url": "https://sourceforge.net/projects/viex/",
     "license": "GPL",
     "languages": [ "Java" ],
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "SWT"
+    "ui": "SWT",
+    "updated": 1670356052
 },
 {
     "name": "Vintage",
