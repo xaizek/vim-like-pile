@@ -430,13 +430,14 @@
     "name": "nvi",
     "id": "nvi",
     "descr": "Vi reimplementation.",
-    "url": "https://en.wikipedia.org/wiki/Nvi",
+    "url": "https://repo.or.cz/nvi.git",
     "license": "BSD-like",
     "languages": [ "C" ],
     "category": "Editors",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "updated": 1670517693
 },
 {
     "name": "nvi",
