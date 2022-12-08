@@ -2629,18 +2629,6 @@
     "type": "apps",
     "comments": [ "The [keybindings](https://www.debian.org/doc/manuals/aptitude/ch02s05s02.en.html) are already Vim-like." ],
     "ui": "ncurses"
-},
-{
-    "name": "oni2",
-    "id": "oni2",
-    "descr": "The new onivim project. A text editor drawing inspiration from Sublime, VSCode and Vim.",
-    "url": "https://github.com/onivim/oni2",
-    "license": "MIT",
-    "languages": [ "Reason" ],
-    "category": "Editors",
-    "type": "apps",
-    "comments": [ ],
-    "ui": "revery"
 }
 
 ]
