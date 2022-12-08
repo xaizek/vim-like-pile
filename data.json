@@ -204,7 +204,8 @@
     "category": "Text Browsers",
     "type": "apps",
     "comments": [ ],
-    "ui": ""
+    "ui": "terminal",
+    "updated": 1670518202
 },
 
 {
