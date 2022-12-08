@@ -767,8 +767,9 @@
     "languages": [ "C" ],
     "category": "PDF Viewers",
     "type": "apps",
-    "comments": [ "had troubles installing newer version, so using the old one", "search used to be one match at a time, later was changed to whole-document search, which is very slow on huge documents" ],
-    "ui": "GTK+"
+    "comments": [ "search used to be one match at a time, later was changed to whole-document search, which makes first search very slow on huge documents" ],
+    "ui": "GTK+",
+    "updated": 1670522754
 },
 
 {
