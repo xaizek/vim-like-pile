@@ -1372,13 +1372,14 @@
     "name": "ViTunes",
     "id": "vitunes-itunes",
     "descr": "A Vim plugin that allows you to control iTunes.",
-    "url": "http://danielchoi.com/software/vitunes.html",
+    "url": "https://github.com/danchoi/vitunes",
     "license": "BSD-like",
-    "languages": [ "VimL, Ruby, Objective-C" ],
+    "languages": [ "VimL", "Ruby", "Objective-C" ],
     "category": "Various Plugins",
     "type": "plugs",
-    "comments": [ ],
-    "ui": ""
+    "comments": [ "It's a Vim plugin, so maybe it shouldn't be here." ],
+    "ui": "",
+    "updated": 1670368215
 },
 {
     "name": "VSCodeVim",
