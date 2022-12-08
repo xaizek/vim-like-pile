@@ -798,13 +798,14 @@
     "name": "Pentadactyl",
     "id": "pentadactyl",
     "descr": "Plugin for Firefox, Pale Moon, Basilisk.",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/pentadactyl/",
+    "url": "https://github.com/pentadactyl/pentadactyl",
     "license": "BSD-like",
-    "languages": [ "js probably" ],
+    "languages": [ "JavaScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ ],
-    "ui": "web"
+    "comments": [ "still works (not in Firefox), although barely maintained" ],
+    "ui": "web",
+    "updated": 1670518077
 },
 {
     "name": "Vimium-FF",
