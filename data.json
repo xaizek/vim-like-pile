@@ -455,12 +455,13 @@
     "id": "onivim2",
     "descr": "Sublime/VSCode-like editor internally backed by Vim's code.",
     "url": "https://www.onivim.io/",
-    "license": "Outrun Labs EULA 1.1",
+    "license": "MIT",
     "languages": [ "Reason" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "Requires purchasing for commercial use." ],
-    "ui": "revery"
+    "comments": [ ],
+    "ui": "revery",
+    "updated": 1670194610
 },
 {
     "name": "pyvim",
