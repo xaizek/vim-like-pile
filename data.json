@@ -2036,11 +2036,12 @@
     "descr": "Simple X Image Viewer.",
     "url": "https://github.com/muennich/sxiv",
     "license": "GPL",
-    "languages": [ "C++" ],
+    "languages": [ "C" ],
     "category": "Image Viewers",
     "type": "confs",
     "comments": [ "some bindings are like in Vi" ],
-    "ui": "X Window System"
+    "ui": "X Window System",
+    "updated": 1670452078
 },
 {
     "name": "vimiv",
