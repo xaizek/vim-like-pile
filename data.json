@@ -2379,13 +2379,14 @@
     "name": "rekonq",
     "id": "rekonq",
     "descr": "A Web browser for KDE based on WebKit.  Has basic Vim-like keys.",
-    "url": "https://rekonq.kde.org/",
+    "url": "https://github.com/KDE/rekonq",
     "license": "GPL",
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ "looks abandoned" ],
-    "ui": "KDE + WebKit"
+    "ui": "KDE + WebKit",
+    "updated": 1670453495
 },
 {
     "name": "rtv",
