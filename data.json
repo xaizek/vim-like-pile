@@ -14,13 +14,14 @@
     "name": "Cream-Browser",
     "id": "cream-browser",
     "descr": "A Vim-like lightweight Web browser with [Vimperator] interface.",
-    "url": "https://sourceforge.net/projects/cream-browser/",
+    "url": "https://github.com/linkdd/cream-browser",
     "license": "GPL",
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
     "comments": [ "looks abandoned" ],
-    "ui": "WebKit and GTK+"
+    "ui": "WebKit and GTK+",
+    "updated": 1670155026
 },
 {
     "name": "dwb",
