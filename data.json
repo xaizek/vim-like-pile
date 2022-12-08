@@ -1360,6 +1360,19 @@
     "ui": ""
 },
 {
+    "name": "Vim Mode Plus",
+    "id": "vim-mode-plus",
+    "descr": "Plugin for Atom.",
+    "url": "https://github.com/t9md/atom-vim-mode-plus",
+    "license": "MIT",
+    "languages": [ "CoffeeScript", "JavaScript" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ ],
+    "ui": "",
+    "added": 1670522643
+},
+{
     "name": "VimNavigation",
     "id": "vimnavigation",
     "descr": "fman plugin for Vim key style navigation.",
