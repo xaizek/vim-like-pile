@@ -1448,11 +1448,12 @@
     "descr": "Blender is the free and open source 3D creation suite.",
     "url": "https://www.blender.org/",
     "license": "GPL",
-    "languages": [ "C, C++ and Python" ],
+    "languages": [ "C", "C++", "Python" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "<https://learntemail.sam.today/blog/blender-for-hackers-3d-modeling-is-just-like-using-vim/>" ],
-    "ui": "OpenGL"
+    "comments": [ "<https://www.sam.today/blog/blender-for-hackers-3d-modeling-is-just-like-using-vim/>" ],
+    "ui": "OpenGL",
+    "updated": 1670434004
 },
 {
     "name": "Bombadillo",
