@@ -1935,13 +1935,14 @@
     "name": "KornSHell",
     "id": "ksh",
     "descr": "An early UNIX shell.",
-    "url": "https://github.com/ksh2020/ksh",
+    "url": "http://www.kornshell.org/",
     "license": "EPL",
     "languages": [ "C" ],
     "category": "Shells",
     "type": "confs",
     "comments": [ "has Vim-like bindings: set -o vi" ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "updated": 1670441094
 },
 {
     "name": "GNU ReadLine",
