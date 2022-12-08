@@ -18,7 +18,7 @@ $cutoff_date = time() - $six_months_secs;
                 echo '<span class="label">new</span>';
             }
             if (isset($item->updated) && $item->updated > $cutoff_date) {
-                echo '<span class="label">changed</span>';
+                echo '<span class="label">updated</span>';
             }
         ?>
     </div>
