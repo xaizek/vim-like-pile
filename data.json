@@ -2195,13 +2195,14 @@
     "name": "wmii",
     "id": "wmii",
     "descr": "A small, scriptable window manager, with a 9P filesystem interface and an acme-like layout.",
-    "url": "https://code.google.com/archive/p/wmii/",
+    "url": "https://github.com/0intro/wmii",
     "license": "BSD-like",
     "languages": [ "C" ],
     "category": "Window Managers",
     "type": "confs",
     "comments": [ "has basic Vi bindings by default" ],
-    "ui": "X Window System"
+    "ui": "X Window System",
+    "updated": 1670452775
 },
 
 {
