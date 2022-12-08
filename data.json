@@ -1835,13 +1835,14 @@
     "name": "Editra",
     "id": "editra",
     "descr": "Editra is a multi-platform text editor with an implementation that focuses on creating an easy to use interface and features that aid in code development.",
-    "url": "http://editra.org/",
+    "url": "https://github.com/cjprecord/editra",
     "license": "wxWindows license",
     "languages": [ "Python" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vim-like editing mode: <http://editra.org/vi_emulation>" ],
-    "ui": "wxWidgets"
+    "ui": "wxWidgets",
+    "updated": 1670440782
 },
 {
     "name": "SlickEdit",
