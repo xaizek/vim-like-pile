@@ -1421,6 +1421,19 @@
     "ui": "Cocoa"
 },
 {
+    "name": "XVim2",
+    "id": "xvim2",
+    "descr": "Vim key-bindings for Xcode 9.",
+    "url": "https://github.com/XVimProject/XVim2",
+    "license": "BSD-like",
+    "languages": [ "Objective-C" ],
+    "category": "Various Plugins",
+    "type": "plugs",
+    "comments": [ "second version of [XVim][xvim] project" ],
+    "ui": "Cocoa",
+    "added": 1670522443
+},
+{
     "name": "zsh-vi-mode",
     "id": "zsh-vi-mode",
     "descr": "A better and friendlier vi(m) mode plugin for [zsh].",
