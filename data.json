@@ -625,13 +625,14 @@
     "name": "ranger",
     "id": "ranger",
     "descr": "A console file manager with Vi key bindings, includes application association guessing tool.",
-    "url": "http://nongnu.org/ranger/",
+    "url": "https://ranger.github.io/",
     "license": "GPL",
     "languages": [ "Python" ],
     "category": "File Managers",
     "type": "apps",
     "comments": [ "miller columns kind of interface" ],
-    "ui": "ncurses"
+    "ui": "ncurses",
+    "updated": 1670261230
 },
 {
     "name": "Vide",
