@@ -27,7 +27,8 @@ Each item is described by a dictionary like this:
     "type": "<< apps / plugs / confs >>",
     "comments": [ "<< things like URL to a tutorial for making Vim-like >>" ],
     "ui": "<< terminal / graphics toolkit >>",
-    "added": "<< UNIX timestamp of addition (unused) >>"
+    "added": "<< UNIX timestamp of addition >>",
+    "updated": "<< UNIX timestamp of a noticeable change >>"
 }
 ```
 
