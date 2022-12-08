@@ -1214,13 +1214,14 @@
     "name": "jVi",
     "id": "jvi",
     "descr": "NetBeans IDE Vim-like plugin.",
-    "url": "http://plugins.netbeans.org/plugin/38914",
+    "url": "https://jvi.sourceforge.net/",
     "license": "MPL",
     "languages": [ "Java" ],
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ "one of the closest Vim-like emulation plugins, among those I've ever tried" ],
-    "ui": "SWT"
+    "ui": "SWT",
+    "updated": 1670355007
 },
 {
     "name": "Melodactyl",
