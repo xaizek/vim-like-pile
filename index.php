@@ -6,6 +6,38 @@ if (file_exists(__DIR__ . '/config.php')) {
     include(__DIR__ . '/config.php');
 }
 
+$year_secs = 60*60*24*365;
+$six_months_secs = $year_secs/2;
+
+$now = time();
+
+$db_label_cutoff = $now - $six_months_secs;
+
+function get_state_label($item) {
+    global $year_secs;
+    global $now;
+
+    $state = $item->state;
+
+    if ($state->name === 'discontinued') {
+        return 'discontinued';
+    }
+    if ($state->name !== 'inactive') {
+        return 'WTF?';
+    }
+
+    if ($state->since > $now - $year_secs) {
+        return 'inactive';
+    }
+    if ($state->since > $now - 2*$year_secs) {
+        return 'stalled';
+    }
+    if ($state->since > $now - 5*$year_secs) {
+        return 'unmaintained';
+    }
+    return 'abandoned';
+}
+
 class Template
 {
     private $vars = array();

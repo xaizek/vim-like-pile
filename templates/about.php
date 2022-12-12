@@ -40,6 +40,8 @@ To contribute, either:
     means any kind of BSD/MIT/X Consortium license. (This might be worth fixing
     in the future.)</li>
 <li>Some comments might not be extremely accurate or neutral.</li>
+<li>Discontinued/abandoned projects might still be perfectly useable, but you're
+    unlikely to get any kind of support for them.</li>
 </ul>
 
 </div>

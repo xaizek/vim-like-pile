@@ -1,10 +1,3 @@
-<?php
-
-$six_months_secs = 60*60*24*30*6;
-$cutoff_date = time() - $six_months_secs;
-
-?>
-
 <?php foreach ($items as $item): ?>
     <div class="island">
         <div class="name">
@@ -14,10 +7,15 @@ $cutoff_date = time() - $six_months_secs;
         <div class="descr"><?php echo $item->descr; ?></div>
 
         <?php
-            if (isset($item->added) && $item->added > $cutoff_date) {
+            global $db_label_cutoff;
+            if (isset($item->state)) {
+                $state_label = get_state_label($item);
+                echo "<span class=\"label\">$state_label</span>";
+            }
+            if (isset($item->added) && $item->added > $db_label_cutoff) {
                 echo '<span class="label">new</span>';
             }
-            if (isset($item->updated) && $item->updated > $cutoff_date) {
+            if (isset($item->updated) && $item->updated > $db_label_cutoff) {
                 echo '<span class="label">updated</span>';
             }
         ?>

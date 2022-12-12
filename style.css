@@ -159,6 +159,7 @@ input[type="submit"] {
     color: white;
     background-color: #404040;
     padding: 3px 5px;
+    margin-right: 3px;
     border-radius: 4px;
     font-family: sans-serif;
     font-weight: bold;
