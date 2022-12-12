@@ -13,7 +13,7 @@
                 echo "<span class=\"label\">$state_label</span>";
             }
             if (isset($item->added) && $item->added > $db_label_cutoff) {
-                echo '<span class="label">new</span>';
+                echo '<span class="label">added</span>';
             }
             if (isset($item->updated) && $item->updated > $db_label_cutoff) {
                 echo '<span class="label">updated</span>';
