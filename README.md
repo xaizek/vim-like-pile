@@ -37,8 +37,8 @@ Each item is described by a dictionary like this:
 }
 ```
 
-Markdown is expanded in the values of `descr` and `comments`.  Mention `id` of
-another item in brackets to link to it.
+Markdown is expanded in the values of `descr`, `comments` and `state.comment`.
+Mention `id` of another item in brackets to link to it.
 
 "GPL" license means GPL of any version and "BSD-like" means any kind of
 BSD/MIT/X Consortium license.  Might be worth fixing in the future.

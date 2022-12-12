@@ -107,6 +107,10 @@ class Data
             foreach ($item->comments as &$comment) {
                 $comment = $markdown->transform($comment);
             }
+            if (isset($item->state) && isset($item->state->comment)) {
+                $item->state->comment =
+                    $markdown->transform($item->state->comment);
+            }
         }
 
         $json = json_encode($data);
