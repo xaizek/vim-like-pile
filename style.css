@@ -218,6 +218,10 @@ input[type="submit"] {
     padding: 0px 5px;
 }
 
+.infoValue p {
+    display: inline;
+}
+
 .category, .completeCategory {
     color: #222;
     border-bottom: 2px solid #222;

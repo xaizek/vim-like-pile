@@ -52,6 +52,24 @@
         </ul>
     </div>
     <?php endif ?>
+
+    <?php if (isset($item->state)): ?>
+    <div class="infoItem">
+        <span class="infoKey">State</span>
+        <span class="infoValue">
+            <b>
+            <?php echo $item->state->name; ?>
+            since
+            <?php echo date('Y.m.d', $item->state->since); ?>
+            </b>
+            <?php
+                if (isset($item->state->comment)) {
+                    echo '(<i>' . rtrim($item->state->comment) . '</i>)';
+                }
+            ?>
+        </span>
+    </div>
+    <?php endif ?>
 </div>
 
 <div class="completeCategory">
