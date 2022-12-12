@@ -19,9 +19,13 @@
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "looks abandoned" ],
+    "comments": [ ],
     "ui": "WebKit and GTK+",
-    "updated": 1670155026
+    "updated": 1670155026,
+    "state": {
+        "name": "inactive",
+        "since": 1328565600
+    }
 },
 {
     "name": "dwb",
@@ -32,8 +36,13 @@
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "abandoned by its author" ],
-    "ui": "WebKit and GTK+"
+    "comments": [ ],
+    "ui": "WebKit and GTK+",
+    "state": {
+        "name": "discontinued",
+        "since": 1481580000,
+        "comment": "GTK+ bindings for WebKit leak."
+    }
 },
 {
     "name": "jumanji",
@@ -44,8 +53,12 @@
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "stale development" ],
-    "ui": "WebKit and GTK+"
+    "comments": [ ],
+    "ui": "WebKit and GTK+",
+    "state": {
+        "name": "discontinued",
+        "since": 1454536800
+    }
 },
 {
     "name": "luakit",
@@ -106,7 +119,11 @@
     "category": "Graphical Browsers",
     "type": "apps",
     "comments": [ "requires configuration (syntax wasn't really obvious)", "process per tab" ],
-    "ui": "WebKit and GTK+"
+    "ui": "WebKit and GTK+",
+    "state": {
+        "name": "inactive",
+        "since": 1515103200
+    }
 },
 {
     "name": "Vimprobable",
@@ -118,7 +135,11 @@
     "category": "Graphical Browsers",
     "type": "apps",
     "comments": [ "didn't have history and cookies (claimed that this is for security)" ],
-    "ui": "WebKit and GTK+"
+    "ui": "WebKit and GTK+",
+    "state": {
+        "name": "inactive",
+        "since": 1448143200
+    }
 },
 {
     "name": "vimb",
@@ -153,8 +174,12 @@
     "languages": [ "C" ],
     "category": "Graphical Browsers",
     "type": "apps",
-    "comments": [ "formerly known as xxxterm", "stale development" ],
-    "ui": "WebKit and GTK+"
+    "comments": [ "formerly known as xxxterm" ],
+    "ui": "WebKit and GTK+",
+    "state": {
+        "name": "inactive",
+        "since": 1462482000
+    }
 },
 {
     "name": "Vieb",
@@ -191,8 +216,12 @@
     "languages": [ "C" ],
     "category": "Text Browsers",
     "type": "apps",
-    "comments": [ "stale development" ],
-    "ui": ""
+    "comments": [ ],
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1421013600
+    }
 },
 {
     "name": "w3m",
@@ -205,7 +234,11 @@
     "type": "apps",
     "comments": [ ],
     "ui": "terminal",
-    "updated": 1670518202
+    "updated": 1670518202,
+    "state": {
+        "name": "inactive",
+        "since": 1295042400
+    }
 },
 
 {
@@ -290,7 +323,11 @@
     "category": "E-mail related",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1480543200
+    }
 },
 
 {
@@ -327,7 +364,11 @@
     "category": "Hex Editors",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1498683600
+    }
 },
 {
     "name": "hed",
@@ -352,7 +393,11 @@
     "category": "Hex Editors",
     "type": "apps",
     "comments": [ "it seems to be possible to build it without JS" ],
-    "ui": "libtickit"
+    "ui": "libtickit",
+    "state": {
+        "name": "inactive",
+        "since": 1525899600
+    }
 },
 {
     "name": "hexer",
@@ -364,7 +409,11 @@
     "category": "Hex Editors",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "state": {
+        "name": "inactive",
+        "since": 1587675600
+    }
 },
 {
     "name": "hx",
@@ -388,7 +437,7 @@
     "languages": [ "C" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ ],
+    "comments": [ "abandoned by original author, but isn't completely dead" ],
     "ui": "terminal"
 },
 {
@@ -438,7 +487,11 @@
     "type": "apps",
     "comments": [ ],
     "ui": "terminal",
-    "updated": 1670517693
+    "updated": 1670517693,
+    "state": {
+        "name": "inactive",
+        "since": 1600203600
+    }
 },
 {
     "name": "nvi",
@@ -449,8 +502,12 @@
     "languages": [ "CoffeeScript" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "looks abandoned" ],
-    "ui": "terminal"
+    "comments": [ ],
+    "ui": "terminal",
+    "state": {
+        "name": "inactive",
+        "since": 1376859600
+    }
 },
 {
     "name": "Onivim 2",
@@ -463,7 +520,12 @@
     "type": "apps",
     "comments": [ ],
     "ui": "revery",
-    "updated": 1670194610
+    "updated": 1670194610,
+    "state": {
+        "name": "discontinued",
+        "since": 1639173600,
+        "comment": "Issues funding development."
+    }
 },
 {
     "name": "pyvim",
@@ -486,8 +548,12 @@
     "languages": [ "Rust" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "looks abandoned" ],
-    "ui": "terminal"
+    "comments": [ ],
+    "ui": "terminal",
+    "state": {
+        "name": "inactive",
+        "since": 1610748000
+    }
 },
 {
     "name": "spacemacs",
@@ -547,7 +613,11 @@
     "category": "Editors",
     "type": "apps",
     "comments": [ ],
-    "ui": "Tk"
+    "ui": "Tk",
+    "state": {
+        "name": "inactive",
+        "since": 1606428000
+    }
 },
 {
     "name": "WinVi",
@@ -558,8 +628,12 @@
     "languages": [ "C" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "stale development" ],
-    "ui": "Windows"
+    "comments": [ ],
+    "ui": "Windows",
+    "state": {
+        "name": "inactive",
+        "since": 1332021600
+    }
 },
 {
     "name": "xvi",
@@ -582,8 +656,12 @@
     "languages": [ "C++" ],
     "category": "Editors",
     "type": "apps",
-    "comments": [ "stale development" ],
-    "ui": "Qt (for editor)"
+    "comments": [ ],
+    "ui": "Qt (for editor)",
+    "state": {
+        "name": "inactive",
+        "since": 1327010400
+    }
 },
 {
     "name": "moe",
@@ -608,8 +686,12 @@
     "languages": [ "Java" ],
     "category": "File Managers",
     "type": "apps",
-    "comments": [ "two-pane kind of interface", "abandoned" ],
-    "ui": "SWT"
+    "comments": [ "two-pane kind of interface" ],
+    "ui": "SWT",
+    "state": {
+        "name": "inactive",
+        "since": 1290376800
+    }
 },
 {
     "name": "lf",
@@ -645,8 +727,13 @@
     "languages": [ "C" ],
     "category": "File Managers",
     "type": "apps",
-    "comments": [ "see `buildable-version` branch and supply `CFLAGS=-std=gnu90` on modern GCC (C99 semantics of inline conflicts with GTK+1) if you want to try it out", "abandoned many years ago" ],
-    "ui": "GTK+"
+    "comments": [ "see `buildable-version` branch and supply `CFLAGS=-std=gnu90` on modern GCC (C99 semantics of inline conflicts with GTK+1) if you want to try it out" ],
+    "ui": "GTK+",
+    "state": {
+        "name": "discontinued",
+        "since": 1670263320,
+        "comment": "Has been reworked into [vifm]."
+    }
 },
 {
     "name": "vifm",
@@ -682,8 +769,12 @@
     "languages": [ "C" ],
     "category": "Music Players",
     "type": "apps",
-    "comments": [ "uses mplayer to play the music", "main controls aren't very Vim-like", "project has been abandoned by the original author" ],
-    "ui": "curses"
+    "comments": [ "uses mplayer to play the music", "main controls aren't very Vim-like" ],
+    "ui": "curses",
+    "state": {
+        "name": "discontinued",
+        "since": 1612821600
+    }
 },
 {
     "name": "pms",
@@ -719,7 +810,11 @@
     "category": "Music Players",
     "type": "apps",
     "comments": [ "using it wasn't very intuitive" ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1593810000
+    }
 },
 {
     "name": "vimus",
@@ -743,7 +838,11 @@
     "category": "Music Players",
     "type": "apps",
     "comments": [ "uses mplayer to play the music" ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1456956000
+    }
 },
 
 {
@@ -782,7 +881,12 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Vimperator",
@@ -794,7 +898,12 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Pentadactyl",
@@ -831,7 +940,12 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Vim Vixen",
@@ -905,7 +1019,11 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "inactive",
+        "since": 1380747600
+    }
 },
 {
     "name": "Vrome",
@@ -917,7 +1035,11 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "inactive",
+        "since": 1477256400
+    }
 },
 {
     "name": "vimlike-smooziee",
@@ -929,7 +1051,11 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "inactive",
+        "since": 1260050400
+    }
 },
 {
     "name": "Vimium",
@@ -952,9 +1078,13 @@
     "languages": [ "JavaScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ "Code: <https://github.com/televator-apps/vimari>" ],
+    "comments": [ "code: <https://github.com/televator-apps/vimari>" ],
     "ui": "web",
-    "added": 1670090935
+    "added": 1670090935,
+    "state": {
+        "name": "inactive",
+        "since": 1618261200
+    }
 },
 
 {
@@ -967,7 +1097,12 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "if I get it right, it's nowhere near [Vimperator]/[Pentadactyl]" ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "discontinued",
+        "since": 1670264405,
+        "comment": "The plugin is gone."
+    }
 },
 
 {
@@ -979,8 +1114,12 @@
     "languages": [ "JavaScript" ],
     "category": "Browser Plugins",
     "type": "plugs",
-    "comments": [ ],
-    "ui": "web"
+    "comments": [ "code: <https://github.com/akahuku/wasavi>" ],
+    "ui": "web",
+    "state": {
+        "name": "inactive",
+        "since": 1502226000
+    }
 },
 
 {
@@ -993,7 +1132,11 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "Crystal there is for the native part." ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "inactive",
+        "since": 1629752400
+    }
 },
 {
     "name": "Saka Key",
@@ -1005,7 +1148,12 @@
     "category": "Browser Plugins",
     "type": "plugs",
     "comments": [ "Initial mappings aren't exactly as in Vim, but they seem to be configurable." ],
-    "ui": "web"
+    "ui": "web",
+    "state": {
+        "name": "discontinued",
+        "since": 1667772000,
+        "comment": "The original developer does not and will not have the time and motivation to continue."
+    }
 },
 
 {
@@ -1042,7 +1190,11 @@
     "category": "Eclipse Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "SWT"
+    "ui": "SWT",
+    "state": {
+        "name": "inactive",
+        "since": 1366232400
+    }
 },
 {
     "name": "viPlugin",
@@ -1066,7 +1218,11 @@
     "category": "Eclipse Plugins",
     "type": "plugs",
     "comments": [ "might be outdated" ],
-    "ui": "SWT"
+    "ui": "SWT",
+    "state": {
+        "name": "inactive",
+        "since": 1192050000
+    }
 },
 {
     "name": "vrapper",
@@ -1089,8 +1245,13 @@
     "languages": [ "ELisp" ],
     "category": "Emacs Plugins",
     "type": "plugs",
-    "comments": [ "Superseded-By: evil-mode" ],
-    "ui": "emacs"
+    "comments": [  ],
+    "ui": "emacs",
+    "state": {
+        "name": "discontinued",
+        "since": 1301778000,
+        "comment": "Superseded by [evil]."
+    }
 },
 {
     "name": "eVil",
@@ -1125,8 +1286,13 @@
     "languages": [ "ELisp" ],
     "category": "Emacs Plugins",
     "type": "plugs",
-    "comments": [ "Evil supersedes this project." ],
-    "ui": "emacs"
+    "comments": [ ],
+    "ui": "emacs",
+    "state": {
+        "name": "discontinued",
+        "since": 1341954000,
+        "comment": "[evil] supersedes this project."
+    }
 },
 
 {
@@ -1139,7 +1305,11 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "Win32"
+    "ui": "Win32",
+    "state": {
+        "name": "inactive",
+        "since": 1022187600
+    }
 },
 {
     "name": "DrRacket Vim Tool",
@@ -1151,7 +1321,11 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1547676000
+    }
 },
 {
     "name": "FakeVim",
@@ -1199,7 +1373,11 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1335560400
+    }
 },
 {
     "name": "reaper-keys",
@@ -1212,7 +1390,11 @@
     "type": "plugs",
     "comments": [ ],
     "ui": "",
-    "added": 1670082488
+    "added": 1670082488,
+    "state": {
+        "name": "inactive",
+        "since": 1629666000
+    }
 },
 {
     "name": "jVi",
@@ -1237,7 +1419,12 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Muttator",
@@ -1249,7 +1436,12 @@
     "category": "Thunderbird Plugins",
     "type": "plugs",
     "comments": ["It's the Vimperator of Thunderbird." ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Teledactyl",
@@ -1261,7 +1453,12 @@
     "category": "Thunderbird Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1510610400,
+        "comment": "Killed by Mozilla along with proper extensions."
+    }
 },
 {
     "name": "Sublime Six",
@@ -1273,7 +1470,12 @@
     "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1670355584,
+        "comment": "Site is not accessible anymore."
+    }
 },
 {
     "name": "vibreoffice",
@@ -1285,7 +1487,12 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1465506000,
+        "comment": "Unfortunately, vibreoffice is still in an experimental stage, and I no longer have much time to work on it. Hope you enjoy it anyway!"
+    }
 },
 {
     "name": "viemu",
@@ -1297,7 +1504,12 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ "tried it for Visual Studio, it wasn't bad, but it left me unimpressed (quite long time ago)" ],
-    "ui": "Win32"
+    "ui": "Win32",
+    "state": {
+        "name": "discontinued",
+        "since": 1635717600,
+        "comment": "As of November 2021, ViEmu is discontinued as a commercial product."
+    }
 },
 {
     "name": "viex",
@@ -1310,7 +1522,11 @@
     "type": "plugs",
     "comments": [ ],
     "ui": "SWT",
-    "updated": 1670356052
+    "updated": 1670356052,
+    "state": {
+        "name": "inactive",
+        "since": 1553551200
+    }
 },
 {
     "name": "Vintage",
@@ -1322,7 +1538,11 @@
     "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1342645200
+    }
 },
 {
     "name": "VintageEx",
@@ -1334,7 +1554,11 @@
     "category": "Sublime Plugins",
     "type": "plugs",
     "comments": [ "previous incarnation of [vintageous]" ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1360706400
+    }
 },
 {
     "name": "Vintageous",
@@ -1345,8 +1569,13 @@
     "languages": [ "Python" ],
     "category": "Sublime Plugins",
     "type": "plugs",
-    "comments": [ "README says that Vintageous has been discontinued and its successor is Sublime Six (not open source)" ],
-    "ui": ""
+    "comments": [ ],
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1532811600,
+        "comment": "Superseded by [Sublime Six][sublime-six] (not open source)."
+    }
 },
 {
     "name": "Vim Mode",
@@ -1358,7 +1587,12 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "discontinued",
+        "since": 1497474000,
+        "comment": "Because [vim-mode-plus] has more features and is very well maintained."
+    }
 },
 {
     "name": "Vim Mode Plus",
@@ -1383,7 +1617,11 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ "fman is a proprietary application." ],
-    "ui": ""
+    "ui": "",
+    "state": {
+        "name": "inactive",
+        "since": 1518559200
+    }
 },
 {
     "name": "ViTunes",
@@ -1396,7 +1634,11 @@
     "type": "plugs",
     "comments": [ "It's a Vim plugin, so maybe it shouldn't be here." ],
     "ui": "",
-    "updated": 1670368215
+    "updated": 1670368215,
+    "state": {
+        "name": "inactive",
+        "since": 1353016800
+    }
 },
 {
     "name": "VSCodeVim",
@@ -1432,7 +1674,12 @@
     "category": "Various Plugins",
     "type": "plugs",
     "comments": [ ],
-    "ui": "Cocoa"
+    "ui": "Cocoa",
+    "state": {
+        "name": "discontinued",
+        "since": 1515448800,
+        "comment": "Became [XVim2][xvim2] after Xcode 9 was released."
+    }
 },
 {
     "name": "XVim2",
@@ -1592,7 +1839,12 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "discontinued",
+        "since": 1505854800,
+        "comment": "Users are directed at [newsboat]."
+    }
 },
 {
     "name": "Newsboat",
@@ -1615,8 +1867,12 @@
     "languages": [ "Python" ],
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
-    "comments": [ "looks abandoned" ],
-    "ui": "GTK+"
+    "comments": [ ],
+    "ui": "GTK+",
+    "state": {
+        "name": "inactive",
+        "since": 1216328400
+    }
 },
 {
     "name": "pineapple-tracker",
@@ -1628,7 +1884,11 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1488751200
+    }
 },
 {
     "name": "pipedial",
@@ -1712,7 +1972,12 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "GTK+ and VTE"
+    "ui": "GTK+ and VTE",
+    "state": {
+        "name": "discontinued",
+        "since": 1620334800,
+        "comment": "VTE/GTK/GNOME are a terrible base to built on, avoid it."
+    }
 },
 {
     "name": "tig",
@@ -1737,7 +2002,12 @@
     "category": "TODO and Notes",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "state": {
+        "name": "discontinued",
+        "since": 1617224400,
+        "comment": "Development is on hold, but can be continued later."
+    }
 },
 {
     "name": "TuDu",
@@ -1749,7 +2019,11 @@
     "category": "TODO and Notes",
     "type": "apps",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1589058000
+    }
 },
 {
     "name": "VIT",
@@ -1772,8 +2046,12 @@
     "languages": [ "C++" ],
     "category": "Other",
     "type": "apps",
-    "comments": [ "stale development" ],
-    "ui": "curses"
+    "comments": [ ],
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1269381600
+    }
 },
 {
     "name": "ViPaint",
@@ -1785,7 +2063,11 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "JavaFX"
+    "ui": "JavaFX",
+    "state": {
+        "name": "inactive",
+        "since": 1550268000
+    }
 },
 {
     "name": "vlrtt",
@@ -1797,7 +2079,11 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "Some engine"
+    "ui": "Some engine",
+    "state": {
+        "name": "inactive",
+        "since": 1392501600
+    }
 },
 {
     "name": "Termshark",
@@ -1873,7 +2159,11 @@
     "type": "apps",
     "comments": [ "has Vim-like editing mode: <http://editra.org/vi_emulation>" ],
     "ui": "wxWidgets",
-    "updated": 1670440782
+    "updated": 1670440782,
+    "state": {
+        "name": "inactive",
+        "since": 1573768800
+    }
 },
 {
     "name": "SlickEdit",
@@ -1997,7 +2287,12 @@
     "category": "IDEs, Word Processors, Editors with Vi-modes",
     "type": "apps",
     "comments": [ "has Vi mode" ],
-    "ui": "GTK+"
+    "ui": "GTK+",
+    "state": {
+        "name": "discontinued",
+        "since": 1577829600,
+        "comment": "This project has not been built nor maintained since January 2020 and has been archived."
+    }
 },
 {
     "name": "GNOME Builder",
@@ -2059,7 +2354,11 @@
     "category": "Image Viewers",
     "type": "confs",
     "comments": [ ],
-    "ui": "GTK+"
+    "ui": "GTK+",
+    "state": {
+        "name": "inactive",
+        "since": 1617138000
+    }
 },
 {
     "name": "sxiv",
@@ -2072,7 +2371,12 @@
     "type": "confs",
     "comments": [ "some bindings are like in Vi" ],
     "ui": "X Window System",
-    "updated": 1670452078
+    "updated": 1670452078,
+    "state": {
+        "name": "discontinued",
+        "since": 1632344400,
+        "comment": "[nsxiv] is the spiritual successor."
+    }
 },
 {
     "name": "nsxiv",
@@ -2096,9 +2400,14 @@
     "languages": [ "Python3" ],
     "category": "Image Viewers",
     "type": "confs",
-    "comments": [ "This version is deprecated in favour of [vimiv-qt]." ],
+    "comments": [ ],
     "ui": "GTK3",
-    "updated": 1670081865
+    "updated": 1670081865,
+    "state": {
+        "name": "discontinued",
+        "since": 1592168400,
+        "comment": "Deprecated in favour of [vimiv-qt]."
+    }
 },
 {
     "name": "vimiv-qt",
@@ -2197,7 +2506,11 @@
     "category": "Window Managers",
     "type": "confs",
     "comments": [ ],
-    "ui": "X Window System"
+    "ui": "X Window System",
+    "state": {
+        "name": "inactive",
+        "since": 1441486800
+    }
 },
 {
     "name": "howm",
@@ -2209,7 +2522,11 @@
     "category": "Window Managers",
     "type": "confs",
     "comments": [ "tries to follow Unix-way too much (see next comment)", "I used the word \"promises\" in the description because howm demonstrated severe issues with input processing when I gave it a try, drawing it useless" ],
-    "ui": "X Window System"
+    "ui": "X Window System",
+    "state": {
+        "name": "inactive",
+        "since": 1633640400
+    }
 },
 {
     "name": "i3",
@@ -2259,7 +2576,11 @@
     "category": "Audio Mixers",
     "type": "confs",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1049662800
+    }
 },
 {
     "name": "PAmix",
@@ -2321,7 +2642,11 @@
     "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1591650000
+    }
 },
 {
     "name": "nnn",
@@ -2345,7 +2670,11 @@
     "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "state": {
+        "name": "inactive",
+        "since": 1590354000
+    }
 },
 {
     "name": "noice",
@@ -2357,7 +2686,11 @@
     "category": "File Managers/Browsers",
     "type": "confs",
     "comments": [ "very minimalistic", "try this for code (original link doesn't work): <https://github.com/chrisw310/noice>" ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "inactive",
+        "since": 1566939600
+    }
 },
 {
     "name": "rover",
@@ -2428,9 +2761,13 @@
     "languages": [ "C++" ],
     "category": "Miscellaneous",
     "type": "confs",
-    "comments": [ "looks abandoned" ],
+    "comments": [ ],
     "ui": "KDE + WebKit",
-    "updated": 1670453495
+    "updated": 1670453495,
+    "state": {
+        "name": "inactive",
+        "since": 1546034400
+    }
 },
 {
     "name": "rtv",
@@ -2442,7 +2779,12 @@
     "category": "Miscellaneous",
     "type": "confs",
     "comments": [ ],
-    "ui": "curses"
+    "ui": "curses",
+    "state": {
+        "name": "discontinued",
+        "since": 1583877600,
+        "comment": "The author doesn't like reddit anymore."
+    }
 },
 {
     "name": "urxvt",
@@ -2614,7 +2956,11 @@
     "category": "Other",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "state": {
+        "name": "inactive",
+        "since": 1618088400
+    }
 },
 {
     "name": "ipython",
@@ -2650,7 +2996,11 @@
     "category": "Debuggers",
     "type": "apps",
     "comments": [ ],
-    "ui": "CLI"
+    "ui": "CLI",
+    "state": {
+        "name": "inactive",
+        "since": 1487455200
+    }
 },
 {
     "name": "git",
