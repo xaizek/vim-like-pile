@@ -1158,7 +1158,7 @@
 {
     "name": "Shortcuts",
     "id": "chrome-shortcuts",
-    "descr": "Perform common tasks with your keyboard.",
+    "descr": "A Chrome extension that lets you perform common tasks with your keyboard.",
     "url": "https://github.com/taupiqueur/chrome-shortcuts",
     "license": "MIT",
     "languages": [ "JavaScript" ],
