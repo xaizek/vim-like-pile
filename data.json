@@ -1155,6 +1155,20 @@
         "comment": "The original developer does not and will not have the time and motivation to continue."
     }
 },
+{
+    "name": "Shortcuts",
+    "id": "chrome-shortcuts",
+    "descr": "Perform common tasks with your keyboard.",
+    "url": "https://github.com/taupiqueur/chrome-shortcuts",
+    "license": "MIT",
+    "languages": [ "JavaScript" ],
+    "category": "Browser Plugins",
+    "type": "plugs",
+    "comments": [ "Implements a self-contained “Vim” mode in the extension’s popup." ],
+    "ui": "web",
+    "added": 1710604105,
+    "updated": 1710604105
+},
 
 {
     "name": "Eclim",
