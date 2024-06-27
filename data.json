@@ -256,14 +256,15 @@
 {
     "name": "meli",
     "id": "meli",
-    "descr": "Experimental terminal mail client aiming for configurability and extensibility with sane defaults.",
-    "url": "https://meli.delivery/",
+    "descr": "terminal email client for BSDs/Linux/macos, multiple account support, Maildir / mbox / notmuch / IMAP / JMAP / NNTP (Usenet).",
+    "url": "https://meli-email.org",
     "license": "GPL",
     "languages": [ "rust" ],
     "category": "E-mail related",
     "type": "apps",
-    "comments": [ ],
-    "ui": "terminal"
+    "comments": [ "E-mail submission backends\n\n- SMTP\n- Pipe to shell script\n- Server-side submission when supported\n\nNon-exhaustive list of features\n\n- TLS\n- email threading support\n- multithreaded, async operation\n- optionally run your editor of choice inside meli, with an embedded xterm-compatible terminal emulator\n- plain text configuration in TOML\n- ability to open emails in UI tabs and switch to them\n- optional sqlite3 index search\n- override almost any setting per mailbox, per account\n- contact list (+read-only vCard and mutt alias file support)\n- forced UTF-8 (other encodings are read-only)\n- configurable shortcuts\n- theming\n- NO_COLOR support\n- ascii-only drawing characters option\n- view text/html attachments through an html filter command (w3m by default)\n- pipe attachments/mail to stuff\n- use external attachment file picker instead of typing in an attachment's full path\n- GPG signing, encryption, signing + encryption\n- GPG signature verification", "Manpages also available online. Read meli(7) first for a tutorial. https://meli-email.org/documentation.html#meli.7", "#meli on OFTC IRC" ],
+    "ui": "terminal",
+    "updated": 1719515919
 },
 {
     "name": "Mutt",
