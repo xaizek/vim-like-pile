@@ -37,6 +37,9 @@ Each item is described by a dictionary like this:
 }
 ```
 
+Avoid use of emojis in all fields, they don't add anything useful but can often
+appear as a confusing blank square.
+
 Markdown is expanded in the values of `descr`, `comments` and `state.comment`.
 Mention `id` of another item in brackets to link to it.
 
