@@ -46,6 +46,15 @@ Mention `id` of another item in brackets to link to it.
 "GPL" license means GPL of any version and "BSD-like" means any kind of
 BSD/MIT/X Consortium license.  Might be worth fixing in the future.
 
+A UNIX timestamp can be obtained via `date` command like this (format of the
+date is flexible, most will work as is):
+```bash
+# current date:
+date +%s
+# arbitrary date
+date +%s -d 'Apr 26, 2024'
+```
+
 ### Configuration ###
 
 Can create `config.php` in the root with something like:
