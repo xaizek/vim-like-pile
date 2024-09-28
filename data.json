@@ -759,7 +759,13 @@
     "category": "File Managers",
     "type": "apps",
     "comments": [ ],
-    "ui": "terminal"
+    "ui": "terminal",
+    "added": 1727520287,
+    "state": {
+        "name": "discontinued",
+        "since": 1714078800,
+        "comment": "Apparently, the author has \"taken up farming.\""
+    }
 },
 
 {
