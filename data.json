@@ -1516,7 +1516,7 @@
     "id": "vibreoffice",
     "descr": "LibreOffice plugin that adds Vim-like shortcuts and modality.",
     "url": "https://github.com/seanyeh/vibreoffice",
-    "license": " MIT",
+    "license": "MIT",
     "languages": [ "Visual Basic" ],
     "category": "Various Plugins",
     "type": "plugs",
