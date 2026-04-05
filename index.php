@@ -188,7 +188,7 @@ class Data
     }
 }
 
-$params = explode('/', $_GET['url']);
+$params = explode('/', isset($_GET['url']) ? $_GET['url'] : '');
 $type = (sizeof($params) > 1 && !empty($params[1]) ? $params[1] : 'apps');
 $id = (sizeof($params) > 2 && !empty($params[2]) ? $params[2] : '');
 
